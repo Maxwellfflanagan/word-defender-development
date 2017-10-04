@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Andika";
+  src: url("../fonts/Andika.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/oswald-bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../fonts/SourceSansPro-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Sans Pro Bold";
+  src: url("../fonts/SourceSansPro-Semibold.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/MaterialIcons-Regular.eot?") format("eot"),
+  url("../fonts/MaterialIcons-Regular.woff2") format("woff2"),
+  url("../fonts/MaterialIcons-Regular.woff") format("woff"),
+  url("../fonts/MaterialIcons-Regular.ttf") format("truetype"),
+  url("../fonts/MaterialIcons-Regular.svg#MaterialIcons") format("svg");
+}
+
+
+$font-primary: 'Andika', sans-serif;
+$font-secondary: 'Source Sans Pro', sans-serif;
+$font-secondary__bold: 'Source Sans Pro Bold', sans-serif;
+$font-score: 'Oswald', sans-serif;
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+

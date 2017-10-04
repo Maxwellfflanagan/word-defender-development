@@ -1,0 +1,25 @@
+{
+  "name": "centralstation-js-client",
+  "version": "2.0.0",
+  "description": "I4L Central Station V2 JS Client ",
+  "main": "centralstation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innovationsforlearning/centralstation-js-client.git"
+  },
+  "author": "Brian Poole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/innovationsforlearning/centralstation-js-client/issues"
+  },
+  "homepage": "https://github.com/innovationsforlearning/centralstation-js-client#readme",
+  "jspm": {
+    "configFile": "jspm.config.js",
+    "dependencies": {
+      "whatwg-fetch": "npm:whatwg-fetch@^1.0.0"
+    }
+  }
+}

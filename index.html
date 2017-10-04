@@ -1,0 +1,69 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <title>Family Portal</title>
+    <link rel="stylesheet" href="css/redbear.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body style="background:transparent">
+
+
+<div class="loading"></div>
+
+<div class="next-player__container">
+    <div class="next-player__popup">
+        <div class="next-player__name">
+            <span class="player-name player1"></span>
+            <span class="player-name player2"></span>
+        </div>
+        <div class="next-player__go">Go!
+        </div>
+    </div>
+</div>
+
+
+<div id="foreground">
+    <div class="timer__container">
+
+    </div>
+</div>
+
+<div class="container" style="background:transparent">
+    <div id="targets" style="background:transparent">
+
+
+    </div>
+</div>
+
+
+<div class="lasso-area">
+    <i class="material-icons ear-button" href="#">hearing</i>
+    <div class="player-score">
+        <div class="wd-score student"></div>
+        <div class="wd-player student"></div>
+        <div class="wd-player player2"></div>
+        <div class="wd-score player2"></div>
+    </div>
+    <i class="material-icons back-button__gameplay"  href="../family-portal/index.html">close</i>
+</div>
+
+<script type="text/javascript" src="../../cordova.js"></script>
+<script type="text/javascript" src="lib/jquery-3.1.1.min.js"></script>
+<script src="jspm_packages/system.js"></script>
+<script type="text/javascript" src="lib/questionBank.js"></script>
+<script src="main.bundle.js"></script>
+<script type="text/javascript" src="scripts/gyronorm.js"></script>
+<script>
+    document.addEventListener('deviceready', function(){
+        window.localStorage.setItem('questionBank', JSON.stringify(questionBank));
+        System.import('scripts/main.js').then(function(m) {
+            var App = m.default;
+            var app = new App('development');
+            app.init();
+        })
+    }, false);
+</script>
+
+</body>
+</html>

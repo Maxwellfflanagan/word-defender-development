@@ -1,0 +1,2 @@
+export * from "github:innovationsforlearning/centralstation-js-client@master/centralstation.js";
+export {default} from "github:innovationsforlearning/centralstation-js-client@master/centralstation.js";

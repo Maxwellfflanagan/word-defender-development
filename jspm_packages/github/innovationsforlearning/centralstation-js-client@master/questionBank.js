@@ -1,0 +1,21481 @@
+var questionBank = [{
+    "assessed": {"id": 1, "type": "onset", "value": "b", "reading_stage": 2},
+    "stimuli": [{
+        "id": 1,
+        "text": "bat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": true
+    }, {
+        "id": 3,
+        "text": "dat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2,
+        "text": "pat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 2, "type": "onset", "value": "b", "reading_stage": 2},
+    "stimuli": [{
+        "id": 4,
+        "text": "bet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": true
+    }, {
+        "id": 5,
+        "text": "pet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 6,
+        "text": "det",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/det.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 3, "type": "onset", "value": "b", "reading_stage": 2},
+    "stimuli": [{
+        "id": 9,
+        "text": "sit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 7,
+        "text": "bit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": true
+    }, {
+        "id": 8,
+        "text": "pit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 4, "type": "onset", "value": "c", "reading_stage": 2},
+    "stimuli": [{
+        "id": 12,
+        "text": "mat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 10,
+        "text": "cat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": true
+    }, {
+        "id": 11,
+        "text": "sat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 5, "type": "onset", "value": "c", "reading_stage": 2},
+    "stimuli": [{
+        "id": 15,
+        "text": "bot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 13,
+        "text": "cot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": true
+    }, {
+        "id": 14,
+        "text": "dot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 6, "type": "onset", "value": "c", "reading_stage": 2},
+    "stimuli": [{
+        "id": 17,
+        "text": "but",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/but.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }, {
+        "id": 16,
+        "text": "cut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": true
+    }, {
+        "id": 18,
+        "text": "sut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 7, "type": "onset", "value": "d", "reading_stage": 2},
+    "stimuli": [{
+        "id": 21,
+        "text": "pot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 19,
+        "text": "dot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": true
+    }, {
+        "id": 20,
+        "text": "bot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 8, "type": "onset", "value": "d", "reading_stage": 2},
+    "stimuli": [{
+        "id": 24,
+        "text": "pog",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pog.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/og.mp3",
+        "isCorrect": false
+    }, {
+        "id": 23,
+        "text": "bog",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bog.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/og.mp3",
+        "isCorrect": false
+    }, {
+        "id": 22,
+        "text": "dog",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dog.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/og.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 9, "type": "onset", "value": "d", "reading_stage": 2},
+    "stimuli": [{
+        "id": 27,
+        "text": "pip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": false
+    }, {
+        "id": 25,
+        "text": "dip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": true
+    }, {
+        "id": 26,
+        "text": "bip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 10, "type": "onset", "value": "f", "reading_stage": 2},
+    "stimuli": [{
+        "id": 28,
+        "text": "fat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": true
+    }, {
+        "id": 29,
+        "text": "gat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 30,
+        "text": "lat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 11, "type": "onset", "value": "f", "reading_stage": 2},
+    "stimuli": [{
+        "id": 33,
+        "text": "lit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 32,
+        "text": "bit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 31,
+        "text": "fit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 12, "type": "onset", "value": "f", "reading_stage": 2},
+    "stimuli": [{
+        "id": 34,
+        "text": "fun",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fun.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/un.mp3",
+        "isCorrect": true
+    }, {
+        "id": 35,
+        "text": "run",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/run.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/un.mp3",
+        "isCorrect": false
+    }, {
+        "id": 36,
+        "text": "bun",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bun.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/un.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 13, "type": "onset", "value": "g", "reading_stage": 2},
+    "stimuli": [{
+        "id": 37,
+        "text": "get",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/get.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": true
+    }, {
+        "id": 39,
+        "text": "net",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/net.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 38,
+        "text": "fet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 14, "type": "onset", "value": "g", "reading_stage": 2},
+    "stimuli": [{
+        "id": 41,
+        "text": "vot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 42,
+        "text": "tot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 40,
+        "text": "got",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/got.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 15, "type": "onset", "value": "g", "reading_stage": 2},
+    "stimuli": [{
+        "id": 43,
+        "text": "gap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": true
+    }, {
+        "id": 44,
+        "text": "pap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": false
+    }, {
+        "id": 45,
+        "text": "sap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 16, "type": "onset", "value": "h", "reading_stage": 2},
+    "stimuli": [{
+        "id": 48,
+        "text": "nat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 47,
+        "text": "bat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 46,
+        "text": "hat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 17, "type": "onset", "value": "h", "reading_stage": 2},
+    "stimuli": [{
+        "id": 49,
+        "text": "hit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": true
+    }, {
+        "id": 50,
+        "text": "sit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 51,
+        "text": "bit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 18, "type": "onset", "value": "h", "reading_stage": 2},
+    "stimuli": [{
+        "id": 52,
+        "text": "hot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": true
+    }, {
+        "id": 54,
+        "text": "lot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 53,
+        "text": "not",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/not.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 19, "type": "onset", "value": "j", "reading_stage": 2},
+    "stimuli": [{
+        "id": 55,
+        "text": "jet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": true
+    }, {
+        "id": 57,
+        "text": "let",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/let.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 56,
+        "text": "get",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/get.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 20, "type": "onset", "value": "j", "reading_stage": 2},
+    "stimuli": [{
+        "id": 59,
+        "text": "bug",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bug.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ug.mp3",
+        "isCorrect": false
+    }, {
+        "id": 60,
+        "text": "rug",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rug.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ug.mp3",
+        "isCorrect": false
+    }, {
+        "id": 58,
+        "text": "jug",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jug.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ug.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 21, "type": "onset", "value": "j", "reading_stage": 2},
+    "stimuli": [{
+        "id": 62,
+        "text": "bam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }, {
+        "id": 63,
+        "text": "pam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }, {
+        "id": 61,
+        "text": "jam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 22, "type": "onset", "value": "k", "reading_stage": 2},
+    "stimuli": [{
+        "id": 65,
+        "text": "hit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 66,
+        "text": "bit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 64,
+        "text": "kit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/kit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 23, "type": "onset", "value": "k", "reading_stage": 2},
+    "stimuli": [{
+        "id": 69,
+        "text": "fin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }, {
+        "id": 68,
+        "text": "din",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/din.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }, {
+        "id": 67,
+        "text": "kin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/kin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 24, "type": "onset", "value": "k", "reading_stage": 2},
+    "stimuli": [{
+        "id": 72,
+        "text": "did",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/did.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/id.mp3",
+        "isCorrect": false
+    }, {
+        "id": 70,
+        "text": "kid",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/kid.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/id.mp3",
+        "isCorrect": true
+    }, {
+        "id": 71,
+        "text": "sid",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sid.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/id.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 25, "type": "onset", "value": "l", "reading_stage": 2},
+    "stimuli": [{
+        "id": 73,
+        "text": "let",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/let.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": true
+    }, {
+        "id": 75,
+        "text": "met",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/met.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 74,
+        "text": "bet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 26, "type": "onset", "value": "l", "reading_stage": 2},
+    "stimuli": [{
+        "id": 76,
+        "text": "lot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": true
+    }, {
+        "id": 77,
+        "text": "tot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 78,
+        "text": "pot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 27, "type": "onset", "value": "l", "reading_stage": 2},
+    "stimuli": [{
+        "id": 79,
+        "text": "lit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": true
+    }, {
+        "id": 80,
+        "text": "mit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 81,
+        "text": "fit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 28, "type": "onset", "value": "m", "reading_stage": 2},
+    "stimuli": [{
+        "id": 83,
+        "text": "nat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 84,
+        "text": "sat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 82,
+        "text": "mat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 29, "type": "onset", "value": "m", "reading_stage": 2},
+    "stimuli": [{
+        "id": 86,
+        "text": "wet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 85,
+        "text": "met",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/met.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": true
+    }, {
+        "id": 87,
+        "text": "net",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/net.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 30, "type": "onset", "value": "m", "reading_stage": 2},
+    "stimuli": [{
+        "id": 89,
+        "text": "can",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/can.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }, {
+        "id": 88,
+        "text": "man",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/man.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": true
+    }, {
+        "id": 90,
+        "text": "dan",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dan.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 31, "type": "onset", "value": "n", "reading_stage": 2},
+    "stimuli": [{
+        "id": 91,
+        "text": "net",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/net.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": true
+    }, {
+        "id": 93,
+        "text": "pet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 92,
+        "text": "met",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/met.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 32, "type": "onset", "value": "n", "reading_stage": 2},
+    "stimuli": [{
+        "id": 94,
+        "text": "not",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/not.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": true
+    }, {
+        "id": 95,
+        "text": "hot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 96,
+        "text": "dot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 33, "type": "onset", "value": "n", "reading_stage": 2},
+    "stimuli": [{
+        "id": 97,
+        "text": "nut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": true
+    }, {
+        "id": 99,
+        "text": "rut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }, {
+        "id": 98,
+        "text": "mut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 34, "type": "onset", "value": "p", "reading_stage": 2},
+    "stimuli": [{
+        "id": 100,
+        "text": "pat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": true
+    }, {
+        "id": 102,
+        "text": "bat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 101,
+        "text": "hat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 35, "type": "onset", "value": "p", "reading_stage": 2},
+    "stimuli": [{
+        "id": 104,
+        "text": "bet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 105,
+        "text": "set",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/set.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 103,
+        "text": "pet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 36, "type": "onset", "value": "p", "reading_stage": 2},
+    "stimuli": [{
+        "id": 107,
+        "text": "dot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 106,
+        "text": "pot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": true
+    }, {
+        "id": 108,
+        "text": "got",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/got.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 37, "type": "onset", "value": "r", "reading_stage": 2},
+    "stimuli": [{
+        "id": 110,
+        "text": "nat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 109,
+        "text": "rat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": true
+    }, {
+        "id": 111,
+        "text": "fat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 38, "type": "onset", "value": "r", "reading_stage": 2},
+    "stimuli": [{
+        "id": 114,
+        "text": "wap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": false
+    }, {
+        "id": 113,
+        "text": "nap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": false
+    }, {
+        "id": 112,
+        "text": "rap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 39, "type": "onset", "value": "r", "reading_stage": 2},
+    "stimuli": [{
+        "id": 115,
+        "text": "rot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": true
+    }, {
+        "id": 117,
+        "text": "tot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 116,
+        "text": "not",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/not.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 40, "type": "onset", "value": "s", "reading_stage": 2},
+    "stimuli": [{
+        "id": 120,
+        "text": "hat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 119,
+        "text": "cat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 118,
+        "text": "sat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 41, "type": "onset", "value": "s", "reading_stage": 2},
+    "stimuli": [{
+        "id": 122,
+        "text": "vet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 123,
+        "text": "get",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/get.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 121,
+        "text": "set",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/set.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 42, "type": "onset", "value": "s", "reading_stage": 2},
+    "stimuli": [{
+        "id": 125,
+        "text": "mit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 124,
+        "text": "sit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": true
+    }, {
+        "id": 126,
+        "text": "lit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 43, "type": "onset", "value": "t", "reading_stage": 2},
+    "stimuli": [{
+        "id": 127,
+        "text": "tot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": true
+    }, {
+        "id": 129,
+        "text": "got",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/got.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 128,
+        "text": "lot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 44, "type": "onset", "value": "t", "reading_stage": 2},
+    "stimuli": [{
+        "id": 131,
+        "text": "van",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/van.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }, {
+        "id": 130,
+        "text": "tan",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tan.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": true
+    }, {
+        "id": 132,
+        "text": "man",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/man.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 45, "type": "onset", "value": "t", "reading_stage": 2},
+    "stimuli": [{
+        "id": 133,
+        "text": "tin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": true
+    }, {
+        "id": 134,
+        "text": "fin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }, {
+        "id": 135,
+        "text": "din",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/din.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 46, "type": "onset", "value": "v", "reading_stage": 2},
+    "stimuli": [{
+        "id": 137,
+        "text": "bat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 138,
+        "text": "sat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 136,
+        "text": "vat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 47, "type": "onset", "value": "v", "reading_stage": 2},
+    "stimuli": [{
+        "id": 139,
+        "text": "vet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": true
+    }, {
+        "id": 140,
+        "text": "wet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 141,
+        "text": "met",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/met.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 48, "type": "onset", "value": "v", "reading_stage": 2},
+    "stimuli": [{
+        "id": 142,
+        "text": "van",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/van.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": true
+    }, {
+        "id": 143,
+        "text": "tan",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tan.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }, {
+        "id": 144,
+        "text": "ban",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ban.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 49, "type": "onset", "value": "w", "reading_stage": 2},
+    "stimuli": [{
+        "id": 145,
+        "text": "wet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": true
+    }, {
+        "id": 146,
+        "text": "vet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 147,
+        "text": "met",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/met.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 50, "type": "onset", "value": "w", "reading_stage": 2},
+    "stimuli": [{
+        "id": 149,
+        "text": "mit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 150,
+        "text": "sit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 148,
+        "text": "wit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 51, "type": "onset", "value": "w", "reading_stage": 2},
+    "stimuli": [{
+        "id": 153,
+        "text": "fin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }, {
+        "id": 152,
+        "text": "tin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }, {
+        "id": 151,
+        "text": "win",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/win.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 52, "type": "rime", "value": "et", "reading_stage": 3},
+    "stimuli": [{
+        "id": 154,
+        "text": "bet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": true
+    }, {
+        "id": 155,
+        "text": "pet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 156,
+        "text": "dot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 53, "type": "rime", "value": "et", "reading_stage": 3},
+    "stimuli": [{
+        "id": 159,
+        "text": "got",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/got.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 157,
+        "text": "get",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/get.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": true
+    }, {
+        "id": 158,
+        "text": "pat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 54, "type": "rime", "value": "et", "reading_stage": 3},
+    "stimuli": [{
+        "id": 161,
+        "text": "lit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 162,
+        "text": "fat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 160,
+        "text": "jet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 55, "type": "rime", "value": "at", "reading_stage": 3},
+    "stimuli": [{
+        "id": 163,
+        "text": "bat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": true
+    }, {
+        "id": 164,
+        "text": "bet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 165,
+        "text": "bit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 56, "type": "rime", "value": "at", "reading_stage": 3},
+    "stimuli": [{
+        "id": 166,
+        "text": "cat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": true
+    }, {
+        "id": 167,
+        "text": "sat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 168,
+        "text": "cut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 57, "type": "rime", "value": "at", "reading_stage": 3},
+    "stimuli": [{
+        "id": 171,
+        "text": "hot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 169,
+        "text": "hat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": true
+    }, {
+        "id": 170,
+        "text": "hut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 58, "type": "rime", "value": "ut", "reading_stage": 3},
+    "stimuli": [{
+        "id": 172,
+        "text": "cut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": true
+    }, {
+        "id": 173,
+        "text": "cat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 174,
+        "text": "cot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 59, "type": "rime", "value": "ut", "reading_stage": 3},
+    "stimuli": [{
+        "id": 175,
+        "text": "but",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/but.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": true
+    }, {
+        "id": 176,
+        "text": "bat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 177,
+        "text": "dot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 60, "type": "rime", "value": "ut", "reading_stage": 3},
+    "stimuli": [{
+        "id": 180,
+        "text": "not",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/not.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 178,
+        "text": "nut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": true
+    }, {
+        "id": 179,
+        "text": "mut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 61, "type": "rime", "value": "ot", "reading_stage": 3},
+    "stimuli": [{
+        "id": 182,
+        "text": "tat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 183,
+        "text": "lot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 181,
+        "text": "tot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 62, "type": "rime", "value": "ot", "reading_stage": 3},
+    "stimuli": [{
+        "id": 184,
+        "text": "dot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": true
+    }, {
+        "id": 185,
+        "text": "bot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 186,
+        "text": "pot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 63, "type": "rime", "value": "ot", "reading_stage": 3},
+    "stimuli": [{
+        "id": 188,
+        "text": "pot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 189,
+        "text": "hat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 187,
+        "text": "hot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 64, "type": "rime", "value": "it", "reading_stage": 3},
+    "stimuli": [{
+        "id": 192,
+        "text": "let",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/let.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 190,
+        "text": "kit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/kit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": true
+    }, {
+        "id": 191,
+        "text": "kat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/kat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 65, "type": "rime", "value": "it", "reading_stage": 3},
+    "stimuli": [{
+        "id": 194,
+        "text": "sat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 193,
+        "text": "sit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": true
+    }, {
+        "id": 195,
+        "text": "set",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/set.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 66, "type": "rime", "value": "it", "reading_stage": 3},
+    "stimuli": [{
+        "id": 197,
+        "text": "pot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 198,
+        "text": "bit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 196,
+        "text": "pit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 67, "type": "rime", "value": "op", "reading_stage": 4},
+    "stimuli": [{
+        "id": 201,
+        "text": "hot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 200,
+        "text": "nap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": false
+    }, {
+        "id": 199,
+        "text": "hop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 68, "type": "rime", "value": "op", "reading_stage": 4},
+    "stimuli": [{
+        "id": 203,
+        "text": "mod",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mod.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/od.mp3",
+        "isCorrect": false
+    }, {
+        "id": 202,
+        "text": "mop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": true
+    }, {
+        "id": 204,
+        "text": "nop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 69, "type": "rime", "value": "op", "reading_stage": 4},
+    "stimuli": [{
+        "id": 207,
+        "text": "tap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": false
+    }, {
+        "id": 206,
+        "text": "tup",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tup.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/up.mp3",
+        "isCorrect": false
+    }, {
+        "id": 205,
+        "text": "top",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/top.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 70, "type": "rime", "value": "ud", "reading_stage": 4},
+    "stimuli": [{
+        "id": 210,
+        "text": "mut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }, {
+        "id": 208,
+        "text": "mud",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mud.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ud.mp3",
+        "isCorrect": true
+    }, {
+        "id": 209,
+        "text": "nub",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nub.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ub.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 71, "type": "rime", "value": "ud", "reading_stage": 4},
+    "stimuli": [{
+        "id": 212,
+        "text": "bad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }, {
+        "id": 213,
+        "text": "bid",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bid.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/id.mp3",
+        "isCorrect": false
+    }, {
+        "id": 211,
+        "text": "bud",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bud.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ud.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 72, "type": "rime", "value": "ud", "reading_stage": 4},
+    "stimuli": [{
+        "id": 215,
+        "text": "sud",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sud.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ud.mp3",
+        "isCorrect": false
+    }, {
+        "id": 214,
+        "text": "cud",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cud.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ud.mp3",
+        "isCorrect": true
+    }, {
+        "id": 216,
+        "text": "kid",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/kid.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/id.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 73, "type": "rime", "value": "at", "reading_stage": 4},
+    "stimuli": [{
+        "id": 217,
+        "text": "bat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": true
+    }, {
+        "id": 218,
+        "text": "dat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 219,
+        "text": "bet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 74, "type": "rime", "value": "at", "reading_stage": 4},
+    "stimuli": [{
+        "id": 221,
+        "text": "sat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 220,
+        "text": "cat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": true
+    }, {
+        "id": 222,
+        "text": "cut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 75, "type": "rime", "value": "at", "reading_stage": 4},
+    "stimuli": [{
+        "id": 225,
+        "text": "mut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }, {
+        "id": 224,
+        "text": "nat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 223,
+        "text": "mat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 76, "type": "rime", "value": "ed", "reading_stage": 4},
+    "stimuli": [{
+        "id": 228,
+        "text": "ped",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ped.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ed.mp3",
+        "isCorrect": false
+    }, {
+        "id": 227,
+        "text": "ded",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ded.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ed.mp3",
+        "isCorrect": false
+    }, {
+        "id": 226,
+        "text": "bed",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bed.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ed.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 77, "type": "rime", "value": "ed", "reading_stage": 4},
+    "stimuli": [{
+        "id": 231,
+        "text": "rob",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rob.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ob.mp3",
+        "isCorrect": false
+    }, {
+        "id": 230,
+        "text": "rep",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rep.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ep.mp3",
+        "isCorrect": false
+    }, {
+        "id": 229,
+        "text": "red",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/red.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ed.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 78, "type": "rime", "value": "ed", "reading_stage": 4},
+    "stimuli": [{
+        "id": 232,
+        "text": "fed",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fed.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ed.mp3",
+        "isCorrect": true
+    }, {
+        "id": 233,
+        "text": "fab",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fab.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ab.mp3",
+        "isCorrect": false
+    }, {
+        "id": 234,
+        "text": "fit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 79, "type": "rime", "value": "em", "reading_stage": 4},
+    "stimuli": [{
+        "id": 236,
+        "text": "jam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }, {
+        "id": 235,
+        "text": "gem",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gem.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/em.mp3",
+        "isCorrect": true
+    }, {
+        "id": 237,
+        "text": "gen",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gen.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/en.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 80, "type": "rime", "value": "em", "reading_stage": 4},
+    "stimuli": [{
+        "id": 238,
+        "text": "hem",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hem.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/em.mp3",
+        "isCorrect": true
+    }, {
+        "id": 240,
+        "text": "ham",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ham.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }, {
+        "id": 239,
+        "text": "hen",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hen.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/en.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 81, "type": "rime", "value": "en", "reading_stage": 4},
+    "stimuli": [{
+        "id": 243,
+        "text": "din",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/din.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }, {
+        "id": 242,
+        "text": "ben",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ben.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/en.mp3",
+        "isCorrect": false
+    }, {
+        "id": 241,
+        "text": "den",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/den.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/en.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 82, "type": "rime", "value": "en", "reading_stage": 4},
+    "stimuli": [{
+        "id": 244,
+        "text": "pen",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pen.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/en.mp3",
+        "isCorrect": true
+    }, {
+        "id": 245,
+        "text": "pin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }, {
+        "id": 246,
+        "text": "pan",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pan.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 83, "type": "rime", "value": "en", "reading_stage": 4},
+    "stimuli": [{
+        "id": 247,
+        "text": "men",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/men.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/en.mp3",
+        "isCorrect": true
+    }, {
+        "id": 249,
+        "text": "nem",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nem.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/em.mp3",
+        "isCorrect": false
+    }, {
+        "id": 248,
+        "text": "man",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/man.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 84, "type": "rime", "value": "ep", "reading_stage": 4},
+    "stimuli": [{
+        "id": 252,
+        "text": "peb",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/peb.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eb.mp3",
+        "isCorrect": false
+    }, {
+        "id": 251,
+        "text": "ped",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ped.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ed.mp3",
+        "isCorrect": false
+    }, {
+        "id": 250,
+        "text": "pep",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pep.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ep.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 85, "type": "rime", "value": "et", "reading_stage": 4},
+    "stimuli": [{
+        "id": 254,
+        "text": "wet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 255,
+        "text": "vat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 253,
+        "text": "vet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 86, "type": "rime", "value": "et", "reading_stage": 4},
+    "stimuli": [{
+        "id": 257,
+        "text": "jot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 256,
+        "text": "jet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": true
+    }, {
+        "id": 258,
+        "text": "get",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/get.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 87, "type": "rime", "value": "et", "reading_stage": 4},
+    "stimuli": [{
+        "id": 260,
+        "text": "net",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/net.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 261,
+        "text": "mit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 259,
+        "text": "met",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/met.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 88, "type": "rime", "value": "id", "reading_stage": 4},
+    "stimuli": [{
+        "id": 263,
+        "text": "kib",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/kib.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ib.mp3",
+        "isCorrect": false
+    }, {
+        "id": 262,
+        "text": "kid",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/kid.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/id.mp3",
+        "isCorrect": true
+    }, {
+        "id": 264,
+        "text": "ked",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ked.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ed.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 89, "type": "rime", "value": "id", "reading_stage": 4},
+    "stimuli": [{
+        "id": 267,
+        "text": "hed",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hed.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ed.mp3",
+        "isCorrect": false
+    }, {
+        "id": 265,
+        "text": "hid",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hid.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/id.mp3",
+        "isCorrect": true
+    }, {
+        "id": 266,
+        "text": "hib",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hib.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ib.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 90, "type": "rime", "value": "id", "reading_stage": 4},
+    "stimuli": [{
+        "id": 269,
+        "text": "did",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/did.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/id.mp3",
+        "isCorrect": false
+    }, {
+        "id": 270,
+        "text": "beb",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/beb.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eb.mp3",
+        "isCorrect": false
+    }, {
+        "id": 268,
+        "text": "bib",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bib.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ib.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 91, "type": "rime", "value": "im", "reading_stage": 4},
+    "stimuli": [{
+        "id": 271,
+        "text": "dim",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dim.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/im.mp3",
+        "isCorrect": true
+    }, {
+        "id": 272,
+        "text": "bim",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bim.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/im.mp3",
+        "isCorrect": false
+    }, {
+        "id": 273,
+        "text": "dem",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dem.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/em.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 92, "type": "rime", "value": "im", "reading_stage": 4},
+    "stimuli": [{
+        "id": 276,
+        "text": "hin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }, {
+        "id": 274,
+        "text": "him",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/him.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/im.mp3",
+        "isCorrect": true
+    }, {
+        "id": 275,
+        "text": "hem",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hem.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/em.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 93, "type": "rime", "value": "im", "reading_stage": 4},
+    "stimuli": [{
+        "id": 279,
+        "text": "rin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }, {
+        "id": 277,
+        "text": "rim",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rim.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/im.mp3",
+        "isCorrect": true
+    }, {
+        "id": 278,
+        "text": "ram",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ram.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 94, "type": "rime", "value": "in", "reading_stage": 4},
+    "stimuli": [{
+        "id": 281,
+        "text": "din",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/din.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }, {
+        "id": 282,
+        "text": "ben",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ben.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/en.mp3",
+        "isCorrect": false
+    }, {
+        "id": 280,
+        "text": "bin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 95, "type": "rime", "value": "in", "reading_stage": 4},
+    "stimuli": [{
+        "id": 284,
+        "text": "tin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }, {
+        "id": 283,
+        "text": "fin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": true
+    }, {
+        "id": 285,
+        "text": "fan",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fan.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 96, "type": "rime", "value": "in", "reading_stage": 4},
+    "stimuli": [{
+        "id": 288,
+        "text": "won",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/won.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/on.mp3",
+        "isCorrect": false
+    }, {
+        "id": 286,
+        "text": "win",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/win.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": true
+    }, {
+        "id": 287,
+        "text": "vin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 97, "type": "rime", "value": "ip", "reading_stage": 4},
+    "stimuli": [{
+        "id": 289,
+        "text": "dip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": true
+    }, {
+        "id": 291,
+        "text": "dib",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dib.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ib.mp3",
+        "isCorrect": false
+    }, {
+        "id": 290,
+        "text": "bip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 98, "type": "rime", "value": "ip", "reading_stage": 4},
+    "stimuli": [{
+        "id": 292,
+        "text": "zip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/zip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/z.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": true
+    }, {
+        "id": 293,
+        "text": "zep",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/zep.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/z.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ep.mp3",
+        "isCorrect": false
+    }, {
+        "id": 294,
+        "text": "sip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 99, "type": "rime", "value": "ip", "reading_stage": 4},
+    "stimuli": [{
+        "id": 295,
+        "text": "tip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": true
+    }, {
+        "id": 296,
+        "text": "fip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": false
+    }, {
+        "id": 297,
+        "text": "tib",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tib.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ib.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 100, "type": "rime", "value": "it", "reading_stage": 4},
+    "stimuli": [{
+        "id": 299,
+        "text": "pet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 300,
+        "text": "bit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 298,
+        "text": "pit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 101, "type": "rime", "value": "it", "reading_stage": 4},
+    "stimuli": [{
+        "id": 301,
+        "text": "sit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": true
+    }, {
+        "id": 302,
+        "text": "set",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/set.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 303,
+        "text": "sif",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sif.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/if.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 102, "type": "rime", "value": "it", "reading_stage": 4},
+    "stimuli": [{
+        "id": 304,
+        "text": "lit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": true
+    }, {
+        "id": 306,
+        "text": "lot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 305,
+        "text": "let",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/let.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 103, "type": "rime", "value": "od", "reading_stage": 4},
+    "stimuli": [{
+        "id": 308,
+        "text": "not",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/not.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 307,
+        "text": "nod",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nod.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/od.mp3",
+        "isCorrect": true
+    }, {
+        "id": 309,
+        "text": "nob",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nob.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ob.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 104, "type": "rime", "value": "od", "reading_stage": 4},
+    "stimuli": [{
+        "id": 312,
+        "text": "rob",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rob.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ob.mp3",
+        "isCorrect": false
+    }, {
+        "id": 311,
+        "text": "rad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }, {
+        "id": 310,
+        "text": "rod",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rod.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/od.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 105, "type": "rime", "value": "od", "reading_stage": 4},
+    "stimuli": [{
+        "id": 313,
+        "text": "cod",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cod.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/od.mp3",
+        "isCorrect": true
+    }, {
+        "id": 314,
+        "text": "cob",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cob.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ob.mp3",
+        "isCorrect": false
+    }, {
+        "id": 315,
+        "text": "cab",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cab.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ab.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 106, "type": "rime", "value": "om", "reading_stage": 4},
+    "stimuli": [{
+        "id": 317,
+        "text": "nom",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nom.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/om.mp3",
+        "isCorrect": false
+    }, {
+        "id": 316,
+        "text": "mom",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mom.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/om.mp3",
+        "isCorrect": true
+    }, {
+        "id": 318,
+        "text": "mum",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mum.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/um.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 107, "type": "rime", "value": "om", "reading_stage": 4},
+    "stimuli": [{
+        "id": 321,
+        "text": "pon",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pon.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/on.mp3",
+        "isCorrect": false
+    }, {
+        "id": 319,
+        "text": "pom",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pom.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/om.mp3",
+        "isCorrect": true
+    }, {
+        "id": 320,
+        "text": "dom",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dom.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/om.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 108, "type": "rime", "value": "on", "reading_stage": 4},
+    "stimuli": [{
+        "id": 322,
+        "text": "won",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/won.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/on.mp3",
+        "isCorrect": true
+    }, {
+        "id": 324,
+        "text": "wan",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wan.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }, {
+        "id": 323,
+        "text": "win",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/win.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 109, "type": "rime", "value": "on", "reading_stage": 4},
+    "stimuli": [{
+        "id": 325,
+        "text": "ton",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ton.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/on.mp3",
+        "isCorrect": true
+    }, {
+        "id": 327,
+        "text": "tin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }, {
+        "id": 326,
+        "text": "ten",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ten.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/en.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 110, "type": "rime", "value": "on", "reading_stage": 4},
+    "stimuli": [{
+        "id": 330,
+        "text": "san",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/san.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }, {
+        "id": 328,
+        "text": "son",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/son.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/on.mp3",
+        "isCorrect": true
+    }, {
+        "id": 329,
+        "text": "som",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/som.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/om.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 111, "type": "rime", "value": "ot", "reading_stage": 4},
+    "stimuli": [{
+        "id": 333,
+        "text": "cod",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cod.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/od.mp3",
+        "isCorrect": false
+    }, {
+        "id": 331,
+        "text": "cot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": true
+    }, {
+        "id": 332,
+        "text": "cut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 112, "type": "rime", "value": "ot", "reading_stage": 4},
+    "stimuli": [{
+        "id": 335,
+        "text": "bot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 336,
+        "text": "dof",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dof.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/of.mp3",
+        "isCorrect": false
+    }, {
+        "id": 334,
+        "text": "dot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 113, "type": "rime", "value": "ot", "reading_stage": 4},
+    "stimuli": [{
+        "id": 338,
+        "text": "get",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/get.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 337,
+        "text": "got",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/got.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": true
+    }, {
+        "id": 339,
+        "text": "gop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 114, "type": "rime", "value": "ut", "reading_stage": 4},
+    "stimuli": [{
+        "id": 341,
+        "text": "dut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }, {
+        "id": 340,
+        "text": "but",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/but.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": true
+    }, {
+        "id": 342,
+        "text": "bat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 115, "type": "rime", "value": "ut", "reading_stage": 4},
+    "stimuli": [{
+        "id": 343,
+        "text": "rut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": true
+    }, {
+        "id": 344,
+        "text": "rot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 345,
+        "text": "rit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 116, "type": "rime", "value": "ut", "reading_stage": 4},
+    "stimuli": [{
+        "id": 348,
+        "text": "not",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/not.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 346,
+        "text": "nut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": true
+    }, {
+        "id": 347,
+        "text": "mut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 117, "type": "rime", "value": "up", "reading_stage": 4},
+    "stimuli": [{
+        "id": 350,
+        "text": "cap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": false
+    }, {
+        "id": 349,
+        "text": "cup",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cup.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/up.mp3",
+        "isCorrect": true
+    }, {
+        "id": 351,
+        "text": "cop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 118, "type": "rime", "value": "up", "reading_stage": 4},
+    "stimuli": [{
+        "id": 354,
+        "text": "put",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/put.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }, {
+        "id": 352,
+        "text": "pup",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pup.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/up.mp3",
+        "isCorrect": true
+    }, {
+        "id": 353,
+        "text": "dud",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dud.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ud.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 119, "type": "rime", "value": "un", "reading_stage": 4},
+    "stimuli": [{
+        "id": 356,
+        "text": "dun",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dun.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/un.mp3",
+        "isCorrect": false
+    }, {
+        "id": 355,
+        "text": "bun",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bun.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/un.mp3",
+        "isCorrect": true
+    }, {
+        "id": 357,
+        "text": "bon",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bon.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/on.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 120, "type": "rime", "value": "un", "reading_stage": 4},
+    "stimuli": [{
+        "id": 360,
+        "text": "rug",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rug.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ug.mp3",
+        "isCorrect": false
+    }, {
+        "id": 358,
+        "text": "run",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/run.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/un.mp3",
+        "isCorrect": true
+    }, {
+        "id": 359,
+        "text": "ran",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ran.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 121, "type": "rime", "value": "un", "reading_stage": 4},
+    "stimuli": [{
+        "id": 361,
+        "text": "fun",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fun.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/un.mp3",
+        "isCorrect": true
+    }, {
+        "id": 363,
+        "text": "fon",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fon.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/on.mp3",
+        "isCorrect": false
+    }, {
+        "id": 362,
+        "text": "ton",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ton.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/on.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 122, "type": "rime", "value": "um", "reading_stage": 4},
+    "stimuli": [{
+        "id": 366,
+        "text": "bom",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bom.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/om.mp3",
+        "isCorrect": false
+    }, {
+        "id": 365,
+        "text": "dum",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dum.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/um.mp3",
+        "isCorrect": false
+    }, {
+        "id": 364,
+        "text": "bum",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bum.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/um.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 123, "type": "rime", "value": "um", "reading_stage": 4},
+    "stimuli": [{
+        "id": 369,
+        "text": "gom",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gom.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/om.mp3",
+        "isCorrect": false
+    }, {
+        "id": 368,
+        "text": "gam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }, {
+        "id": 367,
+        "text": "gum",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gum.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/um.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 124, "type": "rime", "value": "um", "reading_stage": 4},
+    "stimuli": [{
+        "id": 370,
+        "text": "hum",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hum.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/um.mp3",
+        "isCorrect": true
+    }, {
+        "id": 372,
+        "text": "hom",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hom.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/om.mp3",
+        "isCorrect": false
+    }, {
+        "id": 371,
+        "text": "hun",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hun.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/un.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 125, "type": "rime", "value": "ad", "reading_stage": 4},
+    "stimuli": [{
+        "id": 373,
+        "text": "bad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": true
+    }, {
+        "id": 374,
+        "text": "dad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }, {
+        "id": 375,
+        "text": "bed",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bed.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ed.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 126, "type": "rime", "value": "ad", "reading_stage": 4},
+    "stimuli": [{
+        "id": 376,
+        "text": "dad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": true
+    }, {
+        "id": 377,
+        "text": "dab",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dab.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ab.mp3",
+        "isCorrect": false
+    }, {
+        "id": 378,
+        "text": "dap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 127, "type": "rime", "value": "ad", "reading_stage": 4},
+    "stimuli": [{
+        "id": 380,
+        "text": "ped",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ped.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ed.mp3",
+        "isCorrect": false
+    }, {
+        "id": 381,
+        "text": "pab",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pab.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ab.mp3",
+        "isCorrect": false
+    }, {
+        "id": 379,
+        "text": "pad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 128, "type": "rime", "value": "am", "reading_stage": 4},
+    "stimuli": [{
+        "id": 384,
+        "text": "bam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }, {
+        "id": 382,
+        "text": "dam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": true
+    }, {
+        "id": 383,
+        "text": "dan",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dan.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 129, "type": "rime", "value": "am", "reading_stage": 4},
+    "stimuli": [{
+        "id": 387,
+        "text": "han",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/han.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }, {
+        "id": 385,
+        "text": "ham",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ham.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": true
+    }, {
+        "id": 386,
+        "text": "hem",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hem.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/em.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 130, "type": "rime", "value": "am", "reading_stage": 4},
+    "stimuli": [{
+        "id": 390,
+        "text": "jem",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jem.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/em.mp3",
+        "isCorrect": false
+    }, {
+        "id": 388,
+        "text": "jam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": true
+    }, {
+        "id": 389,
+        "text": "jan",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jan.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 131, "type": "rime", "value": "an", "reading_stage": 4},
+    "stimuli": [{
+        "id": 391,
+        "text": "van",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/van.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": true
+    }, {
+        "id": 393,
+        "text": "ven",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ven.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/en.mp3",
+        "isCorrect": false
+    }, {
+        "id": 392,
+        "text": "vam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 132, "type": "rime", "value": "an", "reading_stage": 4},
+    "stimuli": [{
+        "id": 394,
+        "text": "tan",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tan.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": true
+    }, {
+        "id": 395,
+        "text": "ten",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ten.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/en.mp3",
+        "isCorrect": false
+    }, {
+        "id": 396,
+        "text": "tam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 133, "type": "rime", "value": "an", "reading_stage": 4},
+    "stimuli": [{
+        "id": 398,
+        "text": "cen",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cen.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/en.mp3",
+        "isCorrect": false
+    }, {
+        "id": 397,
+        "text": "can",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/can.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": true
+    }, {
+        "id": 399,
+        "text": "cam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 134, "type": "rime", "value": "ap", "reading_stage": 4},
+    "stimuli": [{
+        "id": 401,
+        "text": "lip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": false
+    }, {
+        "id": 402,
+        "text": "lab",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lab.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ab.mp3",
+        "isCorrect": false
+    }, {
+        "id": 400,
+        "text": "lap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 135, "type": "rime", "value": "ap", "reading_stage": 4},
+    "stimuli": [{
+        "id": 404,
+        "text": "tab",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tab.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ab.mp3",
+        "isCorrect": false
+    }, {
+        "id": 405,
+        "text": "top",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/top.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }, {
+        "id": 403,
+        "text": "tap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 136, "type": "rime", "value": "ap", "reading_stage": 4},
+    "stimuli": [{
+        "id": 408,
+        "text": "rad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }, {
+        "id": 406,
+        "text": "rap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": true
+    }, {
+        "id": 407,
+        "text": "rat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 137, "type": "onset", "value": "gl", "reading_stage": 5},
+    "stimuli": [{
+        "id": 411,
+        "text": "gad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }, {
+        "id": 410,
+        "text": "clad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/clad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }, {
+        "id": 409,
+        "text": "glad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/glad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 138, "type": "onset", "value": "gl", "reading_stage": 5},
+    "stimuli": [{
+        "id": 413,
+        "text": "clide",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/clide.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ide.mp3",
+        "isCorrect": false
+    }, {
+        "id": 412,
+        "text": "glide",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/glide.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ide.mp3",
+        "isCorrect": true
+    }, {
+        "id": 414,
+        "text": "gide",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gide.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ide.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 139, "type": "onset", "value": "gr", "reading_stage": 5},
+    "stimuli": [{
+        "id": 416,
+        "text": "grim",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grim.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/im.mp3",
+        "isCorrect": false
+    }, {
+        "id": 415,
+        "text": "grin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": true
+    }, {
+        "id": 417,
+        "text": "gin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 140, "type": "onset", "value": "gr", "reading_stage": 5},
+    "stimuli": [{
+        "id": 420,
+        "text": "gime",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gime.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ime.mp3",
+        "isCorrect": false
+    }, {
+        "id": 419,
+        "text": "grim",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grim.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/im.mp3",
+        "isCorrect": false
+    }, {
+        "id": 418,
+        "text": "grime",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grime.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ime.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 141, "type": "onset", "value": "gr", "reading_stage": 5},
+    "stimuli": [{
+        "id": 422,
+        "text": "grad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }, {
+        "id": 423,
+        "text": "gade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gade.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ade.mp3",
+        "isCorrect": false
+    }, {
+        "id": 421,
+        "text": "grade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grade.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ade.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 142, "type": "onset", "value": "pl", "reading_stage": 5},
+    "stimuli": [{
+        "id": 425,
+        "text": "plane",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/plane.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ane.mp3",
+        "isCorrect": false
+    }, {
+        "id": 426,
+        "text": "pan",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pan.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }, {
+        "id": 424,
+        "text": "plan",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/plan.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 143, "type": "onset", "value": "pl", "reading_stage": 5},
+    "stimuli": [{
+        "id": 427,
+        "text": "plop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/plop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": true
+    }, {
+        "id": 428,
+        "text": "blop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/blop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/bl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }, {
+        "id": 429,
+        "text": "dlop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dlop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/dl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 144, "type": "onset", "value": "pl", "reading_stage": 5},
+    "stimuli": [{
+        "id": 432,
+        "text": "pate",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pate.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ate.mp3",
+        "isCorrect": false
+    }, {
+        "id": 431,
+        "text": "plat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/plat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 430,
+        "text": "plate",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/plate.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ate.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 145, "type": "onset", "value": "pr", "reading_stage": 5},
+    "stimuli": [{
+        "id": 434,
+        "text": "drop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/drop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/dr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }, {
+        "id": 435,
+        "text": "pop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }, {
+        "id": 433,
+        "text": "prop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/prop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 146, "type": "onset", "value": "pr", "reading_stage": 5},
+    "stimuli": [{
+        "id": 438,
+        "text": "bride",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bride.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ide.mp3",
+        "isCorrect": false
+    }, {
+        "id": 437,
+        "text": "pide",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pide.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ide.mp3",
+        "isCorrect": false
+    }, {
+        "id": 436,
+        "text": "pride",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pride.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ide.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 147, "type": "onset", "value": "pr", "reading_stage": 5},
+    "stimuli": [{
+        "id": 440,
+        "text": "prun",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/prun.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/un.mp3",
+        "isCorrect": false
+    }, {
+        "id": 439,
+        "text": "prune",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/prune.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/une.mp3",
+        "isCorrect": true
+    }, {
+        "id": 441,
+        "text": "pune",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pune.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/une.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 148, "type": "onset", "value": "sl", "reading_stage": 5},
+    "stimuli": [{
+        "id": 444,
+        "text": "side",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/side.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ide.mp3",
+        "isCorrect": false
+    }, {
+        "id": 442,
+        "text": "slide",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slide.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ide.mp3",
+        "isCorrect": true
+    }, {
+        "id": 443,
+        "text": "slid",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slid.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/id.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 149, "type": "onset", "value": "sl", "reading_stage": 5},
+    "stimuli": [{
+        "id": 445,
+        "text": "slam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": true
+    }, {
+        "id": 446,
+        "text": "sam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }, {
+        "id": 447,
+        "text": "slan",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slan.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 150, "type": "onset", "value": "sl", "reading_stage": 5},
+    "stimuli": [{
+        "id": 448,
+        "text": "slot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": true
+    }, {
+        "id": 449,
+        "text": "sot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 450,
+        "text": "stole",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stole.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ole.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 151, "type": "onset", "value": "tr", "reading_stage": 5},
+    "stimuli": [{
+        "id": 451,
+        "text": "trap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": true
+    }, {
+        "id": 453,
+        "text": "tab",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tab.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ab.mp3",
+        "isCorrect": false
+    }, {
+        "id": 452,
+        "text": "tap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 152, "type": "onset", "value": "tr", "reading_stage": 5},
+    "stimuli": [{
+        "id": 455,
+        "text": "rim",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rim.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/im.mp3",
+        "isCorrect": false
+    }, {
+        "id": 454,
+        "text": "trim",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trim.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/im.mp3",
+        "isCorrect": true
+    }, {
+        "id": 456,
+        "text": "drim",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/drim.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/dr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/im.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 153, "type": "onset", "value": "tr", "reading_stage": 5},
+    "stimuli": [{
+        "id": 459,
+        "text": "fade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fade.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ade.mp3",
+        "isCorrect": false
+    }, {
+        "id": 458,
+        "text": "trad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }, {
+        "id": 457,
+        "text": "trade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trade.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ade.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 154, "type": "onset", "value": "sk", "reading_stage": 5},
+    "stimuli": [{
+        "id": 460,
+        "text": "skin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/skin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sk.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": true
+    }, {
+        "id": 462,
+        "text": "sink",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sink.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ink.mp3",
+        "isCorrect": false
+    }, {
+        "id": 461,
+        "text": "shin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 155, "type": "onset", "value": "sk", "reading_stage": 5},
+    "stimuli": [{
+        "id": 464,
+        "text": "ship",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ship.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": false
+    }, {
+        "id": 465,
+        "text": "sick",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sick.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ick.mp3",
+        "isCorrect": false
+    }, {
+        "id": 463,
+        "text": "skip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/skip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sk.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 156, "type": "onset", "value": "sk", "reading_stage": 5},
+    "stimuli": [{
+        "id": 466,
+        "text": "skit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/skit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sk.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": true
+    }, {
+        "id": 467,
+        "text": "sick",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sick.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ick.mp3",
+        "isCorrect": false
+    }, {
+        "id": 468,
+        "text": "scat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/scat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sc.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 157, "type": "onset", "value": "sp", "reading_stage": 5},
+    "stimuli": [{
+        "id": 470,
+        "text": "spin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }, {
+        "id": 469,
+        "text": "spine",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spine.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ine.mp3",
+        "isCorrect": true
+    }, {
+        "id": 471,
+        "text": "stine",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stine.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ine.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 158, "type": "onset", "value": "sp", "reading_stage": 5},
+    "stimuli": [{
+        "id": 473,
+        "text": "squn",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/squn.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sq.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/un.mp3",
+        "isCorrect": false
+    }, {
+        "id": 472,
+        "text": "spun",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spun.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/un.mp3",
+        "isCorrect": true
+    }, {
+        "id": 474,
+        "text": "stun",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stun.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/un.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 159, "type": "onset", "value": "sp", "reading_stage": 5},
+    "stimuli": [{
+        "id": 475,
+        "text": "spot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": true
+    }, {
+        "id": 477,
+        "text": "sop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }, {
+        "id": 476,
+        "text": "stop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 160, "type": "onset", "value": "st", "reading_stage": 5},
+    "stimuli": [{
+        "id": 479,
+        "text": "stat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 480,
+        "text": "slate",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slate.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ate.mp3",
+        "isCorrect": false
+    }, {
+        "id": 478,
+        "text": "state",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/state.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ate.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 161, "type": "onset", "value": "st", "reading_stage": 5},
+    "stimuli": [{
+        "id": 483,
+        "text": "slone",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slone.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/one.mp3",
+        "isCorrect": false
+    }, {
+        "id": 481,
+        "text": "stone",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stone.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/one.mp3",
+        "isCorrect": true
+    }, {
+        "id": 482,
+        "text": "shone",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shone.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/one.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 162, "type": "onset", "value": "st", "reading_stage": 5},
+    "stimuli": [{
+        "id": 484,
+        "text": "stun",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stun.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/un.mp3",
+        "isCorrect": true
+    }, {
+        "id": 485,
+        "text": "stone",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stone.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/one.mp3",
+        "isCorrect": false
+    }, {
+        "id": 486,
+        "text": "shun",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shun.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/un.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 163, "type": "onset", "value": "dr", "reading_stage": 5},
+    "stimuli": [{
+        "id": 489,
+        "text": "prape",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/prape.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ape.mp3",
+        "isCorrect": false
+    }, {
+        "id": 487,
+        "text": "drape",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/drape.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/dr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ape.mp3",
+        "isCorrect": true
+    }, {
+        "id": 488,
+        "text": "brape",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brape.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ape.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 164, "type": "onset", "value": "dr", "reading_stage": 5},
+    "stimuli": [{
+        "id": 490,
+        "text": "drip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/drip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/dr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": true
+    }, {
+        "id": 492,
+        "text": "dip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": false
+    }, {
+        "id": 491,
+        "text": "brip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 165, "type": "onset", "value": "dr", "reading_stage": 5},
+    "stimuli": [{
+        "id": 493,
+        "text": "drop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/drop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/dr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": true
+    }, {
+        "id": 494,
+        "text": "dop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }, {
+        "id": 495,
+        "text": "prop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/prop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 166, "type": "onset", "value": "cr", "reading_stage": 5},
+    "stimuli": [{
+        "id": 496,
+        "text": "crime",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crime.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ime.mp3",
+        "isCorrect": true
+    }, {
+        "id": 498,
+        "text": "cime",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cime.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ime.mp3",
+        "isCorrect": false
+    }, {
+        "id": 497,
+        "text": "chime",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chime.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ime.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 167, "type": "onset", "value": "cr", "reading_stage": 5},
+    "stimuli": [{
+        "id": 499,
+        "text": "crop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": true
+    }, {
+        "id": 500,
+        "text": "cop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }, {
+        "id": 501,
+        "text": "chop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 168, "type": "onset", "value": "cl", "reading_stage": 5},
+    "stimuli": [{
+        "id": 504,
+        "text": "cam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }, {
+        "id": 502,
+        "text": "clam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/clam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": true
+    }, {
+        "id": 503,
+        "text": "cham",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cham.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 169, "type": "onset", "value": "cl", "reading_stage": 5},
+    "stimuli": [{
+        "id": 507,
+        "text": "cap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": false
+    }, {
+        "id": 506,
+        "text": "chap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": false
+    }, {
+        "id": 505,
+        "text": "clap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/clap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 170, "type": "onset", "value": "cl", "reading_stage": 5},
+    "stimuli": [{
+        "id": 508,
+        "text": "clip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/clip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": true
+    }, {
+        "id": 509,
+        "text": "chip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": false
+    }, {
+        "id": 510,
+        "text": "dip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 171, "type": "onset", "value": "br", "reading_stage": 5},
+    "stimuli": [{
+        "id": 513,
+        "text": "bat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 511,
+        "text": "brat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": true
+    }, {
+        "id": 512,
+        "text": "drat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/drat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/dr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 172, "type": "onset", "value": "br", "reading_stage": 5},
+    "stimuli": [{
+        "id": 514,
+        "text": "brim",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brim.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/im.mp3",
+        "isCorrect": true
+    }, {
+        "id": 516,
+        "text": "drim",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/drim.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/dr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/im.mp3",
+        "isCorrect": false
+    }, {
+        "id": 515,
+        "text": "bin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 173, "type": "onset", "value": "br", "reading_stage": 5},
+    "stimuli": [{
+        "id": 518,
+        "text": "pride",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pride.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ide.mp3",
+        "isCorrect": false
+    }, {
+        "id": 519,
+        "text": "bide",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bide.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ide.mp3",
+        "isCorrect": false
+    }, {
+        "id": 517,
+        "text": "bride",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bride.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ide.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 174, "type": "onset", "value": "bl", "reading_stage": 5},
+    "stimuli": [{
+        "id": 520,
+        "text": "blade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/blade.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/bl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ade.mp3",
+        "isCorrect": true
+    }, {
+        "id": 522,
+        "text": "plade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/plade.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ade.mp3",
+        "isCorrect": false
+    }, {
+        "id": 521,
+        "text": "bald",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bald.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ald.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 175, "type": "onset", "value": "bl", "reading_stage": 5},
+    "stimuli": [{
+        "id": 523,
+        "text": "blame",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/blame.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/bl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ame.mp3",
+        "isCorrect": true
+    }, {
+        "id": 525,
+        "text": "dame",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dame.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ame.mp3",
+        "isCorrect": false
+    }, {
+        "id": 524,
+        "text": "plane",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/plane.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ane.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 176, "type": "onset", "value": "bl", "reading_stage": 5},
+    "stimuli": [{
+        "id": 526,
+        "text": "blot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/blot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/bl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": true
+    }, {
+        "id": 528,
+        "text": "plot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/plot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 527,
+        "text": "bot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 177, "type": "onset", "value": "fl", "reading_stage": 5},
+    "stimuli": [{
+        "id": 530,
+        "text": "fame",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fame.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ame.mp3",
+        "isCorrect": false
+    }, {
+        "id": 529,
+        "text": "flame",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flame.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ame.mp3",
+        "isCorrect": true
+    }, {
+        "id": 531,
+        "text": "blame",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/blame.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/bl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ame.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 178, "type": "onset", "value": "fl", "reading_stage": 5},
+    "stimuli": [{
+        "id": 532,
+        "text": "flat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": true
+    }, {
+        "id": 534,
+        "text": "blat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/blat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/bl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 533,
+        "text": "fat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 179, "type": "onset", "value": "fl", "reading_stage": 5},
+    "stimuli": [{
+        "id": 536,
+        "text": "lip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": false
+    }, {
+        "id": 535,
+        "text": "flip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": true
+    }, {
+        "id": 537,
+        "text": "blip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/blip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/bl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 180, "type": "rime", "value": "ude", "reading_stage": 5},
+    "stimuli": [{
+        "id": 540,
+        "text": "bude",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bude.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ude.mp3",
+        "isCorrect": false
+    }, {
+        "id": 538,
+        "text": "dude",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dude.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ude.mp3",
+        "isCorrect": true
+    }, {
+        "id": 539,
+        "text": "dud",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dud.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ud.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 181, "type": "rime", "value": "ude", "reading_stage": 5},
+    "stimuli": [{
+        "id": 543,
+        "text": "rode",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rode.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ode.mp3",
+        "isCorrect": false
+    }, {
+        "id": 541,
+        "text": "rude",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rude.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ude.mp3",
+        "isCorrect": true
+    }, {
+        "id": 542,
+        "text": "rud",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rud.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ud.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 182, "type": "rime", "value": "ude", "reading_stage": 5},
+    "stimuli": [{
+        "id": 545,
+        "text": "crud",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crud.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ud.mp3",
+        "isCorrect": false
+    }, {
+        "id": 546,
+        "text": "crube",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crube.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ube.mp3",
+        "isCorrect": false
+    }, {
+        "id": 544,
+        "text": "crude",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crude.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ude.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 183, "type": "rime", "value": "ute", "reading_stage": 5},
+    "stimuli": [{
+        "id": 549,
+        "text": "cote",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cote.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ote.mp3",
+        "isCorrect": false
+    }, {
+        "id": 547,
+        "text": "cute",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cute.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ute.mp3",
+        "isCorrect": true
+    }, {
+        "id": 548,
+        "text": "cut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 184, "type": "rime", "value": "ute", "reading_stage": 5},
+    "stimuli": [{
+        "id": 550,
+        "text": "flute",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flute.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ute.mp3",
+        "isCorrect": true
+    }, {
+        "id": 552,
+        "text": "flote",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flote.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ote.mp3",
+        "isCorrect": false
+    }, {
+        "id": 551,
+        "text": "flut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 185, "type": "rime", "value": "ute", "reading_stage": 5},
+    "stimuli": [{
+        "id": 554,
+        "text": "mut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }, {
+        "id": 553,
+        "text": "mute",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mute.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ute.mp3",
+        "isCorrect": true
+    }, {
+        "id": 555,
+        "text": "mote",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mote.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ote.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 186, "type": "rime", "value": "one", "reading_stage": 5},
+    "stimuli": [{
+        "id": 556,
+        "text": "bone",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bone.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/one.mp3",
+        "isCorrect": true
+    }, {
+        "id": 558,
+        "text": "bome",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bome.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ome.mp3",
+        "isCorrect": false
+    }, {
+        "id": 557,
+        "text": "bon",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bon.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/on.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 187, "type": "rime", "value": "one", "reading_stage": 5},
+    "stimuli": [{
+        "id": 561,
+        "text": "stine",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stine.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ine.mp3",
+        "isCorrect": false
+    }, {
+        "id": 559,
+        "text": "stone",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stone.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/one.mp3",
+        "isCorrect": true
+    }, {
+        "id": 560,
+        "text": "ston",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ston.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/on.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 188, "type": "rime", "value": "one", "reading_stage": 5},
+    "stimuli": [{
+        "id": 564,
+        "text": "come",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/come.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ome.mp3",
+        "isCorrect": false
+    }, {
+        "id": 562,
+        "text": "cone",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cone.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/one.mp3",
+        "isCorrect": true
+    }, {
+        "id": 563,
+        "text": "con",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/con.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/on.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 189, "type": "rime", "value": "ope", "reading_stage": 5},
+    "stimuli": [{
+        "id": 565,
+        "text": "hope",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hope.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ope.mp3",
+        "isCorrect": true
+    }, {
+        "id": 567,
+        "text": "hoop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hoop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oop.mp3",
+        "isCorrect": false
+    }, {
+        "id": 566,
+        "text": "hop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 190, "type": "rime", "value": "ope", "reading_stage": 5},
+    "stimuli": [{
+        "id": 568,
+        "text": "mope",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mope.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ope.mp3",
+        "isCorrect": true
+    }, {
+        "id": 569,
+        "text": "mop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }, {
+        "id": 570,
+        "text": "moop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/moop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oop.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 191, "type": "rime", "value": "ope", "reading_stage": 5},
+    "stimuli": [{
+        "id": 571,
+        "text": "rope",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rope.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ope.mp3",
+        "isCorrect": true
+    }, {
+        "id": 573,
+        "text": "robe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/robe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/obe.mp3",
+        "isCorrect": false
+    }, {
+        "id": 572,
+        "text": "rop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 192, "type": "rime", "value": "ote", "reading_stage": 5},
+    "stimuli": [{
+        "id": 574,
+        "text": "note",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/note.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ote.mp3",
+        "isCorrect": true
+    }, {
+        "id": 576,
+        "text": "noot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/noot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 575,
+        "text": "not",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/not.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 193, "type": "rime", "value": "ote", "reading_stage": 5},
+    "stimuli": [{
+        "id": 577,
+        "text": "vote",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vote.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ote.mp3",
+        "isCorrect": true
+    }, {
+        "id": 578,
+        "text": "vot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 579,
+        "text": "vode",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vode.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ode.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 194, "type": "rime", "value": "ote", "reading_stage": 5},
+    "stimuli": [{
+        "id": 581,
+        "text": "wrot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wrot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 580,
+        "text": "wrote",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wrote.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ote.mp3",
+        "isCorrect": true
+    }, {
+        "id": 582,
+        "text": "wrode",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wrode.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ode.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 195, "type": "rime", "value": "une", "reading_stage": 5},
+    "stimuli": [{
+        "id": 585,
+        "text": "plume",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/plume.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ume.mp3",
+        "isCorrect": false
+    }, {
+        "id": 584,
+        "text": "prun",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/prun.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/un.mp3",
+        "isCorrect": false
+    }, {
+        "id": 583,
+        "text": "prune",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/prune.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/une.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 196, "type": "rime", "value": "une", "reading_stage": 5},
+    "stimuli": [{
+        "id": 587,
+        "text": "tun",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tun.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/un.mp3",
+        "isCorrect": false
+    }, {
+        "id": 588,
+        "text": "tume",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tume.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ume.mp3",
+        "isCorrect": false
+    }, {
+        "id": 586,
+        "text": "tune",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tune.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/une.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 197, "type": "rime", "value": "ade", "reading_stage": 5},
+    "stimuli": [{
+        "id": 590,
+        "text": "fad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }, {
+        "id": 591,
+        "text": "fode",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fode.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ode.mp3",
+        "isCorrect": false
+    }, {
+        "id": 589,
+        "text": "fade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fade.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ade.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 198, "type": "rime", "value": "ade", "reading_stage": 5},
+    "stimuli": [{
+        "id": 594,
+        "text": "shabe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shabe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/abe.mp3",
+        "isCorrect": false
+    }, {
+        "id": 592,
+        "text": "shade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shade.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ade.mp3",
+        "isCorrect": true
+    }, {
+        "id": 593,
+        "text": "shad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 199, "type": "rime", "value": "ade", "reading_stage": 5},
+    "stimuli": [{
+        "id": 597,
+        "text": "bleed",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bleed.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/bl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eed.mp3",
+        "isCorrect": false
+    }, {
+        "id": 595,
+        "text": "blade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/blade.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/bl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ade.mp3",
+        "isCorrect": true
+    }, {
+        "id": 596,
+        "text": "blad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/blad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/bl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 200, "type": "rime", "value": "ame", "reading_stage": 5},
+    "stimuli": [{
+        "id": 598,
+        "text": "came",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/came.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ame.mp3",
+        "isCorrect": true
+    }, {
+        "id": 599,
+        "text": "cam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }, {
+        "id": 600,
+        "text": "cane",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cane.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ane.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 201, "type": "rime", "value": "ame", "reading_stage": 5},
+    "stimuli": [{
+        "id": 602,
+        "text": "fame",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fame.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ame.mp3",
+        "isCorrect": false
+    }, {
+        "id": 601,
+        "text": "flame",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flame.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ame.mp3",
+        "isCorrect": true
+    }, {
+        "id": 603,
+        "text": "flam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 202, "type": "rime", "value": "ame", "reading_stage": 5},
+    "stimuli": [{
+        "id": 604,
+        "text": "shame",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shame.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ame.mp3",
+        "isCorrect": true
+    }, {
+        "id": 605,
+        "text": "sham",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sham.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }, {
+        "id": 606,
+        "text": "shone",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shone.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/one.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 203, "type": "rime", "value": "ane", "reading_stage": 5},
+    "stimuli": [{
+        "id": 609,
+        "text": "came",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/came.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ame.mp3",
+        "isCorrect": false
+    }, {
+        "id": 607,
+        "text": "cane",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cane.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ane.mp3",
+        "isCorrect": true
+    }, {
+        "id": 608,
+        "text": "can",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/can.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 204, "type": "rime", "value": "ane", "reading_stage": 5},
+    "stimuli": [{
+        "id": 610,
+        "text": "lane",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lane.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ane.mp3",
+        "isCorrect": true
+    }, {
+        "id": 611,
+        "text": "lan",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lan.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }, {
+        "id": 612,
+        "text": "lone",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lone.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/one.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 205, "type": "rime", "value": "ape", "reading_stage": 5},
+    "stimuli": [{
+        "id": 614,
+        "text": "cap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": false
+    }, {
+        "id": 613,
+        "text": "cape",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cape.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ape.mp3",
+        "isCorrect": true
+    }, {
+        "id": 615,
+        "text": "cade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cade.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ade.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 206, "type": "rime", "value": "ape", "reading_stage": 5},
+    "stimuli": [{
+        "id": 618,
+        "text": "drope",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/drope.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/dr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ope.mp3",
+        "isCorrect": false
+    }, {
+        "id": 617,
+        "text": "drap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/drap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/dr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": false
+    }, {
+        "id": 616,
+        "text": "drape",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/drape.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/dr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ape.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 207, "type": "rime", "value": "ape", "reading_stage": 5},
+    "stimuli": [{
+        "id": 621,
+        "text": "gripe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gripe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ipe.mp3",
+        "isCorrect": false
+    }, {
+        "id": 620,
+        "text": "grap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": false
+    }, {
+        "id": 619,
+        "text": "grape",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grape.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ape.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 208, "type": "rime", "value": "ate", "reading_stage": 5},
+    "stimuli": [{
+        "id": 623,
+        "text": "skat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/skat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sk.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 622,
+        "text": "skate",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/skate.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sk.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ate.mp3",
+        "isCorrect": true
+    }, {
+        "id": 624,
+        "text": "skete",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/skete.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sk.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ete.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 209, "type": "rime", "value": "ate", "reading_stage": 5},
+    "stimuli": [{
+        "id": 626,
+        "text": "nat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 627,
+        "text": "nade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nade.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ade.mp3",
+        "isCorrect": false
+    }, {
+        "id": 625,
+        "text": "nate",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nate.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ate.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 210, "type": "rime", "value": "ate", "reading_stage": 5},
+    "stimuli": [{
+        "id": 629,
+        "text": "plat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/plat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 630,
+        "text": "pleet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pleet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eet.mp3",
+        "isCorrect": false
+    }, {
+        "id": 628,
+        "text": "plate",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/plate.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ate.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 211, "type": "rime", "value": "ide", "reading_stage": 5},
+    "stimuli": [{
+        "id": 633,
+        "text": "slade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slade.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ade.mp3",
+        "isCorrect": false
+    }, {
+        "id": 631,
+        "text": "slide",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slide.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ide.mp3",
+        "isCorrect": true
+    }, {
+        "id": 632,
+        "text": "slid",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slid.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/id.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 212, "type": "rime", "value": "ide", "reading_stage": 5},
+    "stimuli": [{
+        "id": 635,
+        "text": "hid",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hid.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/id.mp3",
+        "isCorrect": false
+    }, {
+        "id": 634,
+        "text": "hide",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hide.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ide.mp3",
+        "isCorrect": true
+    }, {
+        "id": 636,
+        "text": "hibe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hibe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ibe.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 213, "type": "rime", "value": "ide", "reading_stage": 5},
+    "stimuli": [{
+        "id": 638,
+        "text": "rid",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rid.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/id.mp3",
+        "isCorrect": false
+    }, {
+        "id": 637,
+        "text": "ride",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ride.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ide.mp3",
+        "isCorrect": true
+    }, {
+        "id": 639,
+        "text": "ripe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ripe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ipe.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 214, "type": "rime", "value": "ime", "reading_stage": 5},
+    "stimuli": [{
+        "id": 640,
+        "text": "dime",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dime.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ime.mp3",
+        "isCorrect": true
+    }, {
+        "id": 642,
+        "text": "deme",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/deme.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eme.mp3",
+        "isCorrect": false
+    }, {
+        "id": 641,
+        "text": "dim",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dim.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/im.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 215, "type": "rime", "value": "ime", "reading_stage": 5},
+    "stimuli": [{
+        "id": 644,
+        "text": "slim",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slim.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/im.mp3",
+        "isCorrect": false
+    }, {
+        "id": 645,
+        "text": "sline",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sline.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ine.mp3",
+        "isCorrect": false
+    }, {
+        "id": 643,
+        "text": "slime",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slime.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ime.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 216, "type": "rime", "value": "ime", "reading_stage": 5},
+    "stimuli": [{
+        "id": 647,
+        "text": "crim",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crim.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/im.mp3",
+        "isCorrect": false
+    }, {
+        "id": 648,
+        "text": "creme",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/creme.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eme.mp3",
+        "isCorrect": false
+    }, {
+        "id": 646,
+        "text": "crime",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crime.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ime.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 217, "type": "rime", "value": "ine", "reading_stage": 5},
+    "stimuli": [{
+        "id": 651,
+        "text": "pime",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pime.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ime.mp3",
+        "isCorrect": false
+    }, {
+        "id": 650,
+        "text": "pin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }, {
+        "id": 649,
+        "text": "pine",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pine.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ine.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 218, "type": "rime", "value": "ine", "reading_stage": 5},
+    "stimuli": [{
+        "id": 652,
+        "text": "wine",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wine.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ine.mp3",
+        "isCorrect": true
+    }, {
+        "id": 654,
+        "text": "wind",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wind.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ind.mp3",
+        "isCorrect": false
+    }, {
+        "id": 653,
+        "text": "win",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/win.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 219, "type": "rime", "value": "ine", "reading_stage": 5},
+    "stimuli": [{
+        "id": 656,
+        "text": "vin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }, {
+        "id": 655,
+        "text": "vine",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vine.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ine.mp3",
+        "isCorrect": true
+    }, {
+        "id": 657,
+        "text": "vibe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vibe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ibe.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 220, "type": "rime", "value": "ipe", "reading_stage": 5},
+    "stimuli": [{
+        "id": 659,
+        "text": "wip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": false
+    }, {
+        "id": 660,
+        "text": "weep",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/weep.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eep.mp3",
+        "isCorrect": false
+    }, {
+        "id": 658,
+        "text": "wipe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wipe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ipe.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 221, "type": "rime", "value": "ipe", "reading_stage": 5},
+    "stimuli": [{
+        "id": 662,
+        "text": "pip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": false
+    }, {
+        "id": 663,
+        "text": "pide",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pide.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ide.mp3",
+        "isCorrect": false
+    }, {
+        "id": 661,
+        "text": "pipe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pipe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ipe.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 222, "type": "rime", "value": "ipe", "reading_stage": 5},
+    "stimuli": [{
+        "id": 664,
+        "text": "ripe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ripe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ipe.mp3",
+        "isCorrect": true
+    }, {
+        "id": 666,
+        "text": "ride",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ride.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ide.mp3",
+        "isCorrect": false
+    }, {
+        "id": 665,
+        "text": "rip",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rip.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ip.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 223, "type": "rime", "value": "ite", "reading_stage": 5},
+    "stimuli": [{
+        "id": 668,
+        "text": "bit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 669,
+        "text": "bide",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bide.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ide.mp3",
+        "isCorrect": false
+    }, {
+        "id": 667,
+        "text": "bite",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bite.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ite.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 224, "type": "rime", "value": "ite", "reading_stage": 5},
+    "stimuli": [{
+        "id": 670,
+        "text": "kite",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/kite.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ite.mp3",
+        "isCorrect": true
+    }, {
+        "id": 672,
+        "text": "kipe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/kipe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ipe.mp3",
+        "isCorrect": false
+    }, {
+        "id": 671,
+        "text": "kit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/kit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 225, "type": "rime", "value": "ite", "reading_stage": 5},
+    "stimuli": [{
+        "id": 675,
+        "text": "whine",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/whine.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ine.mp3",
+        "isCorrect": false
+    }, {
+        "id": 674,
+        "text": "whit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/whit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 673,
+        "text": "white",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/white.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ite.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 226, "type": "rime", "value": "ode", "reading_stage": 5},
+    "stimuli": [{
+        "id": 678,
+        "text": "cope",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cope.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ope.mp3",
+        "isCorrect": false
+    }, {
+        "id": 677,
+        "text": "cod",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cod.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/od.mp3",
+        "isCorrect": false
+    }, {
+        "id": 676,
+        "text": "code",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/code.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ode.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 227, "type": "rime", "value": "ode", "reading_stage": 5},
+    "stimuli": [{
+        "id": 681,
+        "text": "mood",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mood.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ood.mp3",
+        "isCorrect": false
+    }, {
+        "id": 679,
+        "text": "mode",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mode.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ode.mp3",
+        "isCorrect": true
+    }, {
+        "id": 680,
+        "text": "mod",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mod.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/od.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 228, "type": "rime", "value": "ode", "reading_stage": 5},
+    "stimuli": [{
+        "id": 683,
+        "text": "rod",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rod.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/od.mp3",
+        "isCorrect": false
+    }, {
+        "id": 682,
+        "text": "rode",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rode.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ode.mp3",
+        "isCorrect": true
+    }, {
+        "id": 684,
+        "text": "robe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/robe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/obe.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 229, "type": "rime", "value": "ome", "reading_stage": 5},
+    "stimuli": [{
+        "id": 685,
+        "text": "dome",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dome.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ome.mp3",
+        "isCorrect": true
+    }, {
+        "id": 686,
+        "text": "dom",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dom.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/om.mp3",
+        "isCorrect": false
+    }, {
+        "id": 687,
+        "text": "done",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/done.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/one.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 230, "type": "rime", "value": "ome", "reading_stage": 5},
+    "stimuli": [{
+        "id": 688,
+        "text": "home",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/home.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ome.mp3",
+        "isCorrect": true
+    }, {
+        "id": 689,
+        "text": "hom",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hom.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/om.mp3",
+        "isCorrect": false
+    }, {
+        "id": 690,
+        "text": "hume",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hume.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ume.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 231, "type": "onset", "value": "th", "reading_stage": 6},
+    "stimuli": [{
+        "id": 693,
+        "text": "sank",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sank.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ank.mp3",
+        "isCorrect": false
+    }, {
+        "id": 692,
+        "text": "tank",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tank.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ank.mp3",
+        "isCorrect": false
+    }, {
+        "id": 691,
+        "text": "thank",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/thank.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ank.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 232, "type": "onset", "value": "th", "reading_stage": 6},
+    "stimuli": [{
+        "id": 694,
+        "text": "thing",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/thing.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": true
+    }, {
+        "id": 695,
+        "text": "ting",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ting.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": false
+    }, {
+        "id": 696,
+        "text": "sting",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sting.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 233, "type": "onset", "value": "th", "reading_stage": 6},
+    "stimuli": [{
+        "id": 697,
+        "text": "thin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/thin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": true
+    }, {
+        "id": 699,
+        "text": "shin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }, {
+        "id": 698,
+        "text": "tin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 234, "type": "onset", "value": "wh", "reading_stage": 6},
+    "stimuli": [{
+        "id": 700,
+        "text": "when",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/when.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/en.mp3",
+        "isCorrect": true
+    }, {
+        "id": 701,
+        "text": "win",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/win.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }, {
+        "id": 702,
+        "text": "won",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/won.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/on.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 235, "type": "onset", "value": "wh", "reading_stage": 6},
+    "stimuli": [{
+        "id": 705,
+        "text": "hale",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hale.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ale.mp3",
+        "isCorrect": false
+    }, {
+        "id": 703,
+        "text": "whale",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/whale.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ale.mp3",
+        "isCorrect": true
+    }, {
+        "id": 704,
+        "text": "wall",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wall.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 236, "type": "onset", "value": "wh", "reading_stage": 6},
+    "stimuli": [{
+        "id": 708,
+        "text": "will",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/will.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ill.mp3",
+        "isCorrect": false
+    }, {
+        "id": 707,
+        "text": "wheel",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wheel.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eel.mp3",
+        "isCorrect": false
+    }, {
+        "id": 706,
+        "text": "while",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/while.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ile.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 237, "type": "onset", "value": "sh", "reading_stage": 6},
+    "stimuli": [{
+        "id": 711,
+        "text": "chook",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chook.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ook.mp3",
+        "isCorrect": false
+    }, {
+        "id": 709,
+        "text": "shook",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shook.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ook.mp3",
+        "isCorrect": true
+    }, {
+        "id": 710,
+        "text": "hook",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hook.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ook.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 238, "type": "onset", "value": "sh", "reading_stage": 6},
+    "stimuli": [{
+        "id": 713,
+        "text": "sade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sade.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ade.mp3",
+        "isCorrect": false
+    }, {
+        "id": 714,
+        "text": "thade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/thade.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ade.mp3",
+        "isCorrect": false
+    }, {
+        "id": 712,
+        "text": "shade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shade.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ade.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 239, "type": "onset", "value": "sh", "reading_stage": 6},
+    "stimuli": [{
+        "id": 717,
+        "text": "shut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }, {
+        "id": 715,
+        "text": "shout",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shout.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/out.mp3",
+        "isCorrect": true
+    }, {
+        "id": 716,
+        "text": "shoot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shoot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oot.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 240, "type": "onset", "value": "ch", "reading_stage": 6},
+    "stimuli": [{
+        "id": 719,
+        "text": "clamp",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/clamp.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/amp.mp3",
+        "isCorrect": false
+    }, {
+        "id": 720,
+        "text": "shamp",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shamp.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/amp.mp3",
+        "isCorrect": false
+    }, {
+        "id": 718,
+        "text": "champ",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/champ.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/amp.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 241, "type": "onset", "value": "ch", "reading_stage": 6},
+    "stimuli": [{
+        "id": 723,
+        "text": "shore",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shore.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ore.mp3",
+        "isCorrect": false
+    }, {
+        "id": 722,
+        "text": "core",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/core.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ore.mp3",
+        "isCorrect": false
+    }, {
+        "id": 721,
+        "text": "chore",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chore.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ore.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 242, "type": "onset", "value": "ch", "reading_stage": 6},
+    "stimuli": [{
+        "id": 724,
+        "text": "chair",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chair.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/air.mp3",
+        "isCorrect": true
+    }, {
+        "id": 725,
+        "text": "care",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/care.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/are.mp3",
+        "isCorrect": false
+    }, {
+        "id": 726,
+        "text": "there",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/there.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ere.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 243, "type": "rime", "value": "ook", "reading_stage": 6},
+    "stimuli": [{
+        "id": 727,
+        "text": "hook",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hook.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ook.mp3",
+        "isCorrect": true
+    }, {
+        "id": 728,
+        "text": "hoot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hoot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 729,
+        "text": "hok",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hok.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ok.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 244, "type": "rime", "value": "ook", "reading_stage": 6},
+    "stimuli": [{
+        "id": 731,
+        "text": "coke",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/coke.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oke.mp3",
+        "isCorrect": false
+    }, {
+        "id": 730,
+        "text": "cook",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cook.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ook.mp3",
+        "isCorrect": true
+    }, {
+        "id": 732,
+        "text": "cool",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cool.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ool.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 245, "type": "rime", "value": "ook", "reading_stage": 6},
+    "stimuli": [{
+        "id": 735,
+        "text": "tool",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tool.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ool.mp3",
+        "isCorrect": false
+    }, {
+        "id": 734,
+        "text": "tock",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tock.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ock.mp3",
+        "isCorrect": false
+    }, {
+        "id": 733,
+        "text": "took",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/took.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ook.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 246, "type": "rime", "value": "ack", "reading_stage": 6},
+    "stimuli": [{
+        "id": 738,
+        "text": "sheck",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sheck.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eck.mp3",
+        "isCorrect": false
+    }, {
+        "id": 737,
+        "text": "shake",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shake.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ake.mp3",
+        "isCorrect": false
+    }, {
+        "id": 736,
+        "text": "shack",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shack.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 247, "type": "rime", "value": "ack", "reading_stage": 6},
+    "stimuli": [{
+        "id": 740,
+        "text": "block",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/block.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/bl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ock.mp3",
+        "isCorrect": false
+    }, {
+        "id": 741,
+        "text": "blake",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/blake.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/bl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ake.mp3",
+        "isCorrect": false
+    }, {
+        "id": 739,
+        "text": "black",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/black.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/bl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 248, "type": "rime", "value": "ack", "reading_stage": 6},
+    "stimuli": [{
+        "id": 744,
+        "text": "pack",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pack.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": false
+    }, {
+        "id": 743,
+        "text": "bake",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bake.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ake.mp3",
+        "isCorrect": false
+    }, {
+        "id": 742,
+        "text": "back",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/back.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 249, "type": "rime", "value": "aid", "reading_stage": 6},
+    "stimuli": [{
+        "id": 745,
+        "text": "braid",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/braid.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aid.mp3",
+        "isCorrect": true
+    }, {
+        "id": 746,
+        "text": "brad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }, {
+        "id": 747,
+        "text": "breed",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/breed.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eed.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 250, "type": "rime", "value": "aid", "reading_stage": 6},
+    "stimuli": [{
+        "id": 750,
+        "text": "read",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/read.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ead.mp3",
+        "isCorrect": false
+    }, {
+        "id": 748,
+        "text": "raid",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/raid.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aid.mp3",
+        "isCorrect": true
+    }, {
+        "id": 749,
+        "text": "rad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 251, "type": "rime", "value": "aid", "reading_stage": 6},
+    "stimuli": [{
+        "id": 751,
+        "text": "laid",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/laid.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aid.mp3",
+        "isCorrect": true
+    }, {
+        "id": 752,
+        "text": "late",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/late.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ate.mp3",
+        "isCorrect": false
+    }, {
+        "id": 753,
+        "text": "lad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 252, "type": "rime", "value": "ail", "reading_stage": 6},
+    "stimuli": [{
+        "id": 755,
+        "text": "fall",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fall.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": false
+    }, {
+        "id": 756,
+        "text": "foal",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/foal.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oal.mp3",
+        "isCorrect": false
+    }, {
+        "id": 754,
+        "text": "fail",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fail.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ail.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 253, "type": "rime", "value": "ail", "reading_stage": 6},
+    "stimuli": [{
+        "id": 759,
+        "text": "pile",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pile.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ile.mp3",
+        "isCorrect": false
+    }, {
+        "id": 758,
+        "text": "pal",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pal.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/al.mp3",
+        "isCorrect": false
+    }, {
+        "id": 757,
+        "text": "pail",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pail.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ail.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 254, "type": "rime", "value": "ail", "reading_stage": 6},
+    "stimuli": [{
+        "id": 761,
+        "text": "toil",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/toil.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oil.mp3",
+        "isCorrect": false
+    }, {
+        "id": 762,
+        "text": "tall",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tall.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": false
+    }, {
+        "id": 760,
+        "text": "tail",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tail.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ail.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 255, "type": "rime", "value": "ain", "reading_stage": 6},
+    "stimuli": [{
+        "id": 765,
+        "text": "brame",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brame.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ame.mp3",
+        "isCorrect": false
+    }, {
+        "id": 764,
+        "text": "bran",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bran.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }, {
+        "id": 763,
+        "text": "brain",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brain.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ain.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 256, "type": "rime", "value": "ain", "reading_stage": 6},
+    "stimuli": [{
+        "id": 767,
+        "text": "ran",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ran.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }, {
+        "id": 768,
+        "text": "rant",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rant.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ant.mp3",
+        "isCorrect": false
+    }, {
+        "id": 766,
+        "text": "rain",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rain.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ain.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 257, "type": "rime", "value": "ain", "reading_stage": 6},
+    "stimuli": [{
+        "id": 771,
+        "text": "chime",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chime.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ime.mp3",
+        "isCorrect": false
+    }, {
+        "id": 769,
+        "text": "chain",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chain.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ain.mp3",
+        "isCorrect": true
+    }, {
+        "id": 770,
+        "text": "chin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 258, "type": "rime", "value": "air", "reading_stage": 6},
+    "stimuli": [{
+        "id": 774,
+        "text": "fear",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fear.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ear.mp3",
+        "isCorrect": false
+    }, {
+        "id": 773,
+        "text": "fay",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fay.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ay.mp3",
+        "isCorrect": false
+    }, {
+        "id": 772,
+        "text": "fair",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fair.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/air.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 259, "type": "rime", "value": "air", "reading_stage": 6},
+    "stimuli": [{
+        "id": 777,
+        "text": "steer",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/steer.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eer.mp3",
+        "isCorrect": false
+    }, {
+        "id": 776,
+        "text": "store",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/store.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ore.mp3",
+        "isCorrect": false
+    }, {
+        "id": 775,
+        "text": "stair",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stair.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/air.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 260, "type": "rime", "value": "air", "reading_stage": 6},
+    "stimuli": [{
+        "id": 778,
+        "text": "hair",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hair.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/air.mp3",
+        "isCorrect": true
+    }, {
+        "id": 779,
+        "text": "hear",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hear.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ear.mp3",
+        "isCorrect": false
+    }, {
+        "id": 780,
+        "text": "her",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/her.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/er.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 261, "type": "rime", "value": "all", "reading_stage": 6},
+    "stimuli": [{
+        "id": 782,
+        "text": "smal",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/smal.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sm.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/al.mp3",
+        "isCorrect": false
+    }, {
+        "id": 783,
+        "text": "smell",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/smell.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sm.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ell.mp3",
+        "isCorrect": false
+    }, {
+        "id": 781,
+        "text": "small",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/small.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sm.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 262, "type": "rime", "value": "all", "reading_stage": 6},
+    "stimuli": [{
+        "id": 784,
+        "text": "ball",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ball.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": true
+    }, {
+        "id": 785,
+        "text": "doll",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/doll.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oll.mp3",
+        "isCorrect": false
+    }, {
+        "id": 786,
+        "text": "bail",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bail.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ail.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 263, "type": "rime", "value": "all", "reading_stage": 6},
+    "stimuli": [{
+        "id": 788,
+        "text": "wail",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wail.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ail.mp3",
+        "isCorrect": false
+    }, {
+        "id": 787,
+        "text": "wall",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wall.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": true
+    }, {
+        "id": 789,
+        "text": "well",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/well.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ell.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 264, "type": "rime", "value": "amp", "reading_stage": 6},
+    "stimuli": [{
+        "id": 792,
+        "text": "dam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }, {
+        "id": 791,
+        "text": "dump",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dump.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ump.mp3",
+        "isCorrect": false
+    }, {
+        "id": 790,
+        "text": "damp",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/damp.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/amp.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 265, "type": "rime", "value": "amp", "reading_stage": 6},
+    "stimuli": [{
+        "id": 794,
+        "text": "romp",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/romp.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/omp.mp3",
+        "isCorrect": false
+    }, {
+        "id": 793,
+        "text": "ramp",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ramp.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/amp.mp3",
+        "isCorrect": true
+    }, {
+        "id": 795,
+        "text": "rant",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rant.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ant.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 266, "type": "rime", "value": "amp", "reading_stage": 6},
+    "stimuli": [{
+        "id": 797,
+        "text": "stand",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stand.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/and.mp3",
+        "isCorrect": false
+    }, {
+        "id": 796,
+        "text": "stamp",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stamp.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/amp.mp3",
+        "isCorrect": true
+    }, {
+        "id": 798,
+        "text": "stemp",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stemp.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/emp.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 267, "type": "rime", "value": "and", "reading_stage": 6},
+    "stimuli": [{
+        "id": 799,
+        "text": "stand",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stand.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/and.mp3",
+        "isCorrect": true
+    }, {
+        "id": 800,
+        "text": "stund",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stund.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/und.mp3",
+        "isCorrect": false
+    }, {
+        "id": 801,
+        "text": "steed",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/steed.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eed.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 268, "type": "rime", "value": "and", "reading_stage": 6},
+    "stimuli": [{
+        "id": 802,
+        "text": "land",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/land.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/and.mp3",
+        "isCorrect": true
+    }, {
+        "id": 804,
+        "text": "lane",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lane.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ane.mp3",
+        "isCorrect": false
+    }, {
+        "id": 803,
+        "text": "lad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 269, "type": "rime", "value": "and", "reading_stage": 6},
+    "stimuli": [{
+        "id": 806,
+        "text": "brad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }, {
+        "id": 805,
+        "text": "brand",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brand.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/and.mp3",
+        "isCorrect": true
+    }, {
+        "id": 807,
+        "text": "brant",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brant.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ant.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 270, "type": "rime", "value": "ang", "reading_stage": 6},
+    "stimuli": [{
+        "id": 810,
+        "text": "gong",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gong.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ong.mp3",
+        "isCorrect": false
+    }, {
+        "id": 809,
+        "text": "ganj",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ganj.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/anj.mp3",
+        "isCorrect": false
+    }, {
+        "id": 808,
+        "text": "gang",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gang.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ang.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 271, "type": "rime", "value": "ang", "reading_stage": 6},
+    "stimuli": [{
+        "id": 812,
+        "text": "rain",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rain.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ain.mp3",
+        "isCorrect": false
+    }, {
+        "id": 813,
+        "text": "range",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/range.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ange.mp3",
+        "isCorrect": false
+    }, {
+        "id": 811,
+        "text": "rang",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rang.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ang.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 272, "type": "rime", "value": "ang", "reading_stage": 6},
+    "stimuli": [{
+        "id": 816,
+        "text": "sage",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sage.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/age.mp3",
+        "isCorrect": false
+    }, {
+        "id": 814,
+        "text": "sang",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sang.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ang.mp3",
+        "isCorrect": true
+    }, {
+        "id": 815,
+        "text": "sing",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sing.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 273, "type": "rime", "value": "ank", "reading_stage": 6},
+    "stimuli": [{
+        "id": 818,
+        "text": "yak",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/yak.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/y.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ak.mp3",
+        "isCorrect": false
+    }, {
+        "id": 817,
+        "text": "yank",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/yank.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/y.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ank.mp3",
+        "isCorrect": true
+    }, {
+        "id": 819,
+        "text": "yenk",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/yenk.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/y.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/enk.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 274, "type": "rime", "value": "ank", "reading_stage": 6},
+    "stimuli": [{
+        "id": 821,
+        "text": "sang",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sang.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ang.mp3",
+        "isCorrect": false
+    }, {
+        "id": 822,
+        "text": "snack",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/snack.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sn.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": false
+    }, {
+        "id": 820,
+        "text": "sank",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sank.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ank.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 275, "type": "rime", "value": "ank", "reading_stage": 6},
+    "stimuli": [{
+        "id": 825,
+        "text": "back",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/back.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": false
+    }, {
+        "id": 824,
+        "text": "bunk",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bunk.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/unk.mp3",
+        "isCorrect": false
+    }, {
+        "id": 823,
+        "text": "bank",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bank.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ank.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 276, "type": "rime", "value": "ant", "reading_stage": 6},
+    "stimuli": [{
+        "id": 826,
+        "text": "grant",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grant.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ant.mp3",
+        "isCorrect": true
+    }, {
+        "id": 828,
+        "text": "grent",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grent.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ent.mp3",
+        "isCorrect": false
+    }, {
+        "id": 827,
+        "text": "grate",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grate.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ate.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 277, "type": "rime", "value": "ant", "reading_stage": 6},
+    "stimuli": [{
+        "id": 831,
+        "text": "pand",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pand.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/and.mp3",
+        "isCorrect": false
+    }, {
+        "id": 830,
+        "text": "pint",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pint.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/int.mp3",
+        "isCorrect": false
+    }, {
+        "id": 829,
+        "text": "pant",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pant.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ant.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 278, "type": "rime", "value": "ant", "reading_stage": 6},
+    "stimuli": [{
+        "id": 834,
+        "text": "rent",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rent.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ent.mp3",
+        "isCorrect": false
+    }, {
+        "id": 832,
+        "text": "rant",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rant.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ant.mp3",
+        "isCorrect": true
+    }, {
+        "id": 833,
+        "text": "runt",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/runt.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/unt.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 279, "type": "rime", "value": "ar", "reading_stage": 6},
+    "stimuli": [{
+        "id": 837,
+        "text": "jor",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jor.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/or.mp3",
+        "isCorrect": false
+    }, {
+        "id": 836,
+        "text": "jare",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jare.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/are.mp3",
+        "isCorrect": false
+    }, {
+        "id": 835,
+        "text": "jar",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jar.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ar.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 280, "type": "rime", "value": "ar", "reading_stage": 6},
+    "stimuli": [{
+        "id": 838,
+        "text": "car",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/car.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ar.mp3",
+        "isCorrect": true
+    }, {
+        "id": 839,
+        "text": "cor",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cor.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/or.mp3",
+        "isCorrect": false
+    }, {
+        "id": 840,
+        "text": "care",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/care.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/are.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 281, "type": "rime", "value": "ar", "reading_stage": 6},
+    "stimuli": [{
+        "id": 843,
+        "text": "stir",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stir.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ir.mp3",
+        "isCorrect": false
+    }, {
+        "id": 841,
+        "text": "star",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/star.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ar.mp3",
+        "isCorrect": true
+    }, {
+        "id": 842,
+        "text": "stare",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stare.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/are.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 282, "type": "rime", "value": "ay", "reading_stage": 6},
+    "stimuli": [{
+        "id": 844,
+        "text": "stay",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stay.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ay.mp3",
+        "isCorrect": true
+    }, {
+        "id": 846,
+        "text": "sty",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sty.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/y.mp3",
+        "isCorrect": false
+    }, {
+        "id": 845,
+        "text": "stain",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stain.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ain.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 283, "type": "rime", "value": "ay", "reading_stage": 6},
+    "stimuli": [{
+        "id": 847,
+        "text": "bay",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bay.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ay.mp3",
+        "isCorrect": true
+    }, {
+        "id": 848,
+        "text": "day",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/day.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ay.mp3",
+        "isCorrect": false
+    }, {
+        "id": 849,
+        "text": "pay",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pay.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ay.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 284, "type": "rime", "value": "ay", "reading_stage": 6},
+    "stimuli": [{
+        "id": 851,
+        "text": "my",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/my.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/y.mp3",
+        "isCorrect": false
+    }, {
+        "id": 852,
+        "text": "mag",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mag.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ag.mp3",
+        "isCorrect": false
+    }, {
+        "id": 850,
+        "text": "may",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/may.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ay.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 285, "type": "rime", "value": "ead", "reading_stage": 6},
+    "stimuli": [{
+        "id": 855,
+        "text": "bade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bade.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ade.mp3",
+        "isCorrect": false
+    }, {
+        "id": 854,
+        "text": "bed",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bed.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ed.mp3",
+        "isCorrect": false
+    }, {
+        "id": 853,
+        "text": "bead",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bead.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ead.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 286, "type": "rime", "value": "ead", "reading_stage": 6},
+    "stimuli": [{
+        "id": 857,
+        "text": "led",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/led.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ed.mp3",
+        "isCorrect": false
+    }, {
+        "id": 856,
+        "text": "lead",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lead.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ead.mp3",
+        "isCorrect": true
+    }, {
+        "id": 858,
+        "text": "lade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lade.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ade.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 287, "type": "rime", "value": "ead", "reading_stage": 6},
+    "stimuli": [{
+        "id": 859,
+        "text": "read",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/read.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ead.mp3",
+        "isCorrect": true
+    }, {
+        "id": 861,
+        "text": "rade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rade.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ade.mp3",
+        "isCorrect": false
+    }, {
+        "id": 860,
+        "text": "red",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/red.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ed.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 288, "type": "rime", "value": "eak", "reading_stage": 6},
+    "stimuli": [{
+        "id": 864,
+        "text": "peek",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/peek.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eek.mp3",
+        "isCorrect": false
+    }, {
+        "id": 862,
+        "text": "beak",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/beak.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eak.mp3",
+        "isCorrect": true
+    }, {
+        "id": 863,
+        "text": "bake",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bake.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ake.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 289, "type": "rime", "value": "eak", "reading_stage": 6},
+    "stimuli": [{
+        "id": 866,
+        "text": "spoke",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spoke.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oke.mp3",
+        "isCorrect": false
+    }, {
+        "id": 865,
+        "text": "speak",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/speak.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eak.mp3",
+        "isCorrect": true
+    }, {
+        "id": 867,
+        "text": "speck",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/speck.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eck.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 290, "type": "rime", "value": "eak", "reading_stage": 6},
+    "stimuli": [{
+        "id": 869,
+        "text": "wake",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wake.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ake.mp3",
+        "isCorrect": false
+    }, {
+        "id": 870,
+        "text": "wack",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wack.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": false
+    }, {
+        "id": 868,
+        "text": "weak",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/weak.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eak.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 291, "type": "rime", "value": "eam", "reading_stage": 6},
+    "stimuli": [{
+        "id": 872,
+        "text": "bame",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bame.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ame.mp3",
+        "isCorrect": false
+    }, {
+        "id": 873,
+        "text": "bean",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bean.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ean.mp3",
+        "isCorrect": false
+    }, {
+        "id": 871,
+        "text": "beam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/beam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eam.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 292, "type": "rime", "value": "eam", "reading_stage": 6},
+    "stimuli": [{
+        "id": 876,
+        "text": "teen",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/teen.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/een.mp3",
+        "isCorrect": false
+    }, {
+        "id": 875,
+        "text": "tame",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tame.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ame.mp3",
+        "isCorrect": false
+    }, {
+        "id": 874,
+        "text": "team",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/team.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eam.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 293, "type": "rime", "value": "eam", "reading_stage": 6},
+    "stimuli": [{
+        "id": 878,
+        "text": "cram",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cram.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }, {
+        "id": 877,
+        "text": "cream",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cream.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eam.mp3",
+        "isCorrect": true
+    }, {
+        "id": 879,
+        "text": "crame",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crame.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ame.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 294, "type": "rime", "value": "ear", "reading_stage": 6},
+    "stimuli": [{
+        "id": 880,
+        "text": "dear",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dear.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ear.mp3",
+        "isCorrect": true
+    }, {
+        "id": 882,
+        "text": "dare",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dare.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/are.mp3",
+        "isCorrect": false
+    }, {
+        "id": 881,
+        "text": "bear",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bear.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ear.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 295, "type": "rime", "value": "ear", "reading_stage": 6},
+    "stimuli": [{
+        "id": 884,
+        "text": "clare",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/clare.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/are.mp3",
+        "isCorrect": false
+    }, {
+        "id": 883,
+        "text": "clear",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/clear.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ear.mp3",
+        "isCorrect": true
+    }, {
+        "id": 885,
+        "text": "cler",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cler.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/er.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 296, "type": "rime", "value": "ear", "reading_stage": 6},
+    "stimuli": [{
+        "id": 886,
+        "text": "gear",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gear.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ear.mp3",
+        "isCorrect": true
+    }, {
+        "id": 887,
+        "text": "gare",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gare.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/are.mp3",
+        "isCorrect": false
+    }, {
+        "id": 888,
+        "text": "gean",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gean.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ean.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 297, "type": "rime", "value": "eat", "reading_stage": 6},
+    "stimuli": [{
+        "id": 890,
+        "text": "hate",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hate.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ate.mp3",
+        "isCorrect": false
+    }, {
+        "id": 889,
+        "text": "heat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/heat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eat.mp3",
+        "isCorrect": true
+    }, {
+        "id": 891,
+        "text": "heed",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/heed.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eed.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 298, "type": "rime", "value": "eat", "reading_stage": 6},
+    "stimuli": [{
+        "id": 894,
+        "text": "tred",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tred.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ed.mp3",
+        "isCorrect": false
+    }, {
+        "id": 893,
+        "text": "trate",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trate.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ate.mp3",
+        "isCorrect": false
+    }, {
+        "id": 892,
+        "text": "treat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/treat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eat.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 299, "type": "rime", "value": "eat", "reading_stage": 6},
+    "stimuli": [{
+        "id": 896,
+        "text": "deet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/deet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eet.mp3",
+        "isCorrect": false
+    }, {
+        "id": 895,
+        "text": "beat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/beat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eat.mp3",
+        "isCorrect": true
+    }, {
+        "id": 897,
+        "text": "bate",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bate.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ate.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 300, "type": "rime", "value": "eck", "reading_stage": 6},
+    "stimuli": [{
+        "id": 899,
+        "text": "dock",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dock.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ock.mp3",
+        "isCorrect": false
+    }, {
+        "id": 898,
+        "text": "deck",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/deck.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eck.mp3",
+        "isCorrect": true
+    }, {
+        "id": 900,
+        "text": "beck",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/beck.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eck.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 301, "type": "rime", "value": "eck", "reading_stage": 6},
+    "stimuli": [{
+        "id": 901,
+        "text": "neck",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/neck.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eck.mp3",
+        "isCorrect": true
+    }, {
+        "id": 902,
+        "text": "nack",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nack.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": false
+    }, {
+        "id": 903,
+        "text": "nick",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nick.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ick.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 302, "type": "rime", "value": "eck", "reading_stage": 6},
+    "stimuli": [{
+        "id": 904,
+        "text": "peck",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/peck.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eck.mp3",
+        "isCorrect": true
+    }, {
+        "id": 905,
+        "text": "pick",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pick.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ick.mp3",
+        "isCorrect": false
+    }, {
+        "id": 906,
+        "text": "pack",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pack.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 303, "type": "rime", "value": "eed", "reading_stage": 6},
+    "stimuli": [{
+        "id": 908,
+        "text": "ned",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ned.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ed.mp3",
+        "isCorrect": false
+    }, {
+        "id": 909,
+        "text": "neat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/neat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eat.mp3",
+        "isCorrect": false
+    }, {
+        "id": 907,
+        "text": "need",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/need.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eed.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 304, "type": "rime", "value": "eed", "reading_stage": 6},
+    "stimuli": [{
+        "id": 910,
+        "text": "speed",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/speed.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eed.mp3",
+        "isCorrect": true
+    }, {
+        "id": 911,
+        "text": "sped",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sped.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ed.mp3",
+        "isCorrect": false
+    }, {
+        "id": 912,
+        "text": "spade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spade.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ade.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 305, "type": "rime", "value": "eed", "reading_stage": 6},
+    "stimuli": [{
+        "id": 913,
+        "text": "feed",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/feed.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eed.mp3",
+        "isCorrect": true
+    }, {
+        "id": 915,
+        "text": "feet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/feet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eet.mp3",
+        "isCorrect": false
+    }, {
+        "id": 914,
+        "text": "fed",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fed.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ed.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 306, "type": "rime", "value": "eel", "reading_stage": 6},
+    "stimuli": [{
+        "id": 917,
+        "text": "hill",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hill.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ill.mp3",
+        "isCorrect": false
+    }, {
+        "id": 918,
+        "text": "hail",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hail.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ail.mp3",
+        "isCorrect": false
+    }, {
+        "id": 916,
+        "text": "heel",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/heel.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eel.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 307, "type": "rime", "value": "eel", "reading_stage": 6},
+    "stimuli": [{
+        "id": 921,
+        "text": "pale",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pale.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ale.mp3",
+        "isCorrect": false
+    }, {
+        "id": 920,
+        "text": "pell",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pell.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ell.mp3",
+        "isCorrect": false
+    }, {
+        "id": 919,
+        "text": "peel",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/peel.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eel.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 308, "type": "rime", "value": "eel", "reading_stage": 6},
+    "stimuli": [{
+        "id": 923,
+        "text": "stell",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stell.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ell.mp3",
+        "isCorrect": false
+    }, {
+        "id": 922,
+        "text": "steel",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/steel.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eel.mp3",
+        "isCorrect": true
+    }, {
+        "id": 924,
+        "text": "still",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/still.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ill.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 309, "type": "rime", "value": "een", "reading_stage": 6},
+    "stimuli": [{
+        "id": 926,
+        "text": "gren",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gren.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/en.mp3",
+        "isCorrect": false
+    }, {
+        "id": 925,
+        "text": "green",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/green.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/een.mp3",
+        "isCorrect": true
+    }, {
+        "id": 927,
+        "text": "greem",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/greem.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eem.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 310, "type": "rime", "value": "een", "reading_stage": 6},
+    "stimuli": [{
+        "id": 930,
+        "text": "seem",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/seem.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eem.mp3",
+        "isCorrect": false
+    }, {
+        "id": 929,
+        "text": "sen",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sen.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/en.mp3",
+        "isCorrect": false
+    }, {
+        "id": 928,
+        "text": "seen",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/seen.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/een.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 311, "type": "rime", "value": "een", "reading_stage": 6},
+    "stimuli": [{
+        "id": 933,
+        "text": "ben",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ben.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/en.mp3",
+        "isCorrect": false
+    }, {
+        "id": 931,
+        "text": "been",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/been.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/een.mp3",
+        "isCorrect": true
+    }, {
+        "id": 932,
+        "text": "dean",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dean.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ean.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 312, "type": "rime", "value": "eep", "reading_stage": 6},
+    "stimuli": [{
+        "id": 936,
+        "text": "kept",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/kept.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ept.mp3",
+        "isCorrect": false
+    }, {
+        "id": 934,
+        "text": "keep",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/keep.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eep.mp3",
+        "isCorrect": true
+    }, {
+        "id": 935,
+        "text": "kep",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/kep.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ep.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 313, "type": "rime", "value": "eep", "reading_stage": 6},
+    "stimuli": [{
+        "id": 938,
+        "text": "wept",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wept.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ept.mp3",
+        "isCorrect": false
+    }, {
+        "id": 937,
+        "text": "weep",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/weep.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eep.mp3",
+        "isCorrect": true
+    }, {
+        "id": 939,
+        "text": "wipe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wipe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ipe.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 314, "type": "rime", "value": "eep", "reading_stage": 6},
+    "stimuli": [{
+        "id": 941,
+        "text": "crep",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crep.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ep.mp3",
+        "isCorrect": false
+    }, {
+        "id": 942,
+        "text": "cripe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cripe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ipe.mp3",
+        "isCorrect": false
+    }, {
+        "id": 940,
+        "text": "creep",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/creep.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eep.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 315, "type": "rime", "value": "eet", "reading_stage": 6},
+    "stimuli": [{
+        "id": 945,
+        "text": "met",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/met.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 943,
+        "text": "meet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/meet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eet.mp3",
+        "isCorrect": true
+    }, {
+        "id": 944,
+        "text": "neat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/neat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eat.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 316, "type": "rime", "value": "eet", "reading_stage": 6},
+    "stimuli": [{
+        "id": 947,
+        "text": "strait",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/strait.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/str.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ait.mp3",
+        "isCorrect": false
+    }, {
+        "id": 946,
+        "text": "street",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/street.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/str.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eet.mp3",
+        "isCorrect": true
+    }, {
+        "id": 948,
+        "text": "stret",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stret.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/str.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 317, "type": "rime", "value": "eet", "reading_stage": 6},
+    "stimuli": [{
+        "id": 949,
+        "text": "beet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/beet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eet.mp3",
+        "isCorrect": true
+    }, {
+        "id": 951,
+        "text": "bet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 950,
+        "text": "bead",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bead.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ead.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 318, "type": "rime", "value": "ell", "reading_stage": 6},
+    "stimuli": [{
+        "id": 952,
+        "text": "smell",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/smell.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sm.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ell.mp3",
+        "isCorrect": true
+    }, {
+        "id": 953,
+        "text": "small",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/small.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sm.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": false
+    }, {
+        "id": 954,
+        "text": "smoll",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/smoll.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sm.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oll.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 319, "type": "rime", "value": "ell", "reading_stage": 6},
+    "stimuli": [{
+        "id": 955,
+        "text": "tell",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tell.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ell.mp3",
+        "isCorrect": true
+    }, {
+        "id": 957,
+        "text": "tail",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tail.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ail.mp3",
+        "isCorrect": false
+    }, {
+        "id": 956,
+        "text": "tall",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tall.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 320, "type": "rime", "value": "ell", "reading_stage": 6},
+    "stimuli": [{
+        "id": 958,
+        "text": "bell",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bell.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ell.mp3",
+        "isCorrect": true
+    }, {
+        "id": 960,
+        "text": "bill",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bill.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ill.mp3",
+        "isCorrect": false
+    }, {
+        "id": 959,
+        "text": "dell",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dell.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ell.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 321, "type": "rime", "value": "end", "reading_stage": 6},
+    "stimuli": [{
+        "id": 961,
+        "text": "blend",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/blend.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/bl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/end.mp3",
+        "isCorrect": true
+    }, {
+        "id": 962,
+        "text": "bland",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bland.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/bl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/and.mp3",
+        "isCorrect": false
+    }, {
+        "id": 963,
+        "text": "blond",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/blond.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/bl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ond.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 322, "type": "rime", "value": "end", "reading_stage": 6},
+    "stimuli": [{
+        "id": 965,
+        "text": "send",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/send.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/end.mp3",
+        "isCorrect": false
+    }, {
+        "id": 964,
+        "text": "spend",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spend.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/end.mp3",
+        "isCorrect": true
+    }, {
+        "id": 966,
+        "text": "spent",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spent.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ent.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 323, "type": "rime", "value": "end", "reading_stage": 6},
+    "stimuli": [{
+        "id": 967,
+        "text": "mend",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mend.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/end.mp3",
+        "isCorrect": true
+    }, {
+        "id": 969,
+        "text": "mand",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mand.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/and.mp3",
+        "isCorrect": false
+    }, {
+        "id": 968,
+        "text": "ment",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ment.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ent.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 324, "type": "rime", "value": "ent", "reading_stage": 6},
+    "stimuli": [{
+        "id": 971,
+        "text": "bent",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bent.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ent.mp3",
+        "isCorrect": false
+    }, {
+        "id": 970,
+        "text": "dent",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dent.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ent.mp3",
+        "isCorrect": true
+    }, {
+        "id": 972,
+        "text": "dant",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dant.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ant.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 325, "type": "rime", "value": "ent", "reading_stage": 6},
+    "stimuli": [{
+        "id": 975,
+        "text": "lend",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lend.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/end.mp3",
+        "isCorrect": false
+    }, {
+        "id": 973,
+        "text": "lent",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lent.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ent.mp3",
+        "isCorrect": true
+    }, {
+        "id": 974,
+        "text": "lint",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lint.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/int.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 326, "type": "rime", "value": "ent", "reading_stage": 6},
+    "stimuli": [{
+        "id": 978,
+        "text": "vont",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vont.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ont.mp3",
+        "isCorrect": false
+    }, {
+        "id": 977,
+        "text": "vend",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vend.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/end.mp3",
+        "isCorrect": false
+    }, {
+        "id": 976,
+        "text": "vent",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vent.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ent.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 327, "type": "rime", "value": "ick", "reading_stage": 6},
+    "stimuli": [{
+        "id": 980,
+        "text": "stuck",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stuck.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/uck.mp3",
+        "isCorrect": false
+    }, {
+        "id": 981,
+        "text": "steck",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/steck.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eck.mp3",
+        "isCorrect": false
+    }, {
+        "id": 979,
+        "text": "stick",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stick.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ick.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 328, "type": "rime", "value": "ick", "reading_stage": 6},
+    "stimuli": [{
+        "id": 982,
+        "text": "thick",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/thick.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ick.mp3",
+        "isCorrect": true
+    }, {
+        "id": 984,
+        "text": "theck",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/theck.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eck.mp3",
+        "isCorrect": false
+    }, {
+        "id": 983,
+        "text": "think",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/think.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ink.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 329, "type": "rime", "value": "ick", "reading_stage": 6},
+    "stimuli": [{
+        "id": 986,
+        "text": "kite",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/kite.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ite.mp3",
+        "isCorrect": false
+    }, {
+        "id": 987,
+        "text": "keck",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/keck.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eck.mp3",
+        "isCorrect": false
+    }, {
+        "id": 985,
+        "text": "kick",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/kick.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ick.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 330, "type": "rime", "value": "ill", "reading_stage": 6},
+    "stimuli": [{
+        "id": 989,
+        "text": "skull",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/skull.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sk.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ull.mp3",
+        "isCorrect": false
+    }, {
+        "id": 990,
+        "text": "skall",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/skall.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sk.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": false
+    }, {
+        "id": 988,
+        "text": "skill",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/skill.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sk.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ill.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 331, "type": "rime", "value": "ill", "reading_stage": 6},
+    "stimuli": [{
+        "id": 993,
+        "text": "bell",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bell.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ell.mp3",
+        "isCorrect": false
+    }, {
+        "id": 991,
+        "text": "bill",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bill.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ill.mp3",
+        "isCorrect": true
+    }, {
+        "id": 992,
+        "text": "dill",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dill.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ill.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 332, "type": "rime", "value": "ill", "reading_stage": 6},
+    "stimuli": [{
+        "id": 994,
+        "text": "will",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/will.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ill.mp3",
+        "isCorrect": true
+    }, {
+        "id": 996,
+        "text": "wilt",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wilt.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ilt.mp3",
+        "isCorrect": false
+    }, {
+        "id": 995,
+        "text": "well",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/well.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ell.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 333, "type": "rime", "value": "ing", "reading_stage": 6},
+    "stimuli": [{
+        "id": 997,
+        "text": "fling",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fling.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": true
+    }, {
+        "id": 998,
+        "text": "flang",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flang.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ang.mp3",
+        "isCorrect": false
+    }, {
+        "id": 999,
+        "text": "flint",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flint.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/int.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 334, "type": "rime", "value": "ing", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1002,
+        "text": "kong",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/kong.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ong.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1000,
+        "text": "king",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/king.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1001,
+        "text": "kin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/kin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 335, "type": "rime", "value": "ing", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1003,
+        "text": "bring",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bring.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1005,
+        "text": "brag",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brag.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ag.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1004,
+        "text": "brine",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brine.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ine.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 336, "type": "rime", "value": "ink", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1007,
+        "text": "peck",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/peck.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eck.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1008,
+        "text": "punk",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/punk.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/unk.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1006,
+        "text": "pink",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pink.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ink.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 337, "type": "rime", "value": "ink", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1010,
+        "text": "stank",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stank.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ank.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1011,
+        "text": "stint",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stint.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/int.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1009,
+        "text": "stink",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stink.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ink.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 338, "type": "rime", "value": "int", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1012,
+        "text": "hint",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hint.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/int.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1014,
+        "text": "hit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1013,
+        "text": "hent",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hent.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ent.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 339, "type": "rime", "value": "int", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1016,
+        "text": "ment",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ment.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ent.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1017,
+        "text": "mit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1015,
+        "text": "mint",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mint.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/int.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 340, "type": "rime", "value": "int", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1019,
+        "text": "tent",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tent.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ent.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1018,
+        "text": "tint",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tint.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/int.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1020,
+        "text": "tin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 341, "type": "rime", "value": "oad", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1021,
+        "text": "load",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/load.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oad.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1023,
+        "text": "lad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1022,
+        "text": "loave",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/loave.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oave.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 342, "type": "rime", "value": "oad", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1025,
+        "text": "rod",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rod.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/od.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1026,
+        "text": "rove",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rove.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ove.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1024,
+        "text": "road",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/road.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oad.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 343, "type": "rime", "value": "oad", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1029,
+        "text": "tod",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tod.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/od.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1028,
+        "text": "tope",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tope.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ope.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1027,
+        "text": "toad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/toad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oad.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 344, "type": "rime", "value": "oan", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1030,
+        "text": "groan",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/groan.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oan.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1032,
+        "text": "groam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/groam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oam.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1031,
+        "text": "gran",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gran.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 345, "type": "rime", "value": "oan", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1034,
+        "text": "lawn",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lawn.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/awn.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1035,
+        "text": "lome",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lome.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ome.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1033,
+        "text": "loan",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/loan.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oan.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 346, "type": "rime", "value": "oan", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1038,
+        "text": "mome",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mome.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ome.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1036,
+        "text": "moan",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/moan.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oan.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1037,
+        "text": "mow",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mow.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ow.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 347, "type": "rime", "value": "oat", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1039,
+        "text": "boat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/boat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oat.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1040,
+        "text": "bot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1041,
+        "text": "bode",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bode.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ode.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 348, "type": "rime", "value": "oat", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1042,
+        "text": "goat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/goat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oat.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1043,
+        "text": "got",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/got.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1044,
+        "text": "gode",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gode.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ode.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 349, "type": "rime", "value": "oat", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1045,
+        "text": "moat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/moat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oat.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1046,
+        "text": "mot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1047,
+        "text": "mode",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mode.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ode.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 350, "type": "rime", "value": "ock", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1050,
+        "text": "soke",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/soke.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oke.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1049,
+        "text": "sick",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sick.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ick.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1048,
+        "text": "sock",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sock.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ock.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 351, "type": "rime", "value": "ock", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1052,
+        "text": "fleck",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fleck.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eck.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1051,
+        "text": "flock",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flock.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ock.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1053,
+        "text": "flot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 352, "type": "rime", "value": "ock", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1056,
+        "text": "roke",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/roke.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oke.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1054,
+        "text": "rock",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rock.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ock.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1055,
+        "text": "rack",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rack.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 353, "type": "rime", "value": "oil", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1059,
+        "text": "cole",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cole.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ole.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1058,
+        "text": "cole",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cole.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ole.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1057,
+        "text": "coil",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/coil.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oil.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 354, "type": "rime", "value": "oil", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1060,
+        "text": "spoil",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spoil.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oil.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1062,
+        "text": "spoy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spoy.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oy.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1061,
+        "text": "spole",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spole.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ole.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 355, "type": "rime", "value": "oil", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1064,
+        "text": "bowl",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bowl.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/owl.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1065,
+        "text": "bail",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bail.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ail.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1063,
+        "text": "boil",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/boil.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oil.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 356, "type": "rime", "value": "ong", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1068,
+        "text": "lang",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lang.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ang.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1066,
+        "text": "long",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/long.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ong.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1067,
+        "text": "lone",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lone.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/one.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 357, "type": "rime", "value": "ong", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1070,
+        "text": "sang",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sang.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ang.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1069,
+        "text": "song",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/song.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ong.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1071,
+        "text": "sing",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sing.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 358, "type": "rime", "value": "ood", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1072,
+        "text": "hood",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hood.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ood.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1073,
+        "text": "hod",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hod.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/od.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1074,
+        "text": "hode",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hode.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ode.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 359, "type": "rime", "value": "ood", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1076,
+        "text": "stoop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stoop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oop.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1077,
+        "text": "stod",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stod.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/od.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1075,
+        "text": "stood",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stood.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ood.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 360, "type": "rime", "value": "ood", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1080,
+        "text": "would",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/would.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ould.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1079,
+        "text": "mood",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mood.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ood.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1078,
+        "text": "wood",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wood.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ood.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 361, "type": "rime", "value": "ool", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1082,
+        "text": "foal",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/foal.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oal.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1081,
+        "text": "fool",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fool.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ool.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1083,
+        "text": "fall",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fall.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 362, "type": "rime", "value": "ool", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1085,
+        "text": "pole",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pole.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ole.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1084,
+        "text": "pool",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pool.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ool.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1086,
+        "text": "pull",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pull.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ull.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 363, "type": "rime", "value": "ool", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1089,
+        "text": "stall",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stall.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1087,
+        "text": "stool",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stool.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ool.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1088,
+        "text": "stole",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stole.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ole.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 364, "type": "rime", "value": "oom", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1090,
+        "text": "broom",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/broom.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oom.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1092,
+        "text": "brome",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brome.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ome.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1091,
+        "text": "brum",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brum.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/um.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 365, "type": "rime", "value": "oom", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1094,
+        "text": "groan",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/groan.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oan.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1095,
+        "text": "grome",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grome.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ome.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1093,
+        "text": "groom",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/groom.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oom.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 366, "type": "rime", "value": "oom", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1097,
+        "text": "zone",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/zone.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/z.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/one.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1096,
+        "text": "zoom",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/zoom.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/z.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oom.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1098,
+        "text": "zom",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/zom.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/z.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/om.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 367, "type": "rime", "value": "oon", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1100,
+        "text": "moom",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/moom.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oom.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1099,
+        "text": "moon",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/moon.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oon.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1101,
+        "text": "mon",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mon.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/on.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 368, "type": "rime", "value": "oon", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1103,
+        "text": "son",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/son.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/on.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1104,
+        "text": "sone",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sone.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/one.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1102,
+        "text": "soon",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/soon.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oon.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 369, "type": "rime", "value": "oon", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1105,
+        "text": "spoon",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spoon.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oon.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1107,
+        "text": "spine",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spine.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ine.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1106,
+        "text": "spon",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spon.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/on.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 370, "type": "rime", "value": "oop", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1109,
+        "text": "gop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1108,
+        "text": "goop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/goop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oop.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1110,
+        "text": "gope",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gope.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ope.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 371, "type": "rime", "value": "oop", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1113,
+        "text": "hood",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hood.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ood.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1111,
+        "text": "hoop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hoop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oop.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1112,
+        "text": "hop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 372, "type": "rime", "value": "oop", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1114,
+        "text": "loop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/loop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oop.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1116,
+        "text": "lope",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lope.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ope.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1115,
+        "text": "lop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 373, "type": "rime", "value": "oot", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1119,
+        "text": "book",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/book.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ook.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1117,
+        "text": "boot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/boot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oot.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1118,
+        "text": "bot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 374, "type": "rime", "value": "oot", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1120,
+        "text": "hoot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hoot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oot.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1122,
+        "text": "hot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1121,
+        "text": "hood",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hood.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ood.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 375, "type": "rime", "value": "oot", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1125,
+        "text": "scout",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/scout.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sc.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/out.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1123,
+        "text": "scoot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/scoot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sc.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oot.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1124,
+        "text": "scot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/scot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sc.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 376, "type": "rime", "value": "out", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1128,
+        "text": "pote",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pote.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ote.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1126,
+        "text": "pout",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pout.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/out.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1127,
+        "text": "put",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/put.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 377, "type": "rime", "value": "out", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1129,
+        "text": "shout",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shout.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/out.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1130,
+        "text": "shut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1131,
+        "text": "shote",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shote.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ote.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 378, "type": "rime", "value": "out", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1134,
+        "text": "trow",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trow.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ow.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1133,
+        "text": "trot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1132,
+        "text": "trout",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trout.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/out.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 379, "type": "rime", "value": "oy", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1135,
+        "text": "boy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/boy.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oy.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1136,
+        "text": "bow",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bow.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ow.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1137,
+        "text": "bog",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bog.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/og.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 380, "type": "rime", "value": "oy", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1139,
+        "text": "jot",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jot.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1140,
+        "text": "joe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/joe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oe.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1138,
+        "text": "joy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/joy.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oy.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 381, "type": "rime", "value": "oy", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1141,
+        "text": "coy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/coy.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oy.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1143,
+        "text": "cod",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cod.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/od.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1142,
+        "text": "cow",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cow.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ow.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 382, "type": "rime", "value": "uck", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1145,
+        "text": "back",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/back.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1144,
+        "text": "buck",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/buck.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/uck.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1146,
+        "text": "buke",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/buke.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/uke.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 383, "type": "rime", "value": "uck", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1148,
+        "text": "track",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/track.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1149,
+        "text": "trick",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trick.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ick.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1147,
+        "text": "truck",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/truck.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/uck.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 384, "type": "rime", "value": "uck", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1152,
+        "text": "lock",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lock.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ock.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1151,
+        "text": "lack",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lack.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1150,
+        "text": "luck",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/luck.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/uck.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 385, "type": "rime", "value": "ump", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1154,
+        "text": "gramp",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gramp.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/amp.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1153,
+        "text": "grump",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grump.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ump.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1155,
+        "text": "grumb",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grumb.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/umb.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 386, "type": "rime", "value": "ump", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1157,
+        "text": "jemp",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jemp.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/emp.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1158,
+        "text": "junp",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/junp.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/unp.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1156,
+        "text": "jump",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jump.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ump.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 387, "type": "rime", "value": "ump", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1161,
+        "text": "slum",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slum.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/um.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1160,
+        "text": "slope",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slope.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ope.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1159,
+        "text": "slump",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slump.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ump.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 388, "type": "rime", "value": "ung", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1164,
+        "text": "snug",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/snug.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sn.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ug.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1162,
+        "text": "sung",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sung.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ung.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1163,
+        "text": "sang",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sang.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ang.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 389, "type": "rime", "value": "ung", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1165,
+        "text": "stung",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stung.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ung.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1167,
+        "text": "stump",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stump.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ump.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1166,
+        "text": "sting",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sting.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 390, "type": "rime", "value": "ung", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1170,
+        "text": "hang",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hang.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ang.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1169,
+        "text": "huge",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/huge.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/uge.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1168,
+        "text": "hung",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hung.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ung.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 391, "type": "rime", "value": "unk", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1171,
+        "text": "trunk",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trunk.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/unk.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1172,
+        "text": "truck",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/truck.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/uck.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1173,
+        "text": "trenk",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trenk.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/enk.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 392, "type": "rime", "value": "unk", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1174,
+        "text": "sunk",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sunk.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/unk.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1176,
+        "text": "suck",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/suck.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/uck.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1175,
+        "text": "sank",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sank.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ank.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 393, "type": "rime", "value": "unk", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1179,
+        "text": "dock",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dock.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ock.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1178,
+        "text": "dank",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dank.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ank.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1177,
+        "text": "dunk",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dunk.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/unk.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 394, "type": "rime", "value": "unt", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1182,
+        "text": "hound",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hound.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ound.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1180,
+        "text": "hunt",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hunt.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/unt.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1181,
+        "text": "hint",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hint.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/int.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 395, "type": "rime", "value": "unt", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1184,
+        "text": "rant",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rant.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ant.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1183,
+        "text": "runt",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/runt.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/unt.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1185,
+        "text": "rut",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rut.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 396, "type": "rime", "value": "unt", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1188,
+        "text": "grin",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grin.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1186,
+        "text": "grunt",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grunt.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/unt.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1187,
+        "text": "grump",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grump.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ump.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 397, "type": "rime", "value": "y", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1190,
+        "text": "cray",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cray.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ay.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1191,
+        "text": "crey",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crey.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ey.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1189,
+        "text": "cry",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cry.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/y.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 398, "type": "rime", "value": "y", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1192,
+        "text": "shy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shy.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/y.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1193,
+        "text": "shaw",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shaw.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aw.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1194,
+        "text": "shine",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shine.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ine.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 399, "type": "rime", "value": "y", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1196,
+        "text": "whey",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/whey.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ey.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1195,
+        "text": "why",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/why.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/y.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1197,
+        "text": "whee",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/whee.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ee.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 400, "type": "onset", "value": "spr", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1200,
+        "text": "bring",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bring.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1199,
+        "text": "ring",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ring.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1198,
+        "text": "spring",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spring.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/spr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 401, "type": "onset", "value": "spr", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1202,
+        "text": "print",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/print.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/int.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1203,
+        "text": "stint",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stint.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/int.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1201,
+        "text": "sprint",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sprint.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/spr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/int.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 402, "type": "onset", "value": "spr", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1206,
+        "text": "prongs",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/prongs.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ongs.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1205,
+        "text": "strange",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/strange.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/str.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ange.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1204,
+        "text": "sprang",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sprang.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/spr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ang.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 403, "type": "onset", "value": "str", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1209,
+        "text": "sting",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sting.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1207,
+        "text": "string",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/string.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/str.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1208,
+        "text": "tiring",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tiring.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/iring.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 404, "type": "onset", "value": "str", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1210,
+        "text": "stray",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stray.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/str.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ay.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1212,
+        "text": "slay",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slay.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ay.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1211,
+        "text": "stay",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stay.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ay.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 405, "type": "onset", "value": "str", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1214,
+        "text": "tripe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tripe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ipe.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1215,
+        "text": "stipe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stipe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ipe.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1213,
+        "text": "stripe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stripe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/str.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ipe.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 406, "type": "rime", "value": "ace", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1216,
+        "text": "grace",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grace.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ace.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1218,
+        "text": "grease",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grease.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ease.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1217,
+        "text": "grice",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grice.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ice.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 407, "type": "rime", "value": "ace", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1220,
+        "text": "trice",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trice.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ice.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1219,
+        "text": "trace",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trace.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ace.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1221,
+        "text": "trash",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trash.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ash.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 408, "type": "rime", "value": "ace", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1223,
+        "text": "pac",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pac.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ac.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1222,
+        "text": "pace",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pace.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ace.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1224,
+        "text": "pack",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pack.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 409, "type": "rime", "value": "ag", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1226,
+        "text": "flat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1225,
+        "text": "flag",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flag.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ag.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1227,
+        "text": "flug",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flug.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ug.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 410, "type": "rime", "value": "ag", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1230,
+        "text": "drab",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/drab.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/dr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ab.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1228,
+        "text": "drag",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/drag.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/dr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ag.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1229,
+        "text": "dreg",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dreg.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/dr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eg.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 411, "type": "rime", "value": "ag", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1233,
+        "text": "snack",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/snack.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sn.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1231,
+        "text": "snag",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/snag.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sn.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ag.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1232,
+        "text": "snug",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/snug.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sn.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ug.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 412, "type": "rime", "value": "age", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1235,
+        "text": "pag",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pag.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ag.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1234,
+        "text": "page",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/page.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/age.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1236,
+        "text": "poge",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/poge.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oge.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 413, "type": "rime", "value": "age", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1238,
+        "text": "rag",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rag.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ag.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1237,
+        "text": "rage",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rage.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/age.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1239,
+        "text": "ridge",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ridge.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/idge.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 414, "type": "rime", "value": "age", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1242,
+        "text": "wedge",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wedge.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/edge.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1240,
+        "text": "wage",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wage.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/age.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1241,
+        "text": "wag",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wag.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ag.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 415, "type": "rime", "value": "ake", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1244,
+        "text": "cack",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cack.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1243,
+        "text": "cake",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cake.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ake.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1245,
+        "text": "coke",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/coke.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oke.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 416, "type": "rime", "value": "ake", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1248,
+        "text": "fleek",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fleek.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eek.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1246,
+        "text": "flake",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flake.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ake.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1247,
+        "text": "flack",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flack.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 417, "type": "rime", "value": "ake", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1249,
+        "text": "make",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/make.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ake.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1250,
+        "text": "mack",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mack.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1251,
+        "text": "mike",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mike.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ike.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 418, "type": "rime", "value": "ale", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1253,
+        "text": "stole",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stole.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ole.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1252,
+        "text": "stale",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stale.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ale.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1254,
+        "text": "stall",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stall.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 419, "type": "rime", "value": "ale", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1255,
+        "text": "pale",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pale.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ale.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1257,
+        "text": "pole",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pole.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ole.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1256,
+        "text": "pal",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pal.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/al.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 420, "type": "rime", "value": "ale", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1260,
+        "text": "wheel",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wheel.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eel.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1258,
+        "text": "whale",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/whale.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ale.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1259,
+        "text": "wall",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wall.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 421, "type": "rime", "value": "ard", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1263,
+        "text": "sharb",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sharb.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/arb.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1261,
+        "text": "shard",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shard.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ard.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1262,
+        "text": "sharp",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sharp.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/arp.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 422, "type": "rime", "value": "ard", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1265,
+        "text": "lad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1264,
+        "text": "lard",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lard.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ard.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1266,
+        "text": "lark",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lark.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ark.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 423, "type": "rime", "value": "ard", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1269,
+        "text": "cord",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cord.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ord.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1268,
+        "text": "curd",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/curd.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/urd.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1267,
+        "text": "card",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/card.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ard.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 424, "type": "rime", "value": "are", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1272,
+        "text": "bore",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bore.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ore.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1270,
+        "text": "bare",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bare.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/are.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1271,
+        "text": "bar",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bar.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ar.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 425, "type": "rime", "value": "are", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1274,
+        "text": "spar",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spar.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ar.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1273,
+        "text": "spare",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spare.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/are.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1275,
+        "text": "spear",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spear.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ear.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 426, "type": "rime", "value": "are", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1277,
+        "text": "glar",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/glar.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ar.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1276,
+        "text": "glare",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/glare.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/are.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1278,
+        "text": "gleam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gleam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eam.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 427, "type": "rime", "value": "ark", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1279,
+        "text": "spark",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spark.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ark.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1281,
+        "text": "spart",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spart.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/art.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1280,
+        "text": "spork",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spork.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ork.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 428, "type": "rime", "value": "ark", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1283,
+        "text": "back",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/back.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1282,
+        "text": "bark",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bark.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ark.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1284,
+        "text": "bart",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bart.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/art.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 429, "type": "rime", "value": "ark", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1287,
+        "text": "mart",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mart.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/art.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1286,
+        "text": "mack",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mack.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1285,
+        "text": "mark",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mark.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ark.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 430, "type": "rime", "value": "arm", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1289,
+        "text": "char",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/char.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ar.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1288,
+        "text": "charm",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/charm.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/arm.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1290,
+        "text": "churn",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/churn.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/urn.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 431, "type": "rime", "value": "arm", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1293,
+        "text": "harn",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/harn.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/arn.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1292,
+        "text": "ham",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ham.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1291,
+        "text": "harm",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/harm.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/arm.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 432, "type": "rime", "value": "ab", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1295,
+        "text": "dad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1296,
+        "text": "dob",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dob.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ob.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1294,
+        "text": "dab",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dab.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ab.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 433, "type": "rime", "value": "ab", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1299,
+        "text": "crad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1298,
+        "text": "crib",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crib.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ib.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1297,
+        "text": "crab",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crab.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ab.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 434, "type": "rime", "value": "ab", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1301,
+        "text": "tad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1300,
+        "text": "tab",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tab.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ab.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1302,
+        "text": "tap",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tap.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ap.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 435, "type": "rime", "value": "oke", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1303,
+        "text": "choke",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/choke.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oke.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1305,
+        "text": "check",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/check.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eck.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1304,
+        "text": "chock",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chock.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ock.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 436, "type": "rime", "value": "oke", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1308,
+        "text": "wock",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wock.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ock.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1307,
+        "text": "wake",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wake.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ake.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1306,
+        "text": "woke",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/woke.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oke.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 437, "type": "rime", "value": "oke", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1310,
+        "text": "jake",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jake.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ake.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1309,
+        "text": "joke",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/joke.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oke.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1311,
+        "text": "jolt",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jolt.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/olt.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 438, "type": "rime", "value": "old", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1313,
+        "text": "called",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/called.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/alled.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1312,
+        "text": "cold",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cold.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/old.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1314,
+        "text": "culd",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/culd.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/uld.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 439, "type": "rime", "value": "old", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1315,
+        "text": "gold",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gold.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/old.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1317,
+        "text": "goal",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/goal.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oal.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1316,
+        "text": "gild",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gild.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ild.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 440, "type": "rime", "value": "old", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1318,
+        "text": "told",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/told.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/old.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1320,
+        "text": "tiled",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tiled.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/iled.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1319,
+        "text": "toll",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/toll.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oll.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 441, "type": "rime", "value": "ole", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1322,
+        "text": "heel",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/heel.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eel.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1323,
+        "text": "hall",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hall.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1321,
+        "text": "hole",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hole.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ole.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 442, "type": "rime", "value": "ole", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1324,
+        "text": "sole",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sole.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ole.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1326,
+        "text": "sold",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sold.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/old.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1325,
+        "text": "sell",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sell.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ell.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 443, "type": "rime", "value": "ole", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1327,
+        "text": "mole",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mole.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ole.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1328,
+        "text": "mold",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mold.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/old.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1329,
+        "text": "male",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/male.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ale.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 444, "type": "rime", "value": "ore", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1332,
+        "text": "chair",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chair.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/air.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1331,
+        "text": "char",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/char.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ar.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1330,
+        "text": "chore",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chore.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ore.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 445, "type": "rime", "value": "ore", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1335,
+        "text": "mire",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mire.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ire.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1334,
+        "text": "mar",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mar.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ar.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1333,
+        "text": "more",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/more.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ore.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 446, "type": "rime", "value": "ore", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1336,
+        "text": "store",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/store.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ore.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1338,
+        "text": "stone",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stone.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/one.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1337,
+        "text": "stare",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stare.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/are.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 447, "type": "rime", "value": "orn", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1339,
+        "text": "born",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/born.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/orn.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1340,
+        "text": "borm",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/borm.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/orm.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1341,
+        "text": "barn",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/barn.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/arn.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 448, "type": "rime", "value": "orn", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1343,
+        "text": "town",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/town.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/own.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1344,
+        "text": "turn",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/turn.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/urn.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1342,
+        "text": "torn",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/torn.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/orn.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 449, "type": "rime", "value": "orn", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1347,
+        "text": "corm",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/corm.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/orm.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1345,
+        "text": "corn",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/corn.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/orn.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1346,
+        "text": "core",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/core.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ore.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 450, "type": "rime", "value": "ose", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1350,
+        "text": "though",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/though.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ough.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1349,
+        "text": "these",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/these.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ese.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1348,
+        "text": "those",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/those.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ose.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 451, "type": "rime", "value": "ose", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1351,
+        "text": "nose",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nose.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ose.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1353,
+        "text": "nice",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nice.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ice.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1352,
+        "text": "noise",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/noise.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oise.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 452, "type": "rime", "value": "ose", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1355,
+        "text": "house",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/house.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ouse.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1356,
+        "text": "hos",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hos.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/os.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1354,
+        "text": "hose",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hose.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ose.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 453, "type": "rime", "value": "ox", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1358,
+        "text": "bax",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bax.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ax.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1359,
+        "text": "bock",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bock.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ock.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1357,
+        "text": "box",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/box.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ox.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 454, "type": "rime", "value": "ox", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1360,
+        "text": "fox",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fox.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ox.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1362,
+        "text": "fix",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fix.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ix.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1361,
+        "text": "fax",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fax.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ax.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 455, "type": "rime", "value": "ub", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1365,
+        "text": "pup",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pup.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/up.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1364,
+        "text": "peb",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/peb.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eb.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1363,
+        "text": "pub",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pub.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ub.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 456, "type": "rime", "value": "ub", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1367,
+        "text": "robe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/robe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/obe.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1366,
+        "text": "rub",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rub.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ub.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1368,
+        "text": "rob",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rob.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ob.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 457, "type": "rime", "value": "ub", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1370,
+        "text": "sup",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sup.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/up.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1371,
+        "text": "sad",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sad.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ad.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1369,
+        "text": "sub",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sub.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ub.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 458, "type": "rime", "value": "ube", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1373,
+        "text": "cub",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cub.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ub.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1374,
+        "text": "cute",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cute.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ute.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1372,
+        "text": "cube",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cube.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ube.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 459, "type": "rime", "value": "ube", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1377,
+        "text": "tude",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tude.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ude.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1376,
+        "text": "tub",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tub.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ub.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1375,
+        "text": "tube",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tube.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ube.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 460, "type": "rime", "value": "ug", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1379,
+        "text": "slog",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slog.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/og.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1380,
+        "text": "slub",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slub.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ub.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1378,
+        "text": "slug",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slug.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ug.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 461, "type": "rime", "value": "ug", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1382,
+        "text": "huge",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/huge.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/uge.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1381,
+        "text": "hug",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hug.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ug.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1383,
+        "text": "hag",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hag.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ag.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 462, "type": "rime", "value": "ug", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1385,
+        "text": "snag",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/snag.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sn.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ag.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1386,
+        "text": "snog",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/snog.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sn.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/og.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1384,
+        "text": "snug",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/snug.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sn.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ug.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 463, "type": "rime", "value": "ule", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1388,
+        "text": "mull",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mull.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ull.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1389,
+        "text": "mute",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mute.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ute.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1387,
+        "text": "mule",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mule.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ule.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 464, "type": "rime", "value": "ule", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1392,
+        "text": "rul",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rul.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ul.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1390,
+        "text": "rule",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rule.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ule.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1391,
+        "text": "role",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/role.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ole.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 465, "type": "rime", "value": "urn", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1395,
+        "text": "born",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/born.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/orn.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1393,
+        "text": "burn",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/burn.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/urn.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1394,
+        "text": "barn",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/barn.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/arn.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 466, "type": "rime", "value": "urn", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1398,
+        "text": "chum",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chum.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/um.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1396,
+        "text": "churn",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/churn.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/urn.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1397,
+        "text": "charm",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/charm.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/arm.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 467, "type": "rime", "value": "urn", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1401,
+        "text": "tarn",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tarn.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/arn.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1399,
+        "text": "turn",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/turn.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/urn.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1400,
+        "text": "torn",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/torn.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/orn.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 468, "type": "rime", "value": "art", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1402,
+        "text": "part",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/part.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/art.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1404,
+        "text": "park",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/park.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ark.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1403,
+        "text": "pat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pat.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/at.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 469, "type": "rime", "value": "art", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1407,
+        "text": "dirt",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dirt.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/irt.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1405,
+        "text": "dart",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dart.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/art.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1406,
+        "text": "dark",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dark.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ark.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 470, "type": "rime", "value": "art", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1410,
+        "text": "shirk",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shirk.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/irk.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1408,
+        "text": "shark",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shark.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ark.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1409,
+        "text": "shock",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shock.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ock.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 471, "type": "rime", "value": "ase", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1413,
+        "text": "bose",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bose.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ose.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1411,
+        "text": "base",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/base.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ase.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1412,
+        "text": "bate",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bate.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ate.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 472, "type": "rime", "value": "ase", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1416,
+        "text": "voice",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/voice.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oice.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1415,
+        "text": "vice",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vice.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ice.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1414,
+        "text": "vase",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vase.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ase.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 473, "type": "rime", "value": "ase", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1418,
+        "text": "chance",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chance.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ance.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1419,
+        "text": "choice",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/choice.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oice.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1417,
+        "text": "chase",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chase.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ase.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 474, "type": "rime", "value": "ave", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1420,
+        "text": "cave",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cave.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ave.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1421,
+        "text": "cav",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cav.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/av.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1422,
+        "text": "case",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/case.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ase.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 475, "type": "rime", "value": "ave", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1424,
+        "text": "pav",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pav.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/av.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1425,
+        "text": "peeve",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/peeve.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eeve.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1423,
+        "text": "pave",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pave.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ave.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 476, "type": "rime", "value": "ave", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1427,
+        "text": "grove",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grove.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ove.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1428,
+        "text": "grace",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grace.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ace.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1426,
+        "text": "grave",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/grave.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ave.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 477, "type": "rime", "value": "aze", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1430,
+        "text": "blaz",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/blaz.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/bl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/az.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1429,
+        "text": "blaze",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/blaze.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/bl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aze.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1431,
+        "text": "breeze",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/breeze.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eeze.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 478, "type": "rime", "value": "aze", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1432,
+        "text": "haze",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/haze.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aze.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1433,
+        "text": "hose",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hose.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ose.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1434,
+        "text": "have",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/have.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ave.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 479, "type": "rime", "value": "aze", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1435,
+        "text": "gaze",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gaze.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aze.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1436,
+        "text": "gaz",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gaz.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/az.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1437,
+        "text": "geese",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/geese.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eese.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 480, "type": "rime", "value": "eg", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1440,
+        "text": "bag",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bag.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ag.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1438,
+        "text": "beg",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/beg.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eg.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1439,
+        "text": "bog",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bog.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/og.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 481, "type": "rime", "value": "eg", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1443,
+        "text": "lag",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lag.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ag.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1441,
+        "text": "leg",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/leg.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eg.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1442,
+        "text": "log",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/log.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/og.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 482, "type": "rime", "value": "eg", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1445,
+        "text": "pog",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pog.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/og.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1446,
+        "text": "pet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1444,
+        "text": "peg",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/peg.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eg.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 483, "type": "rime", "value": "elt", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1447,
+        "text": "belt",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/belt.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/elt.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1449,
+        "text": "bet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1448,
+        "text": "bolt",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bolt.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/olt.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 484, "type": "rime", "value": "elt", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1452,
+        "text": "fault",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fault.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ault.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1451,
+        "text": "fell",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fell.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ell.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1450,
+        "text": "felt",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/felt.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/elt.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 485, "type": "rime", "value": "elt", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1454,
+        "text": "molt",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/molt.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/olt.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1453,
+        "text": "melt",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/melt.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/elt.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1455,
+        "text": "met",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/met.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 486, "type": "rime", "value": "ib", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1457,
+        "text": "rob",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rob.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ob.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1458,
+        "text": "rid",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rid.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/id.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1456,
+        "text": "rib",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rib.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ib.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 487, "type": "rime", "value": "ib", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1461,
+        "text": "fab",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fab.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ab.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1459,
+        "text": "fib",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fib.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ib.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1460,
+        "text": "fid",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fid.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/id.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 488, "type": "rime", "value": "ib", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1462,
+        "text": "crib",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crib.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ib.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1464,
+        "text": "crumb",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crumb.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/umb.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1463,
+        "text": "crab",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crab.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ab.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 489, "type": "rime", "value": "ibe", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1465,
+        "text": "bribe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bribe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ibe.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1467,
+        "text": "bride",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bride.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ide.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1466,
+        "text": "brib",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brib.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ib.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 490, "type": "rime", "value": "ibe", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1469,
+        "text": "tripe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tripe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ipe.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1470,
+        "text": "tried",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tried.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ied.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1468,
+        "text": "tribe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tribe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ibe.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 491, "type": "rime", "value": "ice", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1473,
+        "text": "mace",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mace.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ace.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1472,
+        "text": "mic",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mic.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ic.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1471,
+        "text": "mice",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mice.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ice.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 492, "type": "rime", "value": "ice", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1476,
+        "text": "reese",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/reese.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eese.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1475,
+        "text": "rise",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rise.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ise.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1474,
+        "text": "rice",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rice.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ice.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 493, "type": "rime", "value": "ice", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1477,
+        "text": "nice",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nice.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ice.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1479,
+        "text": "nose",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/nose.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ose.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1478,
+        "text": "niece",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/niece.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/iece.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 494, "type": "rime", "value": "ig", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1482,
+        "text": "dug",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dug.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ug.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1480,
+        "text": "dig",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dig.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ig.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1481,
+        "text": "dog",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dog.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/og.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 495, "type": "rime", "value": "ig", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1485,
+        "text": "beg",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/beg.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eg.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1484,
+        "text": "bog",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bog.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/og.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1483,
+        "text": "big",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/big.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ig.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 496, "type": "rime", "value": "ig", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1486,
+        "text": "wig",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wig.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ig.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1487,
+        "text": "wag",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wag.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ag.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1488,
+        "text": "win",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/win.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/in.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 497, "type": "rime", "value": "ike", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1491,
+        "text": "hick",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hick.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ick.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1489,
+        "text": "hike",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hike.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ike.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1490,
+        "text": "hide",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hide.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ide.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 498, "type": "rime", "value": "ike", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1494,
+        "text": "lake",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lake.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ake.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1492,
+        "text": "like",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/like.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ike.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1493,
+        "text": "lick",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lick.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ick.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 499, "type": "rime", "value": "ike", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1495,
+        "text": "pike",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pike.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ike.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1496,
+        "text": "pick",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pick.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ick.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1497,
+        "text": "poke",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/poke.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oke.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 500, "type": "rime", "value": "ile", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1500,
+        "text": "fine",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fine.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ine.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1499,
+        "text": "fill",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fill.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ill.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1498,
+        "text": "file",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/file.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ile.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 501, "type": "rime", "value": "ile", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1502,
+        "text": "tilt",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tilt.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ilt.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1501,
+        "text": "tile",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tile.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ile.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1503,
+        "text": "toil",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/toil.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oil.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 502, "type": "rime", "value": "ile", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1506,
+        "text": "pale",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pale.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ale.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1505,
+        "text": "pill",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pill.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ill.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1504,
+        "text": "pile",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pile.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ile.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 503, "type": "rime", "value": "ilk", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1509,
+        "text": "mink",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mink.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ink.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1507,
+        "text": "milk",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/milk.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ilk.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1508,
+        "text": "mulk",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mulk.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ulk.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 504, "type": "rime", "value": "ilk", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1510,
+        "text": "silk",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/silk.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ilk.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1512,
+        "text": "skill",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/skill.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sk.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ill.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1511,
+        "text": "sulk",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sulk.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ulk.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 505, "type": "rime", "value": "ire", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1513,
+        "text": "tire",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tire.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ire.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1514,
+        "text": "tore",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tore.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ore.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1515,
+        "text": "tar",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tar.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ar.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 506, "type": "rime", "value": "ire", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1518,
+        "text": "wise",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wise.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ise.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1517,
+        "text": "wore",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wore.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ore.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1516,
+        "text": "wire",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wire.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ire.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 507, "type": "rime", "value": "ire", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1520,
+        "text": "her",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/her.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/er.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1521,
+        "text": "hare",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hare.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/are.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1519,
+        "text": "hire",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hire.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ire.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 508, "type": "rime", "value": "ive", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1524,
+        "text": "driv",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/driv.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/dr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/iv.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1522,
+        "text": "drive",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/drive.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/dr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ive.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1523,
+        "text": "drove",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/drove.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/dr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ove.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 509, "type": "rime", "value": "ive", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1527,
+        "text": "fiv",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fiv.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/iv.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1525,
+        "text": "five",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/five.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ive.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1526,
+        "text": "fave",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fave.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ave.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 510, "type": "rime", "value": "ive", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1528,
+        "text": "live",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/live.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ive.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1529,
+        "text": "love",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/love.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ove.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1530,
+        "text": "like",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/like.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ike.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 511, "type": "rime", "value": "ix", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1531,
+        "text": "fix",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fix.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ix.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1532,
+        "text": "fox",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fox.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ox.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1533,
+        "text": "fax",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fax.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ax.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 512, "type": "rime", "value": "ix", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1535,
+        "text": "mit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1536,
+        "text": "max",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/max.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ax.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1534,
+        "text": "mix",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mix.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ix.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 513, "type": "rime", "value": "ix", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1537,
+        "text": "six",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/six.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ix.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1539,
+        "text": "stick",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stick.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ick.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1538,
+        "text": "sox",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sox.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ox.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 514, "type": "rime", "value": "ob", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1542,
+        "text": "mobe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mobe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/obe.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1540,
+        "text": "mob",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mob.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ob.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1541,
+        "text": "mod",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mod.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/od.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 515, "type": "rime", "value": "ob", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1545,
+        "text": "slab",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slab.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ab.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1543,
+        "text": "slob",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slob.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ob.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1544,
+        "text": "slub",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slub.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ub.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 516, "type": "rime", "value": "ob", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1548,
+        "text": "cobe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cobe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/obe.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1546,
+        "text": "cob",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cob.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ob.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1547,
+        "text": "cod",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cod.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/od.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 517, "type": "rime", "value": "obe", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1549,
+        "text": "lobe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lobe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/obe.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1551,
+        "text": "lope",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lope.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ope.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1550,
+        "text": "lob",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lob.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ob.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 518, "type": "rime", "value": "obe", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1553,
+        "text": "rope",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rope.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ope.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1552,
+        "text": "robe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/robe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/obe.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1554,
+        "text": "rude",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rude.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ude.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 519, "type": "rime", "value": "obe", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1557,
+        "text": "glade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/glade.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ade.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1555,
+        "text": "globe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/globe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/obe.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1556,
+        "text": "glob",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/glob.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ob.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 520, "type": "rime", "value": "og", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1560,
+        "text": "frag",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/frag.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ag.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1558,
+        "text": "frog",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/frog.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/og.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1559,
+        "text": "fog",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fog.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/og.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 521, "type": "rime", "value": "og", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1561,
+        "text": "log",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/log.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/og.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1563,
+        "text": "leg",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/leg.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eg.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1562,
+        "text": "lag",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lag.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ag.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 522, "type": "rime", "value": "og", "reading_stage": 7},
+    "stimuli": [{
+        "id": 1564,
+        "text": "jog",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jog.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/og.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1566,
+        "text": "jig",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jig.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ig.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1565,
+        "text": "jag",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jag.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ag.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 523, "type": "rime", "value": "ush", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1567,
+        "text": "brush",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brush.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ush.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1569,
+        "text": "brunch",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brunch.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/unch.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1568,
+        "text": "brash",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brash.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ash.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 524, "type": "rime", "value": "ush", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1572,
+        "text": "flesh",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flesh.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/esh.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1571,
+        "text": "flash",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flash.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ash.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1570,
+        "text": "flush",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flush.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ush.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 525, "type": "rime", "value": "ush", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1575,
+        "text": "such",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/such.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/uch.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1573,
+        "text": "slush",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slush.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ush.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1574,
+        "text": "slosh",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slosh.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/osh.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 526, "type": "rime", "value": "aw", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1577,
+        "text": "threw",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/threw.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/thr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ew.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1576,
+        "text": "thaw",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/thaw.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aw.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1578,
+        "text": "though",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/though.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ough.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 527, "type": "rime", "value": "aw", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1580,
+        "text": "pam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1579,
+        "text": "paw",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/paw.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aw.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1581,
+        "text": "pawn",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pawn.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/awn.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 528, "type": "rime", "value": "aw", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1582,
+        "text": "claw",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/claw.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aw.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1584,
+        "text": "clew",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/clew.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ew.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1583,
+        "text": "clam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/clam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 529, "type": "rime", "value": "est", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1585,
+        "text": "best",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/best.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/est.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1587,
+        "text": "bet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1586,
+        "text": "beast",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/beast.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/east.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 530, "type": "rime", "value": "est", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1589,
+        "text": "chased",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chased.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ased.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1588,
+        "text": "chest",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chest.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/est.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1590,
+        "text": "chost",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chost.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ost.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 531, "type": "rime", "value": "est", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1592,
+        "text": "wets",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wets.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ets.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1593,
+        "text": "waist",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/waist.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aist.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1591,
+        "text": "west",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/west.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/est.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 532, "type": "rime", "value": "ew", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1596,
+        "text": "knife",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/knife.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/kn.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ife.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1595,
+        "text": "know",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/know.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/kn.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ow.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1594,
+        "text": "knew",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/knew.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/kn.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ew.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 533, "type": "rime", "value": "ew", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1598,
+        "text": "stow",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stow.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ow.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1597,
+        "text": "stew",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stew.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ew.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1599,
+        "text": "stem",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stem.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/em.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 534, "type": "rime", "value": "ew", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1602,
+        "text": "flaw",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flaw.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aw.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1600,
+        "text": "flew",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flew.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ew.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1601,
+        "text": "flow",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flow.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ow.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 535, "type": "rime", "value": "ight", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1603,
+        "text": "right",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/right.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ight.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1605,
+        "text": "rithe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rithe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ithe.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1604,
+        "text": "rate",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rate.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ate.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 536, "type": "rime", "value": "ight", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1608,
+        "text": "sought",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sought.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ought.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1607,
+        "text": "sigh",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sigh.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/igh.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1606,
+        "text": "sight",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sight.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ight.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 537, "type": "rime", "value": "ight", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1609,
+        "text": "light",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/light.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ight.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1610,
+        "text": "lit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1611,
+        "text": "lough",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lough.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ough.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 538, "type": "rime", "value": "ish", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1614,
+        "text": "ditch",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ditch.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/itch.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1612,
+        "text": "dish",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dish.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ish.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1613,
+        "text": "dash",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dash.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ash.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 539, "type": "rime", "value": "ish", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1616,
+        "text": "wash",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wash.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ash.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1617,
+        "text": "which",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/which.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ich.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1615,
+        "text": "wish",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wish.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ish.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 540, "type": "rime", "value": "ish", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1618,
+        "text": "fish",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fish.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ish.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1619,
+        "text": "finch",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/finch.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/inch.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1620,
+        "text": "fiss",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fiss.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/iss.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 541, "type": "rime", "value": "ost", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1622,
+        "text": "coust",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/coust.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oust.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1621,
+        "text": "cost",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cost.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ost.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1623,
+        "text": "cots",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cots.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ots.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 542, "type": "rime", "value": "ost", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1624,
+        "text": "frost",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/frost.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ost.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1626,
+        "text": "froust",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/froust.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oust.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1625,
+        "text": "froze",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/froze.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oze.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 543, "type": "rime", "value": "ost", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1627,
+        "text": "lost",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lost.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ost.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1628,
+        "text": "lose",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lose.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ose.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1629,
+        "text": "lots",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lots.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ots.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 544, "type": "rime", "value": "ould", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1630,
+        "text": "should",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/should.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ould.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1632,
+        "text": "shout",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shout.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/out.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1631,
+        "text": "shoulder",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shoulder.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oulder.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 545, "type": "rime", "value": "ould", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1634,
+        "text": "walled",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/walled.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/alled.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1635,
+        "text": "wool",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wool.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ool.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1633,
+        "text": "would",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/would.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ould.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 546, "type": "rime", "value": "ould", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1638,
+        "text": "cloud",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cloud.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oud.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1637,
+        "text": "cold",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cold.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/old.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1636,
+        "text": "could",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/could.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ould.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 547, "type": "rime", "value": "ound", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1640,
+        "text": "bowed",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bowed.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/owed.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1641,
+        "text": "bond",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bond.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ond.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1639,
+        "text": "bound",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bound.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ound.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 548, "type": "rime", "value": "ound", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1643,
+        "text": "fond",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fond.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ond.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1644,
+        "text": "fund",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fund.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/und.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1642,
+        "text": "found",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/found.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ound.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 549, "type": "rime", "value": "ound", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1647,
+        "text": "runt",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/runt.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/unt.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1646,
+        "text": "rowed",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rowed.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/owed.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1645,
+        "text": "round",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/round.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ound.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 550, "type": "rime", "value": "ust", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1648,
+        "text": "dust",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dust.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ust.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1650,
+        "text": "dost",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dost.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ost.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1649,
+        "text": "dusp",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dusp.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/usp.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 551, "type": "rime", "value": "ust", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1653,
+        "text": "guts",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/guts.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/uts.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1651,
+        "text": "gust",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gust.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ust.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1652,
+        "text": "gist",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gist.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ist.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 552, "type": "rime", "value": "ust", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1654,
+        "text": "trust",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trust.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ust.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1655,
+        "text": "truest",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/truest.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/uest.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1656,
+        "text": "truse",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/truse.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/use.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 553, "type": "rime", "value": "ow", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1657,
+        "text": "crow",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crow.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ow.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1659,
+        "text": "crew",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crew.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ew.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1658,
+        "text": "craw",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/craw.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aw.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 554, "type": "rime", "value": "ow", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1661,
+        "text": "maw",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/maw.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aw.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1662,
+        "text": "mown",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mown.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/own.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1660,
+        "text": "mow",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mow.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ow.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 555, "type": "rime", "value": "ow", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1665,
+        "text": "shown",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shown.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/own.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1664,
+        "text": "shaw",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shaw.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aw.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1663,
+        "text": "show",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/show.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ow.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 556, "type": "rime", "value": "ash", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1666,
+        "text": "mash",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mash.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ash.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1667,
+        "text": "mush",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mush.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ush.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1668,
+        "text": "match",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/match.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/atch.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 557, "type": "rime", "value": "ash", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1669,
+        "text": "slash",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slash.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ash.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1671,
+        "text": "slatch",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slatch.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/atch.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1670,
+        "text": "slush",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slush.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ush.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 558, "type": "rime", "value": "ash", "reading_stage": 8},
+    "stimuli": [{
+        "id": 1672,
+        "text": "trash",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trash.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ash.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1674,
+        "text": "trust",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trust.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ust.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1673,
+        "text": "trace",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trace.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ace.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 559, "type": "rime", "value": "ush", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1675,
+        "text": "brush",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brush.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ush.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1676,
+        "text": "brash",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brash.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ash.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1677,
+        "text": "brunch",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brunch.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/unch.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 560, "type": "rime", "value": "ush", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1678,
+        "text": "flush",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flush.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ush.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1680,
+        "text": "flesh",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flesh.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/esh.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1679,
+        "text": "flash",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flash.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ash.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 561, "type": "rime", "value": "ush", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1682,
+        "text": "slosh",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slosh.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/osh.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1683,
+        "text": "such",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/such.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/uch.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1681,
+        "text": "slush",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slush.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ush.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 562, "type": "rime", "value": "aw", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1686,
+        "text": "though",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/though.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ough.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1685,
+        "text": "threw",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/threw.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/thr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ew.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1684,
+        "text": "thaw",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/thaw.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aw.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 563, "type": "rime", "value": "aw", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1688,
+        "text": "pam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1687,
+        "text": "paw",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/paw.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aw.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1689,
+        "text": "pawn",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pawn.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/p.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/awn.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 564, "type": "rime", "value": "aw", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1691,
+        "text": "clam",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/clam.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/am.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1690,
+        "text": "claw",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/claw.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aw.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1692,
+        "text": "clew",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/clew.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ew.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 565, "type": "rime", "value": "est", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1694,
+        "text": "beast",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/beast.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/east.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1695,
+        "text": "bet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/et.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1693,
+        "text": "best",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/best.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/est.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 566, "type": "rime", "value": "est", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1697,
+        "text": "chased",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chased.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ased.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1698,
+        "text": "chost",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chost.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ost.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1696,
+        "text": "chest",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chest.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/est.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 567, "type": "rime", "value": "est", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1700,
+        "text": "wets",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wets.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ets.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1699,
+        "text": "west",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/west.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/est.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1701,
+        "text": "waist",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/waist.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aist.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 568, "type": "rime", "value": "ew", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1703,
+        "text": "know",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/know.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/kn.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ow.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1702,
+        "text": "knew",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/knew.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/kn.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ew.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1704,
+        "text": "knife",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/knife.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/kn.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ife.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 569, "type": "rime", "value": "ew", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1707,
+        "text": "stem",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stem.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/em.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1706,
+        "text": "stow",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stow.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ow.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1705,
+        "text": "stew",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stew.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ew.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 570, "type": "rime", "value": "ew", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1709,
+        "text": "flow",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flow.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ow.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1708,
+        "text": "flew",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flew.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ew.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1710,
+        "text": "flaw",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/flaw.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aw.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 571, "type": "rime", "value": "ight", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1712,
+        "text": "rate",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rate.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ate.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1713,
+        "text": "rithe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rithe.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ithe.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1711,
+        "text": "right",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/right.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ight.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 572, "type": "rime", "value": "ight", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1715,
+        "text": "sigh",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sigh.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/igh.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1716,
+        "text": "sought",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sought.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ought.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1714,
+        "text": "sight",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sight.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ight.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 573, "type": "rime", "value": "ight", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1718,
+        "text": "lit",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lit.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/it.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1719,
+        "text": "lough",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lough.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ough.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1717,
+        "text": "light",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/light.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ight.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 574, "type": "rime", "value": "ish", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1722,
+        "text": "ditch",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ditch.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/itch.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1721,
+        "text": "dash",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dash.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ash.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1720,
+        "text": "dish",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dish.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ish.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 575, "type": "rime", "value": "ish", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1723,
+        "text": "wish",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wish.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ish.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1725,
+        "text": "which",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/which.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ich.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1724,
+        "text": "wash",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wash.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ash.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 576, "type": "rime", "value": "ish", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1727,
+        "text": "finch",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/finch.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/inch.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1728,
+        "text": "fiss",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fiss.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/iss.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1726,
+        "text": "fish",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fish.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ish.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 577, "type": "rime", "value": "ost", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1729,
+        "text": "cost",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cost.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ost.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1731,
+        "text": "cots",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cots.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ots.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1730,
+        "text": "coust",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/coust.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oust.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 578, "type": "rime", "value": "ost", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1734,
+        "text": "froust",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/froust.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oust.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1732,
+        "text": "frost",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/frost.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ost.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1733,
+        "text": "froze",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/froze.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oze.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 579, "type": "rime", "value": "ost", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1737,
+        "text": "lots",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lots.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ots.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1736,
+        "text": "lose",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lose.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ose.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1735,
+        "text": "lost",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lost.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ost.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 580, "type": "rime", "value": "ould", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1740,
+        "text": "shout",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shout.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/out.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1738,
+        "text": "should",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/should.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ould.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1739,
+        "text": "shoulder",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shoulder.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oulder.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 581, "type": "rime", "value": "ould", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1741,
+        "text": "would",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/would.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ould.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1742,
+        "text": "walled",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/walled.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/alled.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1743,
+        "text": "wool",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wool.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ool.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 582, "type": "rime", "value": "ould", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1744,
+        "text": "could",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/could.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ould.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1746,
+        "text": "cloud",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cloud.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oud.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1745,
+        "text": "cold",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cold.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/old.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 583, "type": "rime", "value": "ound", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1749,
+        "text": "bond",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bond.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ond.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1748,
+        "text": "bowed",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bowed.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/owed.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1747,
+        "text": "bound",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bound.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ound.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 584, "type": "rime", "value": "ound", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1750,
+        "text": "found",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/found.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ound.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1752,
+        "text": "fund",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fund.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/und.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1751,
+        "text": "fond",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fond.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ond.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 585, "type": "rime", "value": "ound", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1753,
+        "text": "round",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/round.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ound.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1754,
+        "text": "rowed",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rowed.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/owed.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1755,
+        "text": "runt",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/runt.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/unt.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 586, "type": "rime", "value": "ust", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1758,
+        "text": "dost",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dost.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ost.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1757,
+        "text": "dusp",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dusp.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/usp.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1756,
+        "text": "dust",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/dust.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ust.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 587, "type": "rime", "value": "ust", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1759,
+        "text": "gust",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gust.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ust.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1760,
+        "text": "gist",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/gist.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ist.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1761,
+        "text": "guts",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/guts.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/g.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/uts.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 588, "type": "rime", "value": "ust", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1764,
+        "text": "truse",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/truse.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/use.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1762,
+        "text": "trust",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trust.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ust.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1763,
+        "text": "truest",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/truest.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/uest.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 589, "type": "rime", "value": "ow", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1766,
+        "text": "craw",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/craw.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aw.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1765,
+        "text": "crow",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crow.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ow.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1767,
+        "text": "crew",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crew.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ew.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 590, "type": "rime", "value": "ow", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1769,
+        "text": "maw",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/maw.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aw.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1768,
+        "text": "mow",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mow.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ow.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1770,
+        "text": "mown",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mown.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/own.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 591, "type": "rime", "value": "ow", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1772,
+        "text": "shaw",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shaw.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/aw.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1771,
+        "text": "show",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/show.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ow.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1773,
+        "text": "shown",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/shown.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/own.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 592, "type": "rime", "value": "ash", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1775,
+        "text": "mush",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mush.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ush.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1774,
+        "text": "mash",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mash.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ash.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1776,
+        "text": "match",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/match.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/atch.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 593, "type": "rime", "value": "ash", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1778,
+        "text": "slush",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slush.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ush.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1779,
+        "text": "slatch",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slatch.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/atch.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1777,
+        "text": "slash",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/slash.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ash.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 594, "type": "rime", "value": "ash", "reading_stage": 9},
+    "stimuli": [{
+        "id": 1780,
+        "text": "trash",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trash.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ash.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1781,
+        "text": "trace",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trace.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ace.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1782,
+        "text": "trust",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trust.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ust.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 595, "type": "sight_word", "value": "a", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1785,
+        "text": "always",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/always.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1784,
+        "text": "as",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/as.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1783,
+        "text": "a",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/a.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 596, "type": "sight_word", "value": "and", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1788,
+        "text": "about",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/about.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1787,
+        "text": "any",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/any.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1786,
+        "text": "and",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/and.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 597, "type": "sight_word", "value": "ball", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1789,
+        "text": "ball",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ball.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1791,
+        "text": "because",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/because.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1790,
+        "text": "by",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/by.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 598, "type": "sight_word", "value": "be", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1792,
+        "text": "be",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/be.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1794,
+        "text": "black",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/black.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/bl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1793,
+        "text": "been",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/been.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/een.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 599, "type": "sight_word", "value": "blue", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1795,
+        "text": "blue",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/blue.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1797,
+        "text": "because",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/because.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1796,
+        "text": "be",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/be.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 600, "type": "sight_word", "value": "by", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1798,
+        "text": "by",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/by.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1800,
+        "text": "brown",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brown.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1799,
+        "text": "but",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/but.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 601, "type": "sight_word", "value": "do", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1802,
+        "text": "did",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/did.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/id.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1801,
+        "text": "do",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/do.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1803,
+        "text": "down",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/down.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 602, "type": "sight_word", "value": "for", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1805,
+        "text": "fast",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fast.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1804,
+        "text": "for",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/for.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1806,
+        "text": "four",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/four.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 603, "type": "sight_word", "value": "funny", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1808,
+        "text": "four",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/four.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1807,
+        "text": "funny",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/funny.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1809,
+        "text": "feet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/feet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eet.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 604, "type": "sight_word", "value": "green", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1810,
+        "text": "green",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/green.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/een.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1812,
+        "text": "goes",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/goes.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1811,
+        "text": "go",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/go.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 605, "type": "sight_word", "value": "has", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1814,
+        "text": "have",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/have.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ave.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1815,
+        "text": "her",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/her.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/er.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1813,
+        "text": "has",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/has.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 606, "type": "sight_word", "value": "he", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1818,
+        "text": "him",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/him.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/im.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1817,
+        "text": "has",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/has.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1816,
+        "text": "he",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/he.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 607, "type": "sight_word", "value": "house", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1821,
+        "text": "had",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/had.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1819,
+        "text": "house",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/house.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ouse.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1820,
+        "text": "help",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/help.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 608, "type": "sight_word", "value": "is", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1824,
+        "text": "if",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/if.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1822,
+        "text": "is",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/is.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1823,
+        "text": "I",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/i.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 609, "type": "sight_word", "value": "like", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1826,
+        "text": "look",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/look.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1827,
+        "text": "long",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/long.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ong.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1825,
+        "text": "like",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/like.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ike.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 610, "type": "sight_word", "value": "little", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1829,
+        "text": "long",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/long.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ong.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1830,
+        "text": "love",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/love.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ove.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1828,
+        "text": "little",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/little.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 611, "type": "sight_word", "value": "me", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1831,
+        "text": "me",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/me.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1832,
+        "text": "many",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/many.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1833,
+        "text": "must",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/must.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 612, "type": "sight_word", "value": "my", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1836,
+        "text": "must",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/must.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1834,
+        "text": "my",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/my.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/y.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1835,
+        "text": "mother",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mother.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 613, "type": "sight_word", "value": "no", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1837,
+        "text": "no",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/no.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1839,
+        "text": "now",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/now.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1838,
+        "text": "night",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/night.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 614, "type": "sight_word", "value": "play", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1841,
+        "text": "purple",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/purple.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1842,
+        "text": "pretty",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pretty.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1840,
+        "text": "play",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/play.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 615, "type": "sight_word", "value": "said", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1843,
+        "text": "said",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/said.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1845,
+        "text": "six",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/six.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ix.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1844,
+        "text": "some",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/some.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 616, "type": "sight_word", "value": "school", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1846,
+        "text": "school",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/school.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1848,
+        "text": "stay",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stay.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ay.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1847,
+        "text": "some",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/some.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 617, "type": "sight_word", "value": "see", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1850,
+        "text": "stop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1851,
+        "text": "saw",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/saw.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1849,
+        "text": "see",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/see.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 618, "type": "sight_word", "value": "she", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1852,
+        "text": "she",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/she.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1853,
+        "text": "see",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/see.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1854,
+        "text": "six",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/six.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ix.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 619, "type": "sight_word", "value": "the", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1856,
+        "text": "thank",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/thank.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ank.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1855,
+        "text": "the",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/the.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1857,
+        "text": "through",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/through.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 620, "type": "sight_word", "value": "they", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1858,
+        "text": "they",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/they.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1860,
+        "text": "the",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/the.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1859,
+        "text": "through",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/through.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 621, "type": "sight_word", "value": "to", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1862,
+        "text": "two",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/two.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1861,
+        "text": "to",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/to.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1863,
+        "text": "than",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/than.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 622, "type": "sight_word", "value": "toy", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1865,
+        "text": "their",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/their.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1864,
+        "text": "toy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/toy.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1866,
+        "text": "tree",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tree.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 623, "type": "sight_word", "value": "we", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1868,
+        "text": "woman",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/woman.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1867,
+        "text": "we",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/we.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1869,
+        "text": "when",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/when.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/en.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 624, "type": "sight_word", "value": "why", "reading_stage": 4},
+    "stimuli": [{
+        "id": 1870,
+        "text": "why",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/why.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/y.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1871,
+        "text": "when",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/when.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/en.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1872,
+        "text": "wish",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wish.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ish.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 625, "type": "sight_word", "value": "any", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1874,
+        "text": "and",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/and.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1875,
+        "text": "ask",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ask.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1873,
+        "text": "any",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/any.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 626, "type": "sight_word", "value": "all", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1878,
+        "text": "away",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/away.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1877,
+        "text": "after",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/after.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1876,
+        "text": "all",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/all.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 627, "type": "sight_word", "value": "are", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1880,
+        "text": "always",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/always.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1879,
+        "text": "are",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/are.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1881,
+        "text": "ask",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ask.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 628, "type": "sight_word", "value": "as", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1884,
+        "text": "all",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/all.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1882,
+        "text": "as",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/as.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1883,
+        "text": "a",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/a.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 629, "type": "sight_word", "value": "away", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1885,
+        "text": "away",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/away.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1887,
+        "text": "a",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/a.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1886,
+        "text": "and",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/and.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 630, "type": "sight_word", "value": "boy", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1890,
+        "text": "began",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/began.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1888,
+        "text": "boy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/boy.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oy.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1889,
+        "text": "best",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/best.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/est.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 631, "type": "sight_word", "value": "could", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1891,
+        "text": "could",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/could.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ould.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1893,
+        "text": "come",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/come.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ome.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1892,
+        "text": "color",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/color.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 632, "type": "sight_word", "value": "find", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1894,
+        "text": "find",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/find.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1895,
+        "text": "feet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/feet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eet.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1896,
+        "text": "fast",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fast.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 633, "type": "sight_word", "value": "girl", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1898,
+        "text": "good",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/good.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1899,
+        "text": "green",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/green.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/een.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1897,
+        "text": "girl",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/girl.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 634, "type": "sight_word", "value": "go", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1900,
+        "text": "go",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/go.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1901,
+        "text": "going",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/going.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1902,
+        "text": "goes",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/goes.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 635, "type": "sight_word", "value": "good", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1904,
+        "text": "going",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/going.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1903,
+        "text": "good",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/good.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1905,
+        "text": "green",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/green.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/gr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/een.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 636, "type": "sight_word", "value": "have", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1908,
+        "text": "him",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/him.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/im.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1907,
+        "text": "here",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/here.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1906,
+        "text": "have",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/have.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ave.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 637, "type": "sight_word", "value": "here", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1910,
+        "text": "had",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/had.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1909,
+        "text": "here",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/here.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1911,
+        "text": "hear",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hear.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ear.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 638, "type": "sight_word", "value": "help", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1914,
+        "text": "happy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/happy.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1913,
+        "text": "house",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/house.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ouse.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1912,
+        "text": "help",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/help.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 639, "type": "sight_word", "value": "her", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1916,
+        "text": "has",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/has.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1917,
+        "text": "him",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/him.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/im.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1915,
+        "text": "her",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/her.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/er.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 640, "type": "sight_word", "value": "I", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1920,
+        "text": "is",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/is.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1918,
+        "text": "I",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/i.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1919,
+        "text": "into",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/into.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 641, "type": "sight_word", "value": "has", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1921,
+        "text": "has",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/has.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1923,
+        "text": "had",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/had.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1922,
+        "text": "happy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/happy.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 642, "type": "sight_word", "value": "just", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1926,
+        "text": "jump",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jump.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ump.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1925,
+        "text": "jelly",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jelly.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1924,
+        "text": "just",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/just.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 643, "type": "sight_word", "value": "jump", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1929,
+        "text": "jelly",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jelly.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1927,
+        "text": "jump",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jump.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ump.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1928,
+        "text": "just",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/just.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 644, "type": "sight_word", "value": "keep", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1931,
+        "text": "know",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/know.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/kn.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ow.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1932,
+        "text": "kid",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/kid.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/id.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1930,
+        "text": "keep",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/keep.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eep.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 645, "type": "sight_word", "value": "kid", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1934,
+        "text": "know",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/know.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/kn.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ow.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1935,
+        "text": "keep",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/keep.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eep.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1933,
+        "text": "kid",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/kid.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/id.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 646, "type": "sight_word", "value": "look", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1938,
+        "text": "like",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/like.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ike.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1936,
+        "text": "look",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/look.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1937,
+        "text": "little",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/little.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 647, "type": "sight_word", "value": "read", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1939,
+        "text": "read",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/read.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ead.mp3",
+        "isCorrect": true
+    }, {
+        "id": 1940,
+        "text": "ready",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ready.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1941,
+        "text": "road",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/road.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oad.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 648, "type": "sight_word", "value": "so", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1943,
+        "text": "street",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/street.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/str.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eet.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1944,
+        "text": "she",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/she.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1942,
+        "text": "so",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/so.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 649, "type": "sight_word", "value": "saw", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1947,
+        "text": "so",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/so.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1945,
+        "text": "saw",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/saw.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1946,
+        "text": "stop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 650, "type": "sight_word", "value": "with", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1950,
+        "text": "were",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/were.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1948,
+        "text": "with",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/with.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1949,
+        "text": "was",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/was.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 651, "type": "sight_word", "value": "eat", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1952,
+        "text": "each",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/each.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1953,
+        "text": "every",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/every.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1951,
+        "text": "eat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/eat.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 652, "type": "sight_word", "value": "out", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1956,
+        "text": "or",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/or.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1954,
+        "text": "out",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/out.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1955,
+        "text": "often",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/often.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 653, "type": "sight_word", "value": "ask", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1957,
+        "text": "ask",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ask.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1959,
+        "text": "around",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/around.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1958,
+        "text": "away",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/away.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 654, "type": "sight_word", "value": "you", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1960,
+        "text": "you",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/you.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1961,
+        "text": "your",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/your.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1962,
+        "text": "yes",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/yes.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 655, "type": "sight_word", "value": "who", "reading_stage": 5},
+    "stimuli": [{
+        "id": 1964,
+        "text": "we",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/we.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1963,
+        "text": "who",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/who.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1965,
+        "text": "would",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/would.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ould.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 656, "type": "sight_word", "value": "after", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1967,
+        "text": "animal",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/animal.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1966,
+        "text": "after",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/after.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1968,
+        "text": "as",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/as.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 657, "type": "sight_word", "value": "about", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1970,
+        "text": "ask",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ask.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1969,
+        "text": "about",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/about.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1971,
+        "text": "and",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/and.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 658, "type": "sight_word", "value": "because", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1974,
+        "text": "began",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/began.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1972,
+        "text": "because",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/because.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1973,
+        "text": "bring",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bring.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 659, "type": "sight_word", "value": "fast", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1975,
+        "text": "fast",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fast.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1976,
+        "text": "fish",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fish.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ish.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1977,
+        "text": "first",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/first.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 660, "type": "sight_word", "value": "five", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1980,
+        "text": "from",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/from.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1979,
+        "text": "four",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/four.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1978,
+        "text": "five",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/five.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ive.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 661, "type": "sight_word", "value": "four", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1981,
+        "text": "four",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/four.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1983,
+        "text": "find",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/find.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1982,
+        "text": "first",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/first.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 662, "type": "sight_word", "value": "from", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1985,
+        "text": "five",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/five.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ive.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1984,
+        "text": "from",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/from.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1986,
+        "text": "four",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/four.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 663, "type": "sight_word", "value": "goes", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1987,
+        "text": "goes",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/goes.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1989,
+        "text": "good",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/good.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1988,
+        "text": "go",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/go.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 664, "type": "sight_word", "value": "how", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1992,
+        "text": "her",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/her.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/er.mp3",
+        "isCorrect": false
+    }, {
+        "id": 1991,
+        "text": "has",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/has.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1990,
+        "text": "how",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/how.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 665, "type": "sight_word", "value": "its", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1995,
+        "text": "I",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/i.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1993,
+        "text": "its",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/its.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 1994,
+        "text": "into",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/into.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 666, "type": "sight_word", "value": "going", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1997,
+        "text": "good",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/good.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1998,
+        "text": "goes",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/goes.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 1996,
+        "text": "going",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/going.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 667, "type": "sight_word", "value": "book", "reading_stage": 6},
+    "stimuli": [{
+        "id": 1999,
+        "text": "book",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/book.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ook.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2000,
+        "text": "bring",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bring.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2001,
+        "text": "but",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/but.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 668, "type": "sight_word", "value": "laugh", "reading_stage": 6},
+    "stimuli": [{
+        "id": 2003,
+        "text": "long",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/long.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ong.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2002,
+        "text": "laugh",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/laugh.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2004,
+        "text": "love",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/love.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ove.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 669, "type": "sight_word", "value": "now", "reading_stage": 6},
+    "stimuli": [{
+        "id": 2007,
+        "text": "no",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/no.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2006,
+        "text": "not",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/not.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2005,
+        "text": "now",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/now.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 670, "type": "sight_word", "value": "one", "reading_stage": 6},
+    "stimuli": [{
+        "id": 2009,
+        "text": "our",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/our.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2010,
+        "text": "often",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/often.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2008,
+        "text": "one",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/one.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 671, "type": "sight_word", "value": "our", "reading_stage": 6},
+    "stimuli": [{
+        "id": 2012,
+        "text": "often",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/often.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2011,
+        "text": "our",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/our.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2013,
+        "text": "other",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/other.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 672, "type": "sight_word", "value": "but", "reading_stage": 6},
+    "stimuli": [{
+        "id": 2015,
+        "text": "back",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/back.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2014,
+        "text": "but",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/but.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2016,
+        "text": "best",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/best.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/est.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 673, "type": "sight_word", "value": "jelly", "reading_stage": 6},
+    "stimuli": [{
+        "id": 2019,
+        "text": "just",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/just.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2018,
+        "text": "jump",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jump.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/j.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ump.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2017,
+        "text": "jelly",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/jelly.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 674, "type": "sight_word", "value": "six", "reading_stage": 6},
+    "stimuli": [{
+        "id": 2021,
+        "text": "said",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/said.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2020,
+        "text": "six",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/six.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ix.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2022,
+        "text": "sleep",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sleep.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 675, "type": "sight_word", "value": "some", "reading_stage": 6},
+    "stimuli": [{
+        "id": 2025,
+        "text": "so",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/so.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2024,
+        "text": "six",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/six.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ix.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2023,
+        "text": "some",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/some.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 676, "type": "sight_word", "value": "three", "reading_stage": 6},
+    "stimuli": [{
+        "id": 2027,
+        "text": "too",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/too.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2026,
+        "text": "three",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/three.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2028,
+        "text": "took",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/took.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ook.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 677, "type": "sight_word", "value": "too", "reading_stage": 6},
+    "stimuli": [{
+        "id": 2029,
+        "text": "too",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/too.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2031,
+        "text": "thank",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/thank.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ank.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2030,
+        "text": "think",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/think.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ink.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 678, "type": "sight_word", "value": "want", "reading_stage": 6},
+    "stimuli": [{
+        "id": 2033,
+        "text": "work",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/work.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2034,
+        "text": "what",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/what.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2032,
+        "text": "want",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/want.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 679, "type": "sight_word", "value": "will", "reading_stage": 6},
+    "stimuli": [{
+        "id": 2037,
+        "text": "wish",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wish.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ish.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2035,
+        "text": "will",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/will.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ill.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2036,
+        "text": "who",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/who.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 680, "type": "sight_word", "value": "into", "reading_stage": 6},
+    "stimuli": [{
+        "id": 2038,
+        "text": "into",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/into.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2039,
+        "text": "if",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/if.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2040,
+        "text": "I",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/i.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 681, "type": "sight_word", "value": "was", "reading_stage": 6},
+    "stimuli": [{
+        "id": 2043,
+        "text": "where",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/where.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2041,
+        "text": "was",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/was.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2042,
+        "text": "work",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/work.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 682, "type": "sight_word", "value": "were", "reading_stage": 6},
+    "stimuli": [{
+        "id": 2046,
+        "text": "work",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/work.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2044,
+        "text": "were",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/were.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2045,
+        "text": "what",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/what.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 683, "type": "sight_word", "value": "what", "reading_stage": 6},
+    "stimuli": [{
+        "id": 2047,
+        "text": "what",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/what.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2048,
+        "text": "woman",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/woman.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2049,
+        "text": "we",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/we.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 684, "type": "sight_word", "value": "around", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2052,
+        "text": "are",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/are.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2050,
+        "text": "around",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/around.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2051,
+        "text": "animal",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/animal.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 685, "type": "sight_word", "value": "began", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2053,
+        "text": "began",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/began.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2055,
+        "text": "ball",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ball.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2054,
+        "text": "brown",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brown.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 686, "type": "sight_word", "value": "black", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2057,
+        "text": "because",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/because.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2058,
+        "text": "best",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/best.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/est.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2056,
+        "text": "black",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/black.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/bl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 687, "type": "sight_word", "value": "brown", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2059,
+        "text": "brown",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brown.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2060,
+        "text": "bring",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bring.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2061,
+        "text": "book",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/book.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ook.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 688, "type": "sight_word", "value": "chair", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2063,
+        "text": "cold",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cold.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/old.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2064,
+        "text": "catch",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/catch.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2062,
+        "text": "chair",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chair.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/air.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 689, "type": "sight_word", "value": "color", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2067,
+        "text": "could",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/could.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ould.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2066,
+        "text": "come",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/come.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ome.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2065,
+        "text": "color",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/color.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 690, "type": "sight_word", "value": "every", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2070,
+        "text": "eat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/eat.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2069,
+        "text": "each",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/each.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2068,
+        "text": "every",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/every.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 691, "type": "sight_word", "value": "feet", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2073,
+        "text": "father",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/father.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2072,
+        "text": "first",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/first.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2071,
+        "text": "feet",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/feet.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eet.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 692, "type": "sight_word", "value": "fish", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2076,
+        "text": "four",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/four.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2074,
+        "text": "fish",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fish.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ish.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2075,
+        "text": "five",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/five.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ive.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 693, "type": "sight_word", "value": "hair", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2078,
+        "text": "here",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/here.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2077,
+        "text": "hair",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hair.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/air.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2079,
+        "text": "has",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/has.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 694, "type": "sight_word", "value": "hear", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2080,
+        "text": "hear",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hear.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ear.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2082,
+        "text": "he",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/he.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2081,
+        "text": "her",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/her.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/er.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 695, "type": "sight_word", "value": "lost", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2084,
+        "text": "long",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/long.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ong.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2083,
+        "text": "lost",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lost.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ost.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2085,
+        "text": "little",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/little.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 696, "type": "sight_word", "value": "must", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2088,
+        "text": "mother",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mother.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2087,
+        "text": "me",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/me.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2086,
+        "text": "must",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/must.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 697, "type": "sight_word", "value": "night", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2090,
+        "text": "never",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/never.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2091,
+        "text": "next",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/next.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2089,
+        "text": "night",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/night.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 698, "type": "sight_word", "value": "other", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2092,
+        "text": "other",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/other.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2093,
+        "text": "of",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/of.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2094,
+        "text": "one",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/one.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 699, "type": "sight_word", "value": "please", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2096,
+        "text": "purple",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/purple.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2097,
+        "text": "play",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/play.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2095,
+        "text": "please",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/please.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 700, "type": "sight_word", "value": "purple", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2099,
+        "text": "play",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/play.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2098,
+        "text": "purple",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/purple.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2100,
+        "text": "pretty",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pretty.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 701, "type": "sight_word", "value": "road", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2102,
+        "text": "read",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/read.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ead.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2103,
+        "text": "ready",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ready.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2101,
+        "text": "road",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/road.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oad.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 702, "type": "sight_word", "value": "sleep", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2104,
+        "text": "sleep",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sleep.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2105,
+        "text": "some",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/some.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2106,
+        "text": "so",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/so.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 703, "type": "sight_word", "value": "stay", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2109,
+        "text": "sleep",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sleep.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2108,
+        "text": "stop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2107,
+        "text": "stay",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stay.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ay.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 704, "type": "sight_word", "value": "tell", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2110,
+        "text": "tell",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tell.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ell.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2111,
+        "text": "that",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/that.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2112,
+        "text": "two",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/two.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 705, "type": "sight_word", "value": "them", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2115,
+        "text": "took",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/took.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ook.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2114,
+        "text": "think",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/think.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ink.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2113,
+        "text": "them",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/them.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 706, "type": "sight_word", "value": "thing", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2116,
+        "text": "thing",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/thing.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2118,
+        "text": "than",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/than.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2117,
+        "text": "then",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/then.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 707, "type": "sight_word", "value": "took", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2119,
+        "text": "took",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/took.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ook.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2120,
+        "text": "toy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/toy.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2121,
+        "text": "to",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/to.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 708, "type": "sight_word", "value": "truck", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2122,
+        "text": "truck",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/truck.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/uck.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2123,
+        "text": "that",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/that.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2124,
+        "text": "thing",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/thing.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 709, "type": "sight_word", "value": "wall", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2125,
+        "text": "wall",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wall.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2126,
+        "text": "went",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/went.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2127,
+        "text": "when",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/when.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/en.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 710, "type": "sight_word", "value": "when", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2128,
+        "text": "when",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/when.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/wh.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/en.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2129,
+        "text": "wall",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wall.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2130,
+        "text": "would",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/would.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ould.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 711, "type": "sight_word", "value": "wish", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2132,
+        "text": "want",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/want.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2131,
+        "text": "wish",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wish.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ish.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2133,
+        "text": "where",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/where.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 712, "type": "sight_word", "value": "would", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2135,
+        "text": "woman",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/woman.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2136,
+        "text": "work",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/work.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2134,
+        "text": "would",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/would.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ould.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 713, "type": "sight_word", "value": "your", "reading_stage": 7},
+    "stimuli": [{
+        "id": 2138,
+        "text": "yes",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/yes.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2137,
+        "text": "your",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/your.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2139,
+        "text": "you",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/you.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 714, "type": "sight_word", "value": "again", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2142,
+        "text": "a",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/a.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2141,
+        "text": "away",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/away.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2140,
+        "text": "again",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/again.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 715, "type": "sight_word", "value": "often", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2145,
+        "text": "one",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/one.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2143,
+        "text": "often",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/often.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2144,
+        "text": "our",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/our.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 716, "type": "sight_word", "value": "best", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2146,
+        "text": "best",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/best.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/est.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2148,
+        "text": "because",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/because.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2147,
+        "text": "ball",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ball.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 717, "type": "sight_word", "value": "always", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2150,
+        "text": "and",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/and.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2151,
+        "text": "ask",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ask.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2149,
+        "text": "always",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/always.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 718, "type": "sight_word", "value": "love", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2153,
+        "text": "like",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/like.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ike.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2154,
+        "text": "little",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/little.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2152,
+        "text": "love",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/love.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ove.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 719, "type": "sight_word", "value": "much", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2156,
+        "text": "my",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/my.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/m.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/y.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2155,
+        "text": "much",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/much.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2157,
+        "text": "me",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/me.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 720, "type": "sight_word", "value": "that", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2160,
+        "text": "two",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/two.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2158,
+        "text": "that",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/that.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2159,
+        "text": "them",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/them.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 721, "type": "sight_word", "value": "two", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2162,
+        "text": "think",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/think.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ink.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2163,
+        "text": "took",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/took.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ook.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2161,
+        "text": "two",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/two.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 722, "type": "sight_word", "value": "been", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2165,
+        "text": "brown",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/brown.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2164,
+        "text": "been",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/been.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/een.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2166,
+        "text": "best",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/best.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/est.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 723, "type": "sight_word", "value": "come", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2168,
+        "text": "chair",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chair.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/air.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2169,
+        "text": "catch",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/catch.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2167,
+        "text": "come",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/come.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ome.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 724, "type": "sight_word", "value": "had", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2170,
+        "text": "had",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/had.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2171,
+        "text": "has",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/has.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2172,
+        "text": "happy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/happy.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 725, "type": "sight_word", "value": "many", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2173,
+        "text": "many",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/many.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2174,
+        "text": "much",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/much.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2175,
+        "text": "me",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/me.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 726, "type": "sight_word", "value": "did", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2176,
+        "text": "did",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/did.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/id.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2178,
+        "text": "does",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/does.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2177,
+        "text": "do",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/do.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 727, "type": "sight_word", "value": "him", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2179,
+        "text": "him",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/him.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/im.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2181,
+        "text": "house",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/house.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ouse.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2180,
+        "text": "her",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/her.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/er.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 728, "type": "sight_word", "value": "over", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2184,
+        "text": "once",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/once.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2183,
+        "text": "other",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/other.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2182,
+        "text": "over",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/over.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 729, "type": "sight_word", "value": "pretty", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2187,
+        "text": "please",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/please.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2185,
+        "text": "pretty",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pretty.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2186,
+        "text": "purple",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/purple.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 730, "type": "sight_word", "value": "know", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2190,
+        "text": "kid",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/kid.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/id.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2188,
+        "text": "know",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/know.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/kn.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ow.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2189,
+        "text": "keep",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/keep.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/k.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eep.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 731, "type": "sight_word", "value": "if", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2193,
+        "text": "I",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/i.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2192,
+        "text": "into",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/into.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2191,
+        "text": "if",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/if.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 732, "type": "sight_word", "value": "or", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2196,
+        "text": "over",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/over.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2194,
+        "text": "or",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/or.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2195,
+        "text": "of",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/of.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 733, "type": "sight_word", "value": "not", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2197,
+        "text": "not",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/not.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2199,
+        "text": "no",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/no.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2198,
+        "text": "never",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/never.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 734, "type": "sight_word", "value": "stop", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2201,
+        "text": "school",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/school.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2202,
+        "text": "saw",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/saw.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2200,
+        "text": "stop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 735, "type": "sight_word", "value": "thank", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2204,
+        "text": "three",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/three.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2205,
+        "text": "this",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/this.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2203,
+        "text": "thank",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/thank.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ank.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 736, "type": "sight_word", "value": "then", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2207,
+        "text": "tell",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tell.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ell.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2206,
+        "text": "then",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/then.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2208,
+        "text": "tree",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tree.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 737, "type": "sight_word", "value": "think", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2211,
+        "text": "this",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/this.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2210,
+        "text": "thank",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/thank.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ank.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2209,
+        "text": "think",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/think.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ink.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 738, "type": "sight_word", "value": "of", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2213,
+        "text": "out",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/out.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2214,
+        "text": "or",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/or.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2212,
+        "text": "of",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/of.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 739, "type": "sight_word", "value": "under", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2217,
+        "text": "until",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/until.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2215,
+        "text": "under",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/under.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2216,
+        "text": "us",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/us.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 740, "type": "sight_word", "value": "his", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2220,
+        "text": "have",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/have.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ave.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2219,
+        "text": "hair",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hair.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/air.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2218,
+        "text": "his",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/his.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 741, "type": "sight_word", "value": "van", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2221,
+        "text": "van",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/van.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2222,
+        "text": "vine",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vine.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ine.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2223,
+        "text": "very",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/very.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 742, "type": "sight_word", "value": "where", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2226,
+        "text": "will",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/will.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ill.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2224,
+        "text": "where",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/where.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2225,
+        "text": "would",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/would.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ould.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 743, "type": "sight_word", "value": "woman", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2227,
+        "text": "woman",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/woman.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2229,
+        "text": "where",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/where.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2228,
+        "text": "want",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/want.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 744, "type": "sight_word", "value": "us", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2230,
+        "text": "us",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/us.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2231,
+        "text": "under",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/under.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2232,
+        "text": "until",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/until.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 745, "type": "sight_word", "value": "animal", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2233,
+        "text": "animal",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/animal.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2234,
+        "text": "about",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/about.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2235,
+        "text": "around",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/around.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 746, "type": "sight_word", "value": "back", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2238,
+        "text": "but",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/but.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ut.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2236,
+        "text": "back",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/back.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ack.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2237,
+        "text": "boy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/boy.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oy.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 747, "type": "sight_word", "value": "yes", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2240,
+        "text": "you",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/you.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2241,
+        "text": "your",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/your.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2239,
+        "text": "yes",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/yes.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 748, "type": "sight_word", "value": "bring", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2243,
+        "text": "boy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/boy.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oy.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2244,
+        "text": "because",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/because.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2242,
+        "text": "bring",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bring.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/br.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 749, "type": "sight_word", "value": "catch", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2246,
+        "text": "could",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/could.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ould.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2247,
+        "text": "chair",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/chair.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/ch.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/air.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2245,
+        "text": "catch",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/catch.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 750, "type": "sight_word", "value": "cold", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2250,
+        "text": "could",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/could.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ould.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2249,
+        "text": "color",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/color.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2248,
+        "text": "cold",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cold.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/old.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 751, "type": "sight_word", "value": "down", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2253,
+        "text": "does",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/does.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2252,
+        "text": "did",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/did.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/d.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/id.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2251,
+        "text": "down",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/down.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 752, "type": "sight_word", "value": "father", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2254,
+        "text": "father",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/father.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2255,
+        "text": "fish",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fish.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ish.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2256,
+        "text": "for",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/for.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 753, "type": "sight_word", "value": "first", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2259,
+        "text": "four",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/four.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2258,
+        "text": "fish",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fish.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ish.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2257,
+        "text": "first",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/first.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 754, "type": "sight_word", "value": "than", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2261,
+        "text": "their",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/their.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2260,
+        "text": "than",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/than.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2262,
+        "text": "that",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/that.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 755, "type": "sight_word", "value": "happy", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2264,
+        "text": "hair",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hair.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/air.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2265,
+        "text": "him",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/him.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/im.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2263,
+        "text": "happy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/happy.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 756, "type": "sight_word", "value": "long", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2266,
+        "text": "long",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/long.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ong.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2268,
+        "text": "little",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/little.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2267,
+        "text": "love",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/love.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ove.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 757, "type": "sight_word", "value": "mother", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2270,
+        "text": "much",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/much.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2269,
+        "text": "mother",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mother.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2271,
+        "text": "many",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/many.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 758, "type": "sight_word", "value": "next", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2272,
+        "text": "next",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/next.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2274,
+        "text": "now",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/now.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2273,
+        "text": "not",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/not.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/n.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ot.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 759, "type": "sight_word", "value": "once", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2277,
+        "text": "out",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/out.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2276,
+        "text": "over",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/over.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2275,
+        "text": "once",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/once.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 760, "type": "sight_word", "value": "until", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2280,
+        "text": "us",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/us.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2279,
+        "text": "under",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/under.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2278,
+        "text": "until",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/until.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 761, "type": "sight_word", "value": "never", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2281,
+        "text": "never",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/never.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2283,
+        "text": "next",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/next.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2282,
+        "text": "no",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/no.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 762, "type": "sight_word", "value": "ready", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2286,
+        "text": "road",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/road.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oad.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2284,
+        "text": "ready",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ready.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2285,
+        "text": "read",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/read.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ead.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 763, "type": "sight_word", "value": "each", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2289,
+        "text": "eat",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/eat.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2287,
+        "text": "each",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/each.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2288,
+        "text": "every",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/every.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 764, "type": "sight_word", "value": "soon", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2292,
+        "text": "stay",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stay.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ay.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2290,
+        "text": "soon",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/soon.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oon.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2291,
+        "text": "she",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/she.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 765, "type": "sight_word", "value": "street", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2294,
+        "text": "stay",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stay.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ay.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2295,
+        "text": "soon",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/soon.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oon.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2293,
+        "text": "street",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/street.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/str.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eet.mp3",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 766, "type": "sight_word", "value": "their", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2298,
+        "text": "toy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/toy.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2297,
+        "text": "to",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/to.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2296,
+        "text": "their",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/their.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 767, "type": "sight_word", "value": "there", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2301,
+        "text": "thank",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/thank.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ank.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2299,
+        "text": "there",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/there.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ere.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2300,
+        "text": "truck",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/truck.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/uck.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 768, "type": "sight_word", "value": "this", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2303,
+        "text": "their",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/their.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2304,
+        "text": "took",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/took.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ook.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2302,
+        "text": "this",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/this.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 769, "type": "sight_word", "value": "tree", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2306,
+        "text": "they",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/they.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2305,
+        "text": "tree",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tree.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2307,
+        "text": "thing",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/thing.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ing.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 770, "type": "sight_word", "value": "went", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2309,
+        "text": "who",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/who.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2310,
+        "text": "where",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/where.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2308,
+        "text": "went",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/went.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 771, "type": "sight_word", "value": "does", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2312,
+        "text": "down",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/down.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2311,
+        "text": "does",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/does.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2313,
+        "text": "do",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/do.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 772, "type": "sight_word", "value": "very", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2316,
+        "text": "van",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/van.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2315,
+        "text": "vine",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vine.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ine.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2314,
+        "text": "very",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/very.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 773, "type": "sight_word", "value": "vine", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2319,
+        "text": "van",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/van.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/an.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2317,
+        "text": "vine",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/vine.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/v.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ine.mp3",
+        "isCorrect": true
+    }, {
+        "id": 2318,
+        "text": "very",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/very.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 774, "type": "sight_word", "value": "work", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2320,
+        "text": "work",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/work.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2321,
+        "text": "were",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/were.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2322,
+        "text": "wall",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wall.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 775, "type": "sight_word", "value": "through", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2323,
+        "text": "through",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/through.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2324,
+        "text": "tell",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tell.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ell.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2325,
+        "text": "to",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/to.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 776, "type": "letter", "value": "a", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2327,
+        "text": "k",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/k.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2326,
+        "text": "a",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/a.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2328,
+        "text": "s",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/s.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 777, "type": "letter", "value": "b", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2331,
+        "text": "x",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/x.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2330,
+        "text": "e",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/e.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2329,
+        "text": "b",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/b.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 778, "type": "letter", "value": "c", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2332,
+        "text": "c",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/c.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2333,
+        "text": "e",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/e.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2334,
+        "text": "s",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/s.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 779, "type": "letter", "value": "d", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2335,
+        "text": "d",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/d.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2336,
+        "text": "z",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/z.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2337,
+        "text": "w",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/w.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 780, "type": "letter", "value": "e", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2340,
+        "text": "f",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/f.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2339,
+        "text": "q",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/q.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2338,
+        "text": "e",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/e.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 781, "type": "letter", "value": "f", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2343,
+        "text": "e",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/e.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2341,
+        "text": "f",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/f.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2342,
+        "text": "h",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/h.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 782, "type": "letter", "value": "g", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2346,
+        "text": "w",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/w.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2344,
+        "text": "g",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/g.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2345,
+        "text": "q",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/q.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 783, "type": "letter", "value": "h", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2348,
+        "text": "e",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/e.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2349,
+        "text": "n",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/n.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2347,
+        "text": "h",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/h.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 784, "type": "letter", "value": "i", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2352,
+        "text": "g",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/g.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2350,
+        "text": "i",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/i.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2351,
+        "text": "o",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/o.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 785, "type": "letter", "value": "j", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2353,
+        "text": "j",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/j.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2355,
+        "text": "m",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/m.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2354,
+        "text": "z",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/z.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 786, "type": "letter", "value": "k", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2358,
+        "text": "q",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/q.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2357,
+        "text": "c",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/c.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2356,
+        "text": "k",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/k.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 787, "type": "letter", "value": "l", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2360,
+        "text": "b",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/b.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2359,
+        "text": "l",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/l.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2361,
+        "text": "y",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/y.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 788, "type": "letter", "value": "m", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2364,
+        "text": "c",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/c.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2362,
+        "text": "m",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/m.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2363,
+        "text": "g",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/g.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 789, "type": "letter", "value": "n", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2367,
+        "text": "c",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/c.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2366,
+        "text": "m",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/m.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2365,
+        "text": "n",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/n.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 790, "type": "letter", "value": "o", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2368,
+        "text": "o",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/o.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2369,
+        "text": "a",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/a.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2370,
+        "text": "m",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/m.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 791, "type": "letter", "value": "p", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2373,
+        "text": "l",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/l.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2372,
+        "text": "k",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/k.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2371,
+        "text": "p",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/p.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 792, "type": "letter", "value": "q", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2374,
+        "text": "q",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/q.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2376,
+        "text": "y",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/y.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2375,
+        "text": "e",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/e.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 793, "type": "letter", "value": "r", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2378,
+        "text": "o",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/o.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2377,
+        "text": "r",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/r.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2379,
+        "text": "i",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/i.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 794, "type": "letter", "value": "s", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2380,
+        "text": "s",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/s.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2381,
+        "text": "l",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/l.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2382,
+        "text": "q",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/q.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 795, "type": "letter", "value": "t", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2385,
+        "text": "k",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/k.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2384,
+        "text": "w",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/w.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2383,
+        "text": "t",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/t.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 796, "type": "letter", "value": "u", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2386,
+        "text": "u",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/u.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2388,
+        "text": "d",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/d.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2387,
+        "text": "h",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/h.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 797, "type": "letter", "value": "v", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2389,
+        "text": "v",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/v.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2390,
+        "text": "g",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/g.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2391,
+        "text": "d",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/d.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 798, "type": "letter", "value": "w", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2393,
+        "text": "j",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/j.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2394,
+        "text": "x",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/x.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2392,
+        "text": "w",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/w.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 799, "type": "letter", "value": "x", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2395,
+        "text": "x",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/x.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2396,
+        "text": "t",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/t.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2397,
+        "text": "v",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/v.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 800, "type": "letter", "value": "y", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2399,
+        "text": "p",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/p.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2398,
+        "text": "y",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/y.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2400,
+        "text": "c",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/c.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 801, "type": "letter", "value": "z", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2401,
+        "text": "z",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/z.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2403,
+        "text": "i",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/i.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2402,
+        "text": "o",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/o.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 802, "type": "letter", "value": "A", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2405,
+        "text": "Q",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/q.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2406,
+        "text": "B",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/b.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2404,
+        "text": "A",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/a.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 803, "type": "letter", "value": "B", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2409,
+        "text": "O",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/o.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2408,
+        "text": "A",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/a.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2407,
+        "text": "B",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/b.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 804, "type": "letter", "value": "C", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2410,
+        "text": "C",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/c.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2411,
+        "text": "F",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/f.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2412,
+        "text": "M",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/m.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 805, "type": "letter", "value": "D", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2415,
+        "text": "R",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/r.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2414,
+        "text": "O",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/o.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2413,
+        "text": "D",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/d.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 806, "type": "letter", "value": "E", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2418,
+        "text": "K",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/k.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2417,
+        "text": "Q",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/q.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2416,
+        "text": "E",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/e.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 807, "type": "letter", "value": "F", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2421,
+        "text": "A",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/a.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2419,
+        "text": "F",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/f.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2420,
+        "text": "O",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/o.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 808, "type": "letter", "value": "G", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2422,
+        "text": "G",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/g.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2423,
+        "text": "I",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/i.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2424,
+        "text": "K",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/k.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 809, "type": "letter", "value": "H", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2427,
+        "text": "I",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/i.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2426,
+        "text": "D",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/d.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2425,
+        "text": "H",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/h.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 810, "type": "letter", "value": "I", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2428,
+        "text": "I",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/i.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2429,
+        "text": "E",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/e.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2430,
+        "text": "B",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/b.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 811, "type": "letter", "value": "J", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2432,
+        "text": "E",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/e.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2431,
+        "text": "J",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/j.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2433,
+        "text": "O",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/o.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 812, "type": "letter", "value": "K", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2434,
+        "text": "K",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/k.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2436,
+        "text": "V",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/v.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2435,
+        "text": "Z",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/z.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 813, "type": "letter", "value": "L", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2438,
+        "text": "T",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/t.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2437,
+        "text": "L",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/l.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2439,
+        "text": "E",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/e.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 814, "type": "letter", "value": "M", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2440,
+        "text": "M",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/m.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2442,
+        "text": "O",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/o.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2441,
+        "text": "W",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/w.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 815, "type": "letter", "value": "N", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2444,
+        "text": "U",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/u.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2445,
+        "text": "L",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/l.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2443,
+        "text": "N",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/n.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 816, "type": "letter", "value": "O", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2448,
+        "text": "E",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/e.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2447,
+        "text": "C",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/c.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2446,
+        "text": "O",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/o.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 817, "type": "letter", "value": "P", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2451,
+        "text": "V",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/v.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2449,
+        "text": "P",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/p.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2450,
+        "text": "E",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/e.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 818, "type": "letter", "value": "Q", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2454,
+        "text": "M",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/m.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2453,
+        "text": "X",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/x.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2452,
+        "text": "Q",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/q.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 819, "type": "letter", "value": "R", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2457,
+        "text": "S",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/s.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2456,
+        "text": "Q",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/q.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2455,
+        "text": "R",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/r.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 820, "type": "letter", "value": "S", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2459,
+        "text": "I",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/i.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2458,
+        "text": "S",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/s.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2460,
+        "text": "R",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/r.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 821, "type": "letter", "value": "T", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2462,
+        "text": "K",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/k.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2461,
+        "text": "T",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/t.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2463,
+        "text": "P",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/p.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 822, "type": "letter", "value": "U", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2464,
+        "text": "U",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/u.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2465,
+        "text": "B",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/b.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2466,
+        "text": "X",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/x.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 823, "type": "letter", "value": "V", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2467,
+        "text": "V",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/v.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2469,
+        "text": "Z",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/z.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2468,
+        "text": "E",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/e.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 824, "type": "letter", "value": "W", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2472,
+        "text": "J",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/j.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2470,
+        "text": "W",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/w.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2471,
+        "text": "Z",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/z.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 825, "type": "letter", "value": "X", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2475,
+        "text": "R",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/r.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2474,
+        "text": "P",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/p.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2473,
+        "text": "X",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/x.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 826, "type": "letter", "value": "Y", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2477,
+        "text": "Q",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/q.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2478,
+        "text": "D",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/d.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2476,
+        "text": "Y",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/y.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 827, "type": "letter", "value": "Z", "reading_stage": 1},
+    "stimuli": [{
+        "id": 2480,
+        "text": "K",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/k.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2479,
+        "text": "Z",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/z.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2481,
+        "text": "U",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/letter/u.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 828, "type": "affix", "value": "re-", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2484,
+        "text": "call",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/call.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2482,
+        "text": "recall",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/recall.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2483,
+        "text": "ricall",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/ricall.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 829, "type": "affix", "value": "re-", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2487,
+        "text": "turn",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/turn.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/urn.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2486,
+        "text": "retorn",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/retorn.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2485,
+        "text": "return",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/return.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 830, "type": "affix", "value": "re-", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2490,
+        "text": "mind",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/mind.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2488,
+        "text": "remind",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/remind.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2489,
+        "text": "remend",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/remend.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 831, "type": "affix", "value": "re-", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2493,
+        "text": "write",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/write.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2491,
+        "text": "rewrite",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rewrite.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2492,
+        "text": "rewrote",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rewrote.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 832, "type": "affix", "value": "un-", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2496,
+        "text": "happy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/happy.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2494,
+        "text": "unhappy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/unhappy.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2495,
+        "text": "inhappy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/inhappy.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 833, "type": "affix", "value": "un-", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2497,
+        "text": "undo",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/undo.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2498,
+        "text": "indo",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/indo.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2499,
+        "text": "do",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/do.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 834, "type": "affix", "value": "un-", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2501,
+        "text": "unlack",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/unlack.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2500,
+        "text": "unlock",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/unlock.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2502,
+        "text": "lock",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lock.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/l.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ock.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 835, "type": "affix", "value": "un-", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2504,
+        "text": "unsave",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/unsave.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2505,
+        "text": "insafe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/insafe.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2503,
+        "text": "unsafe",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/unsafe.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 836, "type": "affix", "value": "-s", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2508,
+        "text": "stop",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stop.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/st.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/op.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2506,
+        "text": "stops",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stops.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2507,
+        "text": "stopped",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/stopped.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 837, "type": "affix", "value": "-s", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2511,
+        "text": "fighting",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fighting.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2509,
+        "text": "fights",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fights.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2510,
+        "text": "fight",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fight.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 838, "type": "affix", "value": "-s", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2514,
+        "text": "crowed",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crowed.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2512,
+        "text": "crows",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crows.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2513,
+        "text": "crow",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crow.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ow.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 839, "type": "affix", "value": "-s", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2517,
+        "text": "thinking",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/thinking.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2515,
+        "text": "thinks",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/thinks.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2516,
+        "text": "think",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/think.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ink.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 840, "type": "affix", "value": "-es", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2519,
+        "text": "fox",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fox.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ox.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2518,
+        "text": "foxes",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/foxes.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2520,
+        "text": "foxy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/foxy.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 841, "type": "affix", "value": "-es", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2522,
+        "text": "wish",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wish.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ish.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2521,
+        "text": "wishes",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wishes.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2523,
+        "text": "washes",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/washes.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 842, "type": "affix", "value": "-es", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2526,
+        "text": "leaving",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/leaving.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2525,
+        "text": "leave",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/leave.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2524,
+        "text": "leaves",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/leaves.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 843, "type": "affix", "value": "-es", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2528,
+        "text": "prize",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/prize.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2529,
+        "text": "prized",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/prized.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2527,
+        "text": "prizes",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/prizes.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 844, "type": "affix", "value": "-y", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2531,
+        "text": "pest",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pest.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2532,
+        "text": "pester",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pester.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2530,
+        "text": "pesty",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pesty.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 845, "type": "affix", "value": "-y", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2534,
+        "text": "fish",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fish.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/f.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ish.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2535,
+        "text": "fisher",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fisher.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2533,
+        "text": "fishy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fishy.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 846, "type": "affix", "value": "-y", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2536,
+        "text": "cloudy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cloudy.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2538,
+        "text": "cloudiest",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cloudiest.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2537,
+        "text": "cloud",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/cloud.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/cl.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oud.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 847, "type": "affix", "value": "-y", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2540,
+        "text": "trash",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trash.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/tr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ash.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2541,
+        "text": "trashed",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trashed.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2539,
+        "text": "trashy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/trashy.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 848, "type": "affix", "value": "-er", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2543,
+        "text": "teach",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/teach.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2544,
+        "text": "teaches",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/teaches.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2542,
+        "text": "teacher",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/teacher.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 849, "type": "affix", "value": "-er", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2547,
+        "text": "rounded",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rounded.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2546,
+        "text": "round",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/round.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ound.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2545,
+        "text": "rounder",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rounder.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 850, "type": "affix", "value": "-er", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2548,
+        "text": "thinker",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/thinker.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2549,
+        "text": "think",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/think.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/th.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ink.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2550,
+        "text": "tinker",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tinker.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 851, "type": "affix", "value": "-er", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2553,
+        "text": "boldest",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/boldest.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2552,
+        "text": "bold",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bold.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2551,
+        "text": "bolder",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bolder.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 852, "type": "affix", "value": "-ing", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2554,
+        "text": "boring",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/boring.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2555,
+        "text": "bore",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bore.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ore.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2556,
+        "text": "bored",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bored.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 853, "type": "affix", "value": "-ing", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2559,
+        "text": "colorful",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/colorful.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2557,
+        "text": "coloring",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/coloring.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2558,
+        "text": "color",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/color.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 854, "type": "affix", "value": "-ing", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2561,
+        "text": "run",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/run.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/un.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2562,
+        "text": "runner",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/runner.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2560,
+        "text": "running",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/running.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 855, "type": "affix", "value": "-ing", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2565,
+        "text": "catcher",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/catcher.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2563,
+        "text": "catching",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/catching.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2564,
+        "text": "catch",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/catch.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 856, "type": "affix", "value": "-est", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2568,
+        "text": "faster",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/faster.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2566,
+        "text": "fastest",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fastest.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2567,
+        "text": "fast",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/fast.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 857, "type": "affix", "value": "-est", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2570,
+        "text": "tall",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tall.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/t.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2571,
+        "text": "taller",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/taller.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2569,
+        "text": "tallest",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/tallest.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 858, "type": "affix", "value": "-est", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2572,
+        "text": "weakest",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/weakest.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2573,
+        "text": "weak",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/weak.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/eak.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2574,
+        "text": "weaker",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/weaker.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 859, "type": "affix", "value": "-est", "reading_stage": 8},
+    "stimuli": [{
+        "id": 2577,
+        "text": "smaller",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/smaller.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2575,
+        "text": "smallest",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/smallest.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2576,
+        "text": "small",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/small.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sm.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/all.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 860, "type": "affix", "value": "pre-", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2579,
+        "text": "write",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/write.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2578,
+        "text": "prewrite",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/prewrite.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2580,
+        "text": "rewrite",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rewrite.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 861, "type": "affix", "value": "pre-", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2582,
+        "text": "view",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/view.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2581,
+        "text": "preview",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/preview.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2583,
+        "text": "viewing",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/viewing.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 862, "type": "affix", "value": "pre-", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2585,
+        "text": "wash",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wash.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/w.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ash.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2586,
+        "text": "rewash",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/rewash.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2584,
+        "text": "prewash",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/prewash.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 863, "type": "affix", "value": "pre-", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2587,
+        "text": "premade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/premade.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2588,
+        "text": "made",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/made.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2589,
+        "text": "remade",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/remade.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 864, "type": "affix", "value": "mis-", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2590,
+        "text": "misspoke",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/misspoke.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2592,
+        "text": "misspeak",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/misspeak.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2591,
+        "text": "spoke",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spoke.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/sp.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/oke.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 865, "type": "affix", "value": "mis-", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2594,
+        "text": "behave",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/behave.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2593,
+        "text": "misbehave",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/misbehave.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2595,
+        "text": "disbehave",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/disbehave.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 866, "type": "affix", "value": "mis-", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2597,
+        "text": "read",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/read.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/r.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ead.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2596,
+        "text": "misread",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/misread.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2598,
+        "text": "reread",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/reread.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 867, "type": "affix", "value": "mis-", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2600,
+        "text": "spell",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spell.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2601,
+        "text": "spelling",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/spelling.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2599,
+        "text": "misspell",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/misspell.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 868, "type": "affix", "value": "de-", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2604,
+        "text": "crease",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crease.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2602,
+        "text": "decrease",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/decrease.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2603,
+        "text": "increase",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/increase.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 869, "type": "affix", "value": "de-", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2606,
+        "text": "form",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/form.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2605,
+        "text": "deform",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/deform.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2607,
+        "text": "inform",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/inform.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 870, "type": "affix", "value": "de-", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2610,
+        "text": "frosting",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/frosting.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2609,
+        "text": "frost",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/frost.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/fr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ost.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2608,
+        "text": "defrost",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/defrost.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 871, "type": "affix", "value": "de-", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2612,
+        "text": "bug",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bug.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ug.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2611,
+        "text": "debug",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/debug.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2613,
+        "text": "bugging",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bugging.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 872, "type": "affix", "value": "in-", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2616,
+        "text": "unbound",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/unbound.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2614,
+        "text": "inbound",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/inbound.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2615,
+        "text": "bound",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bound.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/b.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ound.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 873, "type": "affix", "value": "in-", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2619,
+        "text": "sighting",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sighting.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2617,
+        "text": "insight",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/insight.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2618,
+        "text": "sight",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sight.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/s.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ight.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 874, "type": "affix", "value": "in-", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2622,
+        "text": "informing",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/informing.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2620,
+        "text": "inform",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/inform.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2621,
+        "text": "form",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/form.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 875, "type": "affix", "value": "in-", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2623,
+        "text": "intake",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/intake.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2625,
+        "text": "retake",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/retake.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2624,
+        "text": "take",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/take.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 876, "type": "affix", "value": "-less", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2628,
+        "text": "caring",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/caring.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2627,
+        "text": "care",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/care.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/c.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/are.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2626,
+        "text": "careless",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/careless.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 877, "type": "affix", "value": "-less", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2631,
+        "text": "aimed",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/aimed.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2629,
+        "text": "aimless",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/aimless.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2630,
+        "text": "aiming",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/aiming.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 878, "type": "affix", "value": "-less", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2633,
+        "text": "lovely",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/lovely.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2632,
+        "text": "loveless",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/loveless.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2634,
+        "text": "loved",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/loved.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 879, "type": "affix", "value": "-less", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2636,
+        "text": "helpful",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/helpful.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2637,
+        "text": "helping",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/helping.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2635,
+        "text": "helpless",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/helpless.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 880, "type": "affix", "value": "-ful", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2639,
+        "text": "wondering",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wondering.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2640,
+        "text": "wonderer",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wonderer.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2638,
+        "text": "wonderful",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/wonderful.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 881, "type": "affix", "value": "-ful", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2642,
+        "text": "peace",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/peace.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2643,
+        "text": "pacing",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pacing.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2641,
+        "text": "peaceful",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/peaceful.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 882, "type": "affix", "value": "-ful", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2646,
+        "text": "hateful",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hateful.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2644,
+        "text": "hopeful",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hopeful.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2645,
+        "text": "hope",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/hope.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/h.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ope.mp3",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 883, "type": "affix", "value": "-ful", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2648,
+        "text": "pride",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/pride.mp3",
+        "onsetAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/onset/pr.mp3",
+        "rimeAudio": "https://tutormate.s3.amazonaws.com/assets/word-audio/rime/ide.mp3",
+        "isCorrect": false
+    }, {
+        "id": 2649,
+        "text": "prouder",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/prouder.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2647,
+        "text": "prideful",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/prideful.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 884, "type": "affix", "value": "-ly", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2652,
+        "text": "happier",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/happier.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2651,
+        "text": "happy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/happy.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2650,
+        "text": "happily",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/happily.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 885, "type": "affix", "value": "-ly", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2654,
+        "text": "quick",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/quick.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2655,
+        "text": "quicker",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/quicker.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2653,
+        "text": "quickly",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/quickly.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 886, "type": "affix", "value": "-ly", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2656,
+        "text": "boldly",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/boldly.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2658,
+        "text": "boldest",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/boldest.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2657,
+        "text": "bold",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/bold.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 887, "type": "affix", "value": "-ly", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2660,
+        "text": "warm",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/warm.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2659,
+        "text": "warmly",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/warmly.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2661,
+        "text": "warmer",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/warmer.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 888, "type": "affix", "value": "-ily", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2663,
+        "text": "easy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/easy.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2664,
+        "text": "eases",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/eases.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2662,
+        "text": "easily",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/easily.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 889, "type": "affix", "value": "-ily", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2666,
+        "text": "crazy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crazy.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2665,
+        "text": "crazily",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crazily.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2667,
+        "text": "crazier",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/crazier.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 890, "type": "affix", "value": "-ily", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2670,
+        "text": "guiltier",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/guiltier.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2668,
+        "text": "guiltily",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/guiltily.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2669,
+        "text": "guilty",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/guilty.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 891, "type": "affix", "value": "-ily", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2673,
+        "text": "sleepier",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sleepier.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2671,
+        "text": "sleepily",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sleepily.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2672,
+        "text": "sleepy",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/sleepy.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 892, "type": "affix", "value": "-tion", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2675,
+        "text": "attend",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/attend.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2676,
+        "text": "attending",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/attending.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2674,
+        "text": "attention",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/attention.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 893, "type": "affix", "value": "-tion", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2677,
+        "text": "addition",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/addition.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2679,
+        "text": "subtraction",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/subtraction.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2678,
+        "text": "add",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/add.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}, {
+    "assessed": {"id": 894, "type": "affix", "value": "-tion", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2681,
+        "text": "educate",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/educate.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2682,
+        "text": "educating",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/educating.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2680,
+        "text": "education",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/education.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }]
+}, {
+    "assessed": {"id": 895, "type": "affix", "value": "-tion", "reading_stage": 9},
+    "stimuli": [{
+        "id": 2683,
+        "text": "invitation",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/invitation.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": true
+    }, {
+        "id": 2684,
+        "text": "invite",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/invite.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }, {
+        "id": 2685,
+        "text": "inviting",
+        "audio": "https://tutormate.s3.amazonaws.com/assets/word-audio/word/inviting.mp3",
+        "onsetAudio": "NA",
+        "rimeAudio": "NA",
+        "isCorrect": false
+    }]
+}];
